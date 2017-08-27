@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?driver version="2.0.0"?>
+<!--Composed by Intrepid GeoModeller 2014 v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2a58f05e9f20, Apr 30 2015-->
+<geo:Project3DEdit xmlns:geo="http://www.geomodeller.com/geo" xmlns:gml="http://www.opengis.net/gml" author="develop" CoordSystem="WGS 84 / UTM zone 50S" date="23/ 2/2015 23:58:41" deflection2d="0.001" deflection3d="1.0E-4" description="" discretisation="1000000.0" precision="1.0" projectName="DeGrussa_Extended" unit="M" version="2.0">
+  <geo:Extent3DOfProject>
+    <geo:ExtentBox3D>
+      <geo:Extent3D>
+        <geo:ExtentXY Xmax="748000.0" Xmin="728000.0" Ymax="7178000.0" Ymin="7168000.0"/>
+        <geo:ExtentZ Zmax="650.0" Zmin="100.0"/>
+      </geo:Extent3D>
+      <geo:GraphicTitle Title="DeGrussa_Extended">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="0" Green="100" Red="0"/>
+          <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+        </geo:Graphic>
+        <geo:Location>
+          <gml:coordinates cs="," decimal="." ts=" ">728000.0,7168000.0,100.0</gml:coordinates>
+        </geo:Location>
+      </geo:GraphicTitle>
+      <geo:GraphicBox3d>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="0" Green="100" Red="0"/>
+          <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicBox3d>
+      <geo:GraphicTick DensityAlongX="3" DensityAlongY="3" DensityAlongZ="2" OnOff="false" TickLength="0.0">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="0" Green="100" Red="0"/>
+          <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicTick>
+      <geo:GraphicLabel LabelFormat="" OnOff="false">
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="0" Green="100" Red="0"/>
+          <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicLabel>
+    </geo:ExtentBox3D>
+    <geo:TriAxis>
+      <geo:Axis3DDefinition LabelOrigin="" LabelX="" LabelY="" LabelZ="" OnOff="true" Radius="100.0" Size="400.0" Step="2000.0">
+        <gml:Point>
+          <gml:coordinates cs="," decimal="." ts=" ">726000.0,7166000.0,100.0</gml:coordinates>
+        </gml:Point>
+        <geo:Length LengthX="2000.0" LengthY="2000.0" LengthZ="2000.0"/>
+      </geo:Axis3DDefinition>
+      <geo:GraphicOrigin>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicOrigin>
+      <geo:GraphicAxisX>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisX>
+      <geo:GraphicAxisY>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisY>
+      <geo:GraphicAxisZ>
+        <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+          <geo:ColorShading Blue="255" Green="255" Red="255"/>
+          <geo:ColorWireFrame Blue="255" Green="255" Red="255"/>
+        </geo:Graphic>
+      </geo:GraphicAxisZ>
+    </geo:TriAxis>
+  </geo:Extent3DOfProject>
+  <geo:Formations>
+    <geo:Formation Name="Cza">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="50.0" LawType="Log-normal" Mean="500.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="79" Green="165" Red="255"/>
+        <geo:ColorWireFrame Blue="79" Green="165" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Czc">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="50.0" LawType="Log-normal" Mean="150.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="142" Green="246" Red="255"/>
+        <geo:ColorWireFrame Blue="142" Green="246" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Czl">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="50.0" LawType="Log-normal" Mean="500.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="204" Green="223" Red="237"/>
+        <geo:ColorWireFrame Blue="204" Green="223" Red="237"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Doolgunna">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="1000.0" LawType="Log-normal" Mean="4000.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="205" Green="103" Red="137"/>
+        <geo:ColorWireFrame Blue="205" Green="103" Red="137"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Fm1">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="70" Green="130" Red="255"/>
+        <geo:ColorWireFrame Blue="70" Green="130" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="PAka">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="30.0" LawType="Log-normal" Mean="70.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="56" Green="75" Red="138"/>
+        <geo:ColorWireFrame Blue="56" Green="75" Red="138"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="PAks">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="20.0" LawType="Log-normal" Mean="50.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="142" Green="142" Red="188"/>
+        <geo:ColorWireFrame Blue="142" Green="142" Red="188"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="PAn">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="10.0" LawType="Log-normal" Mean="75.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="138" Green="138" Red="0"/>
+        <geo:ColorWireFrame Blue="138" Green="138" Red="0"/>
+      </geo:Graphic>
+    </geo:Formation>
+    <geo:Formation Name="Qa">
+      <geo:FormationGeology AbsoluteAge="0" DatingTechnique="0" Description="0" ExtraComment="" Genesis="0" Lithology="" MineralComposition="" StratigraphicAge="" Texture=""/>
+      <geo:Geophysics>
+        <geo:DensityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="2.67" PercentageContribution="100"/>
+        </geo:DensityCompoundDistribution>
+        <geo:SusceptibilityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:SusceptibilityCompoundDistribution>
+        <geo:RemanentMagnetizationCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:RemanentMagnetizationCompoundDistribution>
+        <geo:FluidVelocityCompoundDistribution>
+          <geo:SimpleDistributionVector Deviation="0.0" LawType="Normal" Mean="0.0" PercentageContribution="100" Declinaison="0.0" Dip="0.0"/>
+        </geo:FluidVelocityCompoundDistribution>
+        <geo:VelocityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1500.0" PercentageContribution="100"/>
+        </geo:VelocityCompoundDistribution>
+        <geo:ThermalConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="2.0" PercentageContribution="100"/>
+        </geo:ThermalConductivityCompoundDistribution>
+        <geo:HeatProductionRateCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:HeatProductionRateCompoundDistribution>
+        <geo:SpecificHeatCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:SpecificHeatCompoundDistribution>
+        <geo:ResistivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="3.0" LawType="Log-normal" Mean="15.0" PercentageContribution="100"/>
+        </geo:ResistivityCompoundDistribution>
+        <geo:ConductivityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="0.0" PercentageContribution="100"/>
+        </geo:ConductivityCompoundDistribution>
+        <geo:PorosityCompoundDistribution>
+          <geo:SimpleDistribution Deviation="0.0" LawType="Log-normal" Mean="1.0E-7" PercentageContribution="100"/>
+        </geo:PorosityCompoundDistribution>
+      </geo:Geophysics>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="2.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="3" MARKER_SYMBOL_SIZE_DEC="3" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="223" Green="255" Red="255"/>
+        <geo:ColorWireFrame Blue="223" Green="255" Red="255"/>
+      </geo:Graphic>
+    </geo:Formation>
+  </geo:Formations>
+  <geo:Sections>
+    <geo:Section Name="SurfaceTopography" Description="Topography of the model." Grid2DName="D:\Downloads\EM\Bryah_Basin\SRTM\Bryah_SRTM_Stitch_SUTM50.ers" IsAxialSurface="false" IsTopography="true">
+      <geo:Shape3DOfSection FileName="SurfaceTopography.sec"/>
+      <geo:ImageUnderLays>
+        <geo:ImageUnderLay Filename="Geology_map_surface_hires.png">
+          <geo:ExtentUV Umax="744802.1975229968" Umin="728000.0" Vmax="7178000.0" Vmin="7168000.0"/>
+        </geo:ImageUnderLay>
+      </geo:ImageUnderLays>
+      <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="0" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+        <geo:ColorShading Blue="0" Green="140" Red="255"/>
+        <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+      </geo:Graphic>
+    </geo:Section>
+  </geo:Sections>
+  <geo:GeologicalModel Inequalities="false" MinimumDykeThickness="2.0" SimplificationRadius="10.0">
+    <geo:Extent3D>
+      <geo:ExtentXY Xmax="748000.0" Xmin="728000.0" Ymax="7178000.0" Ymin="7168000.0"/>
+      <geo:ExtentZ Zmax="650.0" Zmin="100.0"/>
+    </geo:Extent3D>
+    <geo:ModelSections>
+      <geo:Data Name="SurfaceTopography"/>
+    </geo:ModelSections>
+    <geo:ProjectStratigraphicColumn IsBase="true">
+      <geo:Series isUptodate="false" name="Fm1_Series" relation="1">
+        <geo:Data Name="Doolgunna"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="PAka_Series" relation="2">
+        <geo:Data Name="PAka"/>
+        <geo:PotentialField maxValue="2055.85973164998" Xmax="740329.7465604991" Xmin="740329.7093054148" Ymax="7174216.662859761" Ymin="7172160.80312811" Zmax="521.7591483621952" Zmin="110.93366147684705">
+          <geo:covariance anisotropyA1="0.0" anisotropyA2="0.0" anisotropyA3="0.0" anisotropyV1="4.545454545454545E-5" anisotropyV2="4.545454545454545E-5" anisotropyV3="4.545454545454545E-5" covarianceModel="1" degreDrift="1" gradient="1.0" isotropic="true" nuggetGradient="0.01" nuggetPotentiel="1.0E-6" range="22000.0" tangentVariance="1.0"/>
+          <geo:Gradients>
+            <geo:Gradient Gx="-0.000007383443831114782889414420441465125577451544813811779022216796875" Gy="0.407479937533590685916351503692567348480224609375" Gz="0.9132141591396323310192428834852762520313262939453125" XGr="740329.7382468353025615215301513671875" YGr="7172619.5788029693067073822021484375" ZGr="317.05154333472046346287243068218231201171875"/>
+            <geo:Gradient Gx="-6.28603767808642115678548190592367372886428711353801190853118896484375E-8" Gy="0.003469159245163842657244668288285538437776267528533935546875" Gz="0.99999398244895842946533548456500284373760223388671875" XGr="740329.726249850355088710784912109375" YGr="7173281.6124207265675067901611328125" ZGr="111.6387998920463502372513175942003726959228515625"/>
+            <geo:Gradient Gx="0.0000052347132188100315049184008131533119012601673603057861328125" Gy="-0.288868924183906694569401452099555172026157379150390625" Gz="0.95736865658607717133321557412273250520229339599609375" XGr="740329.719892687979154288768768310546875" YGr="7173632.4218304343521595001220703125" ZGr="155.454686057754855710300034843385219573974609375"/>
+            <geo:Gradient Gx="0.0000056874827700526796664328051111869655187547323293983936309814453125" Gy="-0.313854257229606081747164125772542320191860198974609375" Gz="0.949471171329864471744031106936745345592498779296875" XGr="740329.7155716069974005222320556640625" YGr="7173870.873484910465776920318603515625" ZGr="230.02339586908829005551524460315704345703125"/>
+            <geo:Gradient Gx="0.000010038312243583354699022654188400593966434826143085956573486328125" Gy="-0.5539475301161278508743635029532015323638916015625" Gz="0.83255158025042153013828283292241394519805908203125" XGr="740329.711614890955388545989990234375" YGr="7174089.21826616860926151275634765625" ZGr="344.86777063184496228132047690451145172119140625"/>
+          </geo:Gradients>
+          <geo:Points>
+            <gml:coord>
+              <gml:X>740329.74656049907207489013671875</gml:X>
+              <gml:Y>7172160.80312811024487018585205078125</gml:Y>
+              <gml:Z>521.759148362195219306158833205699920654296875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.729933171649463474750518798828125</gml:X>
+              <gml:Y>7173078.354477827437222003936767578125</gml:Y>
+              <gml:Z>112.34393830724565077616716735064983367919921875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.722566529177129268646240234375</gml:X>
+              <gml:Y>7173484.870363625697791576385498046875</gml:Y>
+              <gml:Z>110.933661476847049698335467837750911712646484375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.717218846897594630718231201171875</gml:X>
+              <gml:Y>7173779.97329724393784999847412109375</gml:Y>
+              <gml:Z>199.975710638662661722264601849019527435302734375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.713924367097206413745880126953125</gml:X>
+              <gml:Y>7173961.7736725769937038421630859375</gml:Y>
+              <gml:Z>260.0710810995138899670564569532871246337890625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.709305414813570678234100341796875</gml:X>
+              <gml:Y>7174216.662859761156141757965087890625</gml:Y>
+              <gml:Z>429.66446016417603459558449685573577880859375</gml:Z>
+            </gml:coord>
+          </geo:Points>
+          <geo:Constraints>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+          </geo:Constraints>
+          <geo:InterfacePoints>
+            <geo:InterfacePoint npnt="6" pnt="0"/>
+          </geo:InterfacePoints>
+          <geo:Solutions>
+            <geo:Solution sol="0.00001352652211569588147524294263757127509961719624698162078857421875"/>
+            <geo:Solution sol="0.00000755648253175539058763832134246740679373033344745635986328125"/>
+            <geo:Solution sol="-0.0000157158571503773967473378825321361773603712208569049835205078125"/>
+            <geo:Solution sol="0.00002378898028706328158176329379269731134627363644540309906005859375"/>
+            <geo:Solution sol="8.4938559293929358456724798553949540291796438395977020263671875E-8"/>
+            <geo:Solution sol="-0.745784905588885660421283319010399281978607177734375"/>
+            <geo:Solution sol="-0.41744379542169796071249265878577716648578643798828125"/>
+            <geo:Solution sol="0.86713327147327767807638565500383265316486358642578125"/>
+            <geo:Solution sol="-1.312797936422103628473223579931072890758514404296875"/>
+            <geo:Solution sol="-0.004725774983874886370216472641914151608943939208984375"/>
+            <geo:Solution sol="2.11992610312902485247832373715937137603759765625"/>
+            <geo:Solution sol="2.535178498608941399794503013254143297672271728515625"/>
+            <geo:Solution sol="1.729730531802631698923278236179612576961517333984375"/>
+            <geo:Solution sol="1.290761212113238354248778705368749797344207763671875"/>
+            <geo:Solution sol="2.509499779486673798345464092562906444072723388671875"/>
+            <geo:Solution sol="-3.322228565022403046214094501920044422149658203125"/>
+            <geo:Solution sol="119.5802583092634705508316983468830585479736328125"/>
+            <geo:Solution sol="-305.47480221702465996713726781308650970458984375"/>
+            <geo:Solution sol="310.03586762111268626540550030767917633056640625"/>
+            <geo:Solution sol="-104.92758185041583374186302535235881805419921875"/>
+            <geo:Solution sol="8.653157962109232926513108404009688712221759487874805927276611328125E-7"/>
+            <geo:Solution sol="-0.04773617841893558477739389900307287462055683135986328125"/>
+            <geo:Solution sol="0.8172882125226224037106703690369613468647003173828125"/>
+          </geo:Solutions>
+        </geo:PotentialField>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="PAks_Series" relation="1">
+        <geo:Data Name="PAks"/>
+        <geo:PotentialField maxValue="1525.8105168733746" Xmax="740329.7424712724" Xmin="740329.7148214291" Ymax="7173912.270800326" Ymin="7172386.460283453" Zmax="551.0911395187137" Zmin="156.15281122279112">
+          <geo:covariance anisotropyA1="0.0" anisotropyA2="0.0" anisotropyA3="0.0" anisotropyV1="4.545454545454545E-5" anisotropyV2="4.545454545454545E-5" anisotropyV3="4.545454545454545E-5" covarianceModel="1" degreDrift="1" gradient="1.0" isotropic="true" nuggetGradient="0.01" nuggetPotentiel="1.0E-6" range="22000.0" tangentVariance="1.0"/>
+          <geo:Gradients>
+            <geo:Gradient Gx="-0.000001552955010775293976388604540173066226316223037429153919219970703125" Gy="0.0857049942083260851699577642648364417254924774169921875" Gz="0.99632055783534811954638144015916623175144195556640625" XGr="740329.73922451050020754337310791015625" YGr="7172565.62742747925221920013427734375" ZGr="468.25041699810554973737453110516071319580078125"/>
+            <geo:Gradient Gx="-0.00000311661944202396886725403395146383189739935914985835552215576171875" Gy="0.172001023451973267253123367481748573482036590576171875" Gz="0.9850967708412003975837478719768114387989044189453125" XGr="740329.73487803898751735687255859375" YGr="7172805.48021706379950046539306640625" ZGr="442.24228318349599931025295518338680267333984375"/>
+            <geo:Gradient Gx="-0.000003983435051853294255421768232938717346769408322870731353759765625" Gy="0.219839129710454217470072535434155724942684173583984375" Gz="0.97553613825028662187577310760389082133769989013671875" XGr="740329.73253897391259670257568359375" YGr="7172934.5576218999922275543212890625" ZGr="416.23414936888644888313137926161289215087890625"/>
+            <geo:Gradient Gx="-0.00001569140526089284328413973879090548280146322213113307952880859375" Gy="0.86598245774932502971665826407843269407749176025390625" Gz="0.50007437709226654209970774900284595787525177001953125" XGr="740329.730583934462629258632659912109375" YGr="7173042.443214002065360546112060546875" ZGr="332.4301626329223608991014771163463592529296875"/>
+            <geo:Gradient Gx="-0.00001179219173336911230857114440961908030658378265798091888427734375" Gy="0.65079137334913250700907383361482061445713043212890625" Gz="0.75925660236529679547601290323655121028423309326171875" XGr="740329.729012920637615025043487548828125" YGr="7173129.136993370018899440765380859375" ZGr="223.581306297704742291898583061993122100830078125"/>
+            <geo:Gradient Gx="-0.0000041173489754500292869018700236960484062365139834582805633544921875" Gy="0.2272296155691157781841837959291297011077404022216796875" Gz="0.9738412097417932233867077229660935699939727783203125" XGr="740329.727110248408280313014984130859375" YGr="7173234.1327928267419338226318359375" ZGr="169.6385102377738576251431368291378021240234375"/>
+            <geo:Gradient Gx="0.00000230439715049708038471028455351774510972973075695335865020751953125" Gy="-0.127164315964487573129559905282803811132907867431640625" Gz="0.9918816646858503727202105437754653394222259521484375" XGr="740329.72538213315419852733612060546875" YGr="7173329.495950131677091121673583984375" ZGr="160.969132299570702571145375259220600128173828125"/>
+            <geo:Gradient Gx="0.00000561013677505969800447804818332997456309385597705841064453125" Gy="-0.30958604740995998572117287039873190224170684814453125" Gz="0.9508714314867201533587603989872150123119354248046875" XGr="740329.723950764979235827922821044921875" YGr="7173408.483615777455270290374755859375" ZGr="179.271152391333004061380052007734775543212890625"/>
+            <geo:Gradient Gx="0.00000810414247993116585084584502229887448265799321234226226806640625" Gy="-0.447213595426529109122526506325812079012393951416015625" Gz="0.89442719099991563336260469441185705363750457763671875" XGr="740329.72236229549162089824676513671875" YGr="7173496.14065936021506786346435546875" ZGr="215.875192574857493355011683888733386993408203125"/>
+            <geo:Gradient Gx="0.00001281377435955392723771102680974109944145311601459980010986328125" Gy="-0.7071067810704452227810179465450346469879150390625" Gz="0.70710678118654801682652077943203039467334747314453125" XGr="740329.7210356616415083408355712890625" YGr="7173569.34873971529304981231689453125" ZGr="265.9649317733646967099048197269439697265625"/>
+            <geo:Gradient Gx="0.000011844515932207033950189327409230344301249715499579906463623046875" Gy="-0.65361987023877021751872007371275685727596282958984375" Gz="0.75682300776916167084351627636351622641086578369140625" XGr="740329.72016287618316709995269775390625" YGr="7173617.511950475163757801055908203125" ZGr="311.23834989509242632266250438988208770751953125"/>
+            <geo:Gradient Gx="0.00001546267292639374457143518204471632770946598611772060394287109375" Gy="-0.8532818335118574903930266373208723962306976318359375" Gz="0.52145000945397301794770328342565335333347320556640625" XGr="740329.7193948249332606792449951171875" YGr="7173659.8955759443342685699462890625" ZGr="364.2178817396674048723070882260799407958984375"/>
+            <geo:Gradient Gx="0.00001163793167830256855923599934587997495327726937830448150634765625" Gy="-0.6422198625049591047542207888909615576267242431640625" Gz="0.76652048118016391509144114024820737540721893310546875" XGr="740329.718364938045851886272430419921875" YGr="7173716.72816464118659496307373046875" ZGr="428.75658416851325682728202082216739654541015625"/>
+            <geo:Gradient Gx="0.000009072034169137878635807807625734966450181673280894756317138671875" Gy="-0.50062508509190661865062565993866883218288421630859375" Gz="0.8656642097802238478010394828743301331996917724609375" XGr="740329.716270252945832908153533935546875" YGr="7173832.319870464503765106201171875" ZGr="504.8544571816300958744250237941741943359375"/>
+          </geo:Gradients>
+          <geo:Points>
+            <gml:coord>
+              <gml:X>740329.74247127235867083072662353515625</gml:X>
+              <gml:Y>7172386.46028345264494419097900390625</gml:Y>
+              <gml:Z>483.6626444438001044545671902596950531005859375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.73597774864174425601959228515625</gml:X>
+              <gml:Y>7172744.794571506790816783905029296875</gml:Y>
+              <gml:Z>452.838189552410995020181871950626373291015625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.733778329216875135898590087890625</gml:X>
+              <gml:Y>7172866.165862620808184146881103515625</gml:Y>
+              <gml:Z>431.6463768145810036003240384161472320556640625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.731299618608318269252777099609375</gml:X>
+              <gml:Y>7173002.949381179176270961761474609375</gml:Y>
+              <gml:Z>400.82192192319189416593872010707855224609375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7298682504333555698394775390625</gml:X>
+              <gml:Y>7173081.937046825885772705078125</gml:Y>
+              <gml:Z>264.03840334265288447568309493362903594970703125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.728157590958289802074432373046875</gml:X>
+              <gml:Y>7173176.336939915083348751068115234375</gml:Y>
+              <gml:Z>183.124209252756600108114071190357208251953125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.726062905858270823955535888671875</gml:X>
+              <gml:Y>7173291.928645738400518894195556640625</gml:Y>
+              <gml:Z>156.15281122279111514217220246791839599609375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.72470136056654155254364013671875</gml:X>
+              <gml:Y>7173367.0632545240223407745361328125</gml:Y>
+              <gml:Z>165.78545337635029000011854805052280426025390625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.723200169508345425128936767578125</gml:X>
+              <gml:Y>7173449.90397703088819980621337890625</gml:Y>
+              <gml:Z>192.756851406315718122641555964946746826171875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.721524421474896371364593505859375</gml:X>
+              <gml:Y>7173542.377341690473258495330810546875</gml:Y>
+              <gml:Z>238.99353374339926858738181181252002716064453125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7205469016917049884796142578125</gml:X>
+              <gml:Y>7173596.32013774104416370391845703125</gml:Y>
+              <gml:Z>292.936329803330181675846688449382781982421875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.719778850558213889598846435546875</gml:X>
+              <gml:Y>7173638.703763210214674472808837890625</gml:Y>
+              <gml:Z>329.5403699868546709694783203303813934326171875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.719010799308307468891143798828125</gml:X>
+              <gml:Y>7173681.087388678453862667083740234375</gml:Y>
+              <gml:Z>398.89539349248008193171699531376361846923828125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.71771907689981162548065185546875</gml:X>
+              <gml:Y>7173752.3689406029880046844482421875</gml:Y>
+              <gml:Z>458.61777484454643172284704633057117462158203125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.714821429108269512653350830078125</gml:X>
+              <gml:Y>7173912.2708003260195255279541015625</gml:Y>
+              <gml:Z>551.0911395187137031825841404497623443603515625</gml:Z>
+            </gml:coord>
+          </geo:Points>
+          <geo:Constraints>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+          </geo:Constraints>
+          <geo:InterfacePoints>
+            <geo:InterfacePoint npnt="15" pnt="0"/>
+          </geo:InterfacePoints>
+          <geo:Solutions>
+            <geo:Solution sol="-0.00001456150055139034352083386714138413253749604336917400360107421875"/>
+            <geo:Solution sol="-0.0000359921887105333756172974302156575276967487297952175140380859375"/>
+            <geo:Solution sol="-0.0000997092125663757056393265987281893103499896824359893798828125"/>
+            <geo:Solution sol="-0.0002601027985073233708863960078616628379677422344684600830078125"/>
+            <geo:Solution sol="-0.00015431830719496897504072752127513012965209782123565673828125"/>
+            <geo:Solution sol="-0.0000471253650361234941216191651758293801321997307240962982177734375"/>
+            <geo:Solution sol="0.00001919107189134273212978432088249292064574547111988067626953125"/>
+            <geo:Solution sol="0.000035968663055450719322377051145878112947684712707996368408203125"/>
+            <geo:Solution sol="0.00003320307137195442170711501272961641006986610591411590576171875"/>
+            <geo:Solution sol="0.0001192900655445291459820500445943025624728761613368988037109375"/>
+            <geo:Solution sol="-0.00002122887842460293819396750791828054616416920907795429229736328125"/>
+            <geo:Solution sol="0.00015902201376422815692381063090721227126778103411197662353515625"/>
+            <geo:Solution sol="0.00007329782842400422711130747455143819024669937789440155029296875"/>
+            <geo:Solution sol="0.0000606531011763600114562559884046066827067988924682140350341796875"/>
+            <geo:Solution sol="0.80293742349210861508623793270089663565158843994140625"/>
+            <geo:Solution sol="1.9855665733367633407624452956952154636383056640625"/>
+            <geo:Solution sol="5.501304800857358401344754383899271488189697265625"/>
+            <geo:Solution sol="14.356495604986122316404362209141254425048828125"/>
+            <geo:Solution sol="8.5176071156207111556568634114228188991546630859375"/>
+            <geo:Solution sol="2.600235601528865903020459882100112736225128173828125"/>
+            <geo:Solution sol="-1.0601439465307336273980354235391132533550262451171875"/>
+            <geo:Solution sol="-1.9854659074452121192422282547340728342533111572265625"/>
+            <geo:Solution sol="-1.8325457087280814238994253173586912453174591064453125"/>
+            <geo:Solution sol="-6.58297369575331448032784464885480701923370361328125"/>
+            <geo:Solution sol="1.17137864583448969568735265056602656841278076171875"/>
+            <geo:Solution sol="-8.7754569552655201647439753287471830844879150390625"/>
+            <geo:Solution sol="-4.04490394445852619043080267147161066532135009765625"/>
+            <geo:Solution sol="-3.347079054800243369527379400096833705902099609375"/>
+            <geo:Solution sol="3.170401918675827435123437680886127054691314697265625"/>
+            <geo:Solution sol="8.52955480561623602397958165965974330902099609375"/>
+            <geo:Solution sol="18.2812164372109435817037592642009258270263671875"/>
+            <geo:Solution sol="12.8973983123916813298137640231288969516754150390625"/>
+            <geo:Solution sol="11.6008987756096946242223566514439880847930908203125"/>
+            <geo:Solution sol="10.394712352565004920279534417204558849334716796875"/>
+            <geo:Solution sol="6.96106870173752501074204701581038534641265869140625"/>
+            <geo:Solution sol="5.1627957157731341197859364910982549190521240234375"/>
+            <geo:Solution sol="5.5931659995149214381626734393648803234100341796875"/>
+            <geo:Solution sol="2.173308459940097581153395367437042295932769775390625"/>
+            <geo:Solution sol="10.60151532055851220093245501630008220672607421875"/>
+            <geo:Solution sol="1.0436046104668379452817816854803822934627532958984375"/>
+            <geo:Solution sol="7.62350844227692991950107170850969851016998291015625"/>
+            <geo:Solution sol="3.868117612948156480712214033701457083225250244140625"/>
+            <geo:Solution sol="-184.55851106681865303471568040549755096435546875"/>
+            <geo:Solution sol="899.1277661825046152443974278867244720458984375"/>
+            <geo:Solution sol="-1709.299141971230483250110410153865814208984375"/>
+            <geo:Solution sol="935.2199415783753693176549859344959259033203125"/>
+            <geo:Solution sol="21.443413655340492596224066801369190216064453125"/>
+            <geo:Solution sol="200.54507578762405728411977179348468780517578125"/>
+            <geo:Solution sol="-68.8234028653378118178807199001312255859375"/>
+            <geo:Solution sol="-437.74125917288944265237660147249698638916015625"/>
+            <geo:Solution sol="912.3518076594897365794167853891849517822265625"/>
+            <geo:Solution sol="-1372.388381035680822606082074344158172607421875"/>
+            <geo:Solution sol="1997.60554154358896994381211698055267333984375"/>
+            <geo:Solution sol="-1546.628854571423971719923429191112518310546875"/>
+            <geo:Solution sol="225.899254416373111098437220789492130279541015625"/>
+            <geo:Solution sol="104.5616460791465698321189847774803638458251953125"/>
+            <geo:Solution sol="0.0000037147594409712831838889235402945132591412402689456939697265625"/>
+            <geo:Solution sol="-0.204987037140364536380587878738879226148128509521484375"/>
+            <geo:Solution sol="0.9786452962184115644816984058707021176815032958984375"/>
+          </geo:Solutions>
+        </geo:PotentialField>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="PAn_Series" relation="2">
+        <geo:Data Name="PAn"/>
+        <geo:PotentialField maxValue="1180.2959673870355" Xmax="740329.7362925978" Xmin="740329.7149039666" Ymax="7173907.7161065675" Ymin="7172727.4201391805" Zmax="557.3776517312047" Zmin="487.51126574088414">
+          <geo:covariance anisotropyA1="0.0" anisotropyA2="0.0" anisotropyA3="0.0" anisotropyV1="4.545454545454545E-5" anisotropyV2="4.545454545454545E-5" anisotropyV3="4.545454545454545E-5" covarianceModel="1" degreDrift="1" gradient="1.0" isotropic="true" nuggetGradient="0.01" nuggetPotentiel="1.0E-6" range="22000.0" tangentVariance="1.0"/>
+          <geo:Gradients>
+            <geo:Gradient Gx="-0.00000282600637414233177738633918940625022742096916772425174713134765625" Gy="0.1559625734474074099100704415832296945154666900634765625" Gz="0.98776296532906904257487212817068211734294891357421875" XGr="740329.734757142025046050548553466796875" YGr="7172812.1517136655747890472412109375" ZGr="521.7011993106153795451973564922809600830078125"/>
+            <geo:Gradient Gx="-0.000002106028007448402608625150078669463482583523727953433990478515625" Gy="0.11622816947596369130391025237258872948586940765380859375" Gz="0.9932225393212898989503401026013307273387908935546875" XGr="740329.731955608469434082508087158203125" YGr="7172966.749674129299819469451904296875" ZGr="500.14667597317611580365337431430816650390625"/>
+            <geo:Gradient Gx="-6.036571498519382488107988538050818760893889702856540679931640625E-7" Gy="0.03331483022716941189145245516556315124034881591796875" Gz="0.99944490697915433496945070146466605365276336669921875" XGr="740329.7294773287139832973480224609375" YGr="7173103.509408385492861270904541015625" ZGr="489.74104401717096379798022098839282989501953125"/>
+            <geo:Gradient Gx="4.89589152034183046544838120717191287667446886189281940460205078125E-7" Gy="-0.027017161343478528212624922844042885117232799530029296875" Gz="0.99963496987285349604235307197086513042449951171875" XGr="740329.727268427261151373386383056640625" YGr="7173225.403954136185348033905029296875" ZGr="488.99778459174200406778254546225070953369140625"/>
+            <geo:Gradient Gx="5.175434718952431563499081042245553163638760452158749103546142578125E-7" Gy="-0.028559773894187283349577199942359584383666515350341796875" Gz="0.99959208646069475090456535326666198670864105224609375" XGr="740329.725328903994522988796234130859375" YGr="7173332.433311380445957183837890625" ZGr="491.97082229345772930173552595078945159912109375"/>
+            <geo:Gradient Gx="0.000001064126040452789848119829856087914521367565612308681011199951171875" Gy="-0.05872202194182894741114608905263594351708889007568359375" Gz="0.9982743731749958993049176569911651313304901123046875" XGr="740329.72347019426524639129638671875" YGr="7173435.00311207212507724761962890625" ZGr="496.43037884603137399608385749161243438720703125"/>
+            <geo:Gradient Gx="0.000001734444096436820761152953519756980682586799957789480686187744140625" Gy="-0.09571240662854284264593474063076428137719631195068359375" Gz="0.9954090291002810619858109930646605789661407470703125" XGr="740329.72185392491519451141357421875" YGr="7173524.194243109785020351409912109375" ZGr="503.1197136748918410376063548028469085693359375"/>
+            <geo:Gradient Gx="0.00000256275487197359463464700624069081413836102001368999481201171875" Gy="-0.1414213562140893554186504843528382480144500732421875" Gz="0.9899494936611665796277748086140491068363189697265625" XGr="740329.720022152992896735668182373046875" YGr="7173625.277524950914084911346435546875" ZGr="515.7551239071839290772913955152034759521484375"/>
+            <geo:Gradient Gx="0.0000024348596753059598599253261774766343705778126604855060577392578125" Gy="-0.134363672951516688325312998131266795098781585693359375" Gz="0.99093208818013833738547191387624479830265045166015625" XGr="740329.717301432858221232891082763671875" YGr="7173775.415928862988948822021484375" ZGr="536.566387819194233088637702167034149169921875"/>
+            <geo:Gradient Gx="0.0000035539015758151890306097697713738625679980032145977020263671875" Gy="-0.196116135105983191433409729143022559583187103271484375" Gz="0.98058067569092022264243269091821275651454925537109375" XGr="740329.715308033977635204792022705078125" YGr="7173885.418323808349668979644775390625" ZGr="552.9180951786310060924733988940715789794921875"/>
+          </geo:Gradients>
+          <geo:Points>
+            <gml:coord>
+              <gml:X>740329.736292597837746143341064453125</gml:X>
+              <gml:Y>7172727.42013918049633502960205078125</gml:Y>
+              <gml:Z>535.079868968336313628242351114749908447265625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.733221686095930635929107666015625</gml:X>
+              <gml:Y>7172896.88328815065324306488037109375</gml:Y>
+              <gml:Z>508.32252965289444546215236186981201171875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7306895307265222072601318359375</gml:X>
+              <gml:Y>7173036.6160601079463958740234375</gml:Y>
+              <gml:Z>491.9708222934577861451543867588043212890625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7282651267014443874359130859375</gml:X>
+              <gml:Y>7173170.40275666303932666778564453125</gml:Y>
+              <gml:Z>487.5112657408841414508060552179813385009765625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.72627172782085835933685302734375</gml:X>
+              <gml:Y>7173280.405151608400046825408935546875</gml:Y>
+              <gml:Z>490.48430344259986668475903570652008056640625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.724386080284602940082550048828125</gml:X>
+              <gml:Y>7173384.4614711515605449676513671875</gml:Y>
+              <gml:Z>493.4573411443155919187120161950588226318359375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.722554308245889842510223388671875</gml:X>
+              <gml:Y>7173485.544752993620932102203369140625</gml:Y>
+              <gml:Z>499.403416547747156073455698788166046142578125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.721153541468083858489990234375</gml:X>
+              <gml:Y>7173562.8437332250177860260009765625</gml:Y>
+              <gml:Z>506.83601080203658284517587162554264068603515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.718890764401294291019439697265625</gml:X>
+              <gml:Y>7173687.71131667681038379669189453125</gml:Y>
+              <gml:Z>524.6742370123312184659880585968494415283203125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.715712101315148174762725830078125</gml:X>
+              <gml:Y>7173863.12054104916751384735107421875</gml:Y>
+              <gml:Z>548.45853862605736139812506735324859619140625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.714903966640122234821319580078125</gml:X>
+              <gml:Y>7173907.7161065675318241119384765625</gml:Y>
+              <gml:Z>557.377651731204650786821730434894561767578125</gml:Z>
+            </gml:coord>
+          </geo:Points>
+          <geo:Constraints>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+          </geo:Constraints>
+          <geo:InterfacePoints>
+            <geo:InterfacePoint npnt="11" pnt="0"/>
+          </geo:InterfacePoints>
+          <geo:Solutions>
+            <geo:Solution sol="0.000002263031784904854243757436893513812492528813891112804412841796875"/>
+            <geo:Solution sol="0.00000297906832918482871068520216606412276405535521917045116424560546875"/>
+            <geo:Solution sol="-0.0000016147757966284790256288918242066898756092996336519718170166015625"/>
+            <geo:Solution sol="-0.000002206852831451697779900633644700747026945464313030242919921875"/>
+            <geo:Solution sol="6.49986255764663790383491893953848972387277171947062015533447265625E-7"/>
+            <geo:Solution sol="0.000001876541961895178736900529313513796836332403472624719142913818359375"/>
+            <geo:Solution sol="-0.00000191029188229601147838211151752663141678567626513540744781494140625"/>
+            <geo:Solution sol="-0.0000042213032890065595292687118667007695194115513004362583160400390625"/>
+            <geo:Solution sol="0.000010216816485109943748858275791580041413908475078642368316650390625"/>
+            <geo:Solution sol="0.00001622053025859135290571988452512641742941923439502716064453125"/>
+            <geo:Solution sol="-0.124579853850493693645518078483291901648044586181640625"/>
+            <geo:Solution sol="-0.16418613528606262885745081803179346024990081787109375"/>
+            <geo:Solution sol="0.08896401364310346782104943486046977341175079345703125"/>
+            <geo:Solution sol="0.1215879277469886776685825680033303797245025634765625"/>
+            <geo:Solution sol="-0.03595782252330058381684096957542351447045803070068359375"/>
+            <geo:Solution sol="-0.10359548879710424318378869656953611411154270172119140625"/>
+            <geo:Solution sol="0.10539495800498414890267184773620101623237133026123046875"/>
+            <geo:Solution sol="0.232934635344095142261977571251918561756610870361328125"/>
+            <geo:Solution sol="-0.5638029998967761802219911260181106626987457275390625"/>
+            <geo:Solution sol="-0.89510669518930796595412857641349546611309051513671875"/>
+            <geo:Solution sol="0.15518025404563917657441152186947874724864959716796875"/>
+            <geo:Solution sol="0.260337020753251990878851529487292282283306121826171875"/>
+            <geo:Solution sol="0.28294508375018889712038117068004794418811798095703125"/>
+            <geo:Solution sol="0.1715828455525365558997918924433179199695587158203125"/>
+            <geo:Solution sol="0.125329047830948170361153870544512756168842315673828125"/>
+            <geo:Solution sol="0.14242305000759791777653617828036658465862274169921875"/>
+            <geo:Solution sol="0.185297437862552316634179305765428580343723297119140625"/>
+            <geo:Solution sol="0.19807420652477680800274129069293849170207977294921875"/>
+            <geo:Solution sol="0.122975254088994956358504850868484936654567718505859375"/>
+            <geo:Solution sol="0.05970324222797562807585336486226879060268402099609375"/>
+            <geo:Solution sol="-21.529023798381448528971304767765104770660400390625"/>
+            <geo:Solution sol="48.9153471224555431717817555181682109832763671875"/>
+            <geo:Solution sol="56.16989647226193227425028453581035137176513671875"/>
+            <geo:Solution sol="-117.8182197138494728960722568444907665252685546875"/>
+            <geo:Solution sol="38.69375141960626507398046669550240039825439453125"/>
+            <geo:Solution sol="-16.93727717014876787970933946780860424041748046875"/>
+            <geo:Solution sol="116.58352352371167626188253052532672882080078125"/>
+            <geo:Solution sol="-164.533670164149071979409200139343738555908203125"/>
+            <geo:Solution sol="242.0175902392978741772822104394435882568359375"/>
+            <geo:Solution sol="-166.45458693645042558273416943848133087158203125"/>
+            <geo:Solution sol="2.617774501943062015374050731375543676904271706007421016693115234375E-7"/>
+            <geo:Solution sol="-0.01444020707357249362623452526577239041216671466827392578125"/>
+            <geo:Solution sol="0.9823917443406438021469284649356268346309661865234375"/>
+          </geo:Solutions>
+        </geo:PotentialField>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Czl_Series" relation="2">
+        <geo:Data Name="Czc"/>
+        <geo:PotentialField maxValue="3231.2110234200954" Xmax="740329.7499663203" Xmin="740329.6914122093" Ymax="7175204.069580946" Ymin="7171972.858557525" Zmax="587.2371382638723" Zmin="535.2085060589227">
+          <geo:covariance anisotropyA1="0.0" anisotropyA2="0.0" anisotropyA3="0.0" anisotropyV1="4.545454545454545E-5" anisotropyV2="4.545454545454545E-5" anisotropyV3="4.545454545454545E-5" covarianceModel="1" degreDrift="1" gradient="1.0" isotropic="true" nuggetGradient="0.01" nuggetPotentiel="1.0E-6" range="22000.0" tangentVariance="1.0"/>
+          <geo:Gradients>
+            <geo:Gradient Gx="-0.000001877318692537591957364873258840010095127581735141575336456298828125" Gy="0.1036060842424478545265031925737275741994380950927734375" Gz="0.99461840889077779426230563331046141684055328369140625" XGr="740329.748953127302229404449462890625" YGr="7172028.7699234671890735626220703125" ZGr="541.03260667887980162049643695354461669921875"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.7466945513151586055755615234375" YGr="7172153.405676714144647121429443359375" ZGr="535.208506058922694137436337769031524658203125"/>
+            <geo:Gradient Gx="6.5260031482882172035385297259590942076101782731711864471435546875E-7" Gy="-0.03601266066981888280817969416602863930165767669677734375" Gz="0.99935133375157636503871572131174616515636444091796875" XGr="740329.744668165338225662708282470703125" YGr="7172265.228408598341047763824462890625" ZGr="536.761599557577937957830727100372314453125"/>
+            <geo:Gradient Gx="5.864504404181619102302518565898725722007611693697981536388397216796875E-8" Gy="-0.0032362290072266105579734674080327749834395945072174072265625" Gz="0.9999947633971937310803923537605442106723785400390625" XGr="740329.741713019204325973987579345703125" YGr="7172428.3032259307801723480224609375" ZGr="538.702966430896822203067131340503692626953125"/>
+            <geo:Gradient Gx="0.000001179325957081067946229124311641189848387512029148638248443603515625" Gy="-0.06507913733491167695976997720208601094782352447509765625" Gz="0.9978801059658184424705495985108427703380584716796875" XGr="740329.738567899330519139766693115234375" YGr="7172601.86142437718808650970458984375" ZGr="542.5857001775349317540531046688556671142578125"/>
+            <geo:Gradient Gx="0.000001169588039514088766870187306723405384900615899823606014251708984375" Gy="-0.06454176658436359959036821010158746503293514251708984375" Gz="0.99791500658362763953590501841972582042217254638671875" XGr="740329.736182674183510243892669677734375" YGr="7172733.48609836585819721221923828125" ZGr="551.1277144201385453925468027591705322265625"/>
+            <geo:Gradient Gx="0.000001816985935224931549071309029586007710577177931554615497589111328125" Gy="-0.10026734042789985090760040975510491989552974700927734375" Gz="0.99496053210175838810158666092320345342159271240234375" XGr="740329.7338607735000550746917724609375" YGr="7172861.61631198413670063018798828125" ZGr="561.222822161397516538272611796855926513671875"/>
+            <geo:Gradient Gx="0.0000019687595995698636328996404543101306217067758552730083465576171875" Gy="-0.10864271713051547318951151055443915538489818572998046875" Gz="0.99408086190743194521246550721116364002227783203125" XGr="740329.73166552209295332431793212890625" YGr="7172982.757604859769344329833984375" ZGr="574.0358435253029938394320197403430938720703125"/>
+            <geo:Gradient Gx="0.0000019112484826118211265317224645254867709809332154691219329833984375" Gy="-0.1054690619961365649626117146908654831349849700927734375" Gz="0.9944225846982772676341255646548233926296234130859375" XGr="740329.7299135425128042697906494140625" YGr="7173079.43767513521015644073486328125" ZGr="584.51922464122571909683756530284881591796875"/>
+            <geo:Gradient Gx="-0.0000048104594520502229335122239273214717059090617112815380096435546875" Gy="0.2654812255453078417843926217756234109401702880859375" Gz="0.96411602977018329152514297675224952399730682373046875" XGr="740329.715665516327135264873504638671875" YGr="7173865.691258699633181095123291015625" ZGr="575.97721039862199177150614559650421142578125"/>
+            <geo:Gradient Gx="-0.0000033904288561116815441825490806682097399971098639070987701416015625" Gy="0.187112107859278176125172876709257252514362335205078125" Gz="0.9823385664224748570205747455474920570850372314453125" XGr="740329.71444124146364629268646240234375" YGr="7173933.25082588009536266326904296875" ZGr="560.834548786733648739755153656005859375"/>
+            <geo:Gradient Gx="-1.31299253131205676076664022600137826657373807393014430999755859375E-7" Gy="0.007246186564357652570844692263563047163188457489013671875" Gz="0.99997374604549360554983650217764079570770263671875" XGr="740329.71176050161011517047882080078125" YGr="7174081.182981602847576141357421875" ZGr="552.2925345441300351012614555656909942626953125"/>
+            <geo:Gradient Gx="6.87659292441914165626231335293194746327571920119225978851318359375E-7" Gy="-0.037947331915790083467499016478541307151317596435546875" Gz="0.9992797406132079007790025571011938154697418212890625" XGr="740329.70815100171603262424468994140625" YGr="7174280.36722277291119098663330078125" ZGr="555.0104481667766549435327760875225067138671875"/>
+            <geo:Gradient Gx="6.5852524563567548039253428393546840879935189150273799896240234375E-7" Gy="-0.036339618101176161812926324046202353201806545257568359375" Gz="0.99933949794643217590106587522313930094242095947265625" XGr="740329.705322504625655710697174072265625" YGr="7174436.45311936177313327789306640625" ZGr="560.834548786733648739755153656005859375"/>
+            <geo:Gradient Gx="2.5431058161739103456227477188800190077699880930595099925994873046875E-7" Gy="-0.01403370557951915016670074720650518429465591907501220703125" Gz="0.99990152270493248831684240940376184880733489990234375" XGr="740329.702156276558525860309600830078125" YGr="7174611.176137931644916534423828125" ZGr="564.717282533371644603903405368328094482421875"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.69909558934159576892852783203125" YGr="7174780.075055883266031742095947265625" ZGr="566.27037603202688842429779469966888427734375"/>
+            <geo:Gradient Gx="-1.610582831032614751167364626482925160644299467094242572784423828125E-7" Gy="0.00888853774225757502225331307954547810368239879608154296875" Gz="0.999960496168112999981758548528887331485748291015625" XGr="740329.696457065991126000881195068359375" YGr="7174925.67757135815918445587158203125" ZGr="565.4938292826992665141006000339984893798828125"/>
+            <geo:Gradient Gx="-8.094249297721561255095795196778940550075276405550539493560791015625E-7" Gy="0.044670810448632879141594997918218723498284816741943359375" Gz="0.9990017611061590141474653137265704572200775146484375" XGr="740329.69314308068715035915374755859375" YGr="7175108.554330795072019100189208984375" ZGr="560.446275412069780941237695515155792236328125"/>
+          </geo:Gradients>
+          <geo:Points>
+            <gml:coord>
+              <gml:X>740329.74996632034890353679656982421875</gml:X>
+              <gml:Y>7171972.858557525090873241424560546875</gml:Y>
+              <gml:Z>546.8567072988367954167188145220279693603515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.747939934371970593929290771484375</gml:X>
+              <gml:Y>7172084.681289409287273883819580078125</gml:Y>
+              <gml:Z>535.208506058922694137436337769031524658203125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.745449168258346617221832275390625</gml:X>
+              <gml:Y>7172222.130064018070697784423828125</gml:Y>
+              <gml:Z>535.208506058922694137436337769031524658203125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.743887162418104708194732666015625</gml:X>
+              <gml:Y>7172308.326753179542720317840576171875</gml:Y>
+              <gml:Z>538.3146930562330680913873948156833648681640625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7395388758741319179534912109375</gml:X>
+              <gml:Y>7172548.279698682017624378204345703125</gml:Y>
+              <gml:Z>539.091239805560690001584589481353759765625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.737596922670491039752960205078125</gml:X>
+              <gml:Y>7172655.44315007142722606658935546875</gml:Y>
+              <gml:Z>546.080160549509173506521619856357574462890625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7347684255801141262054443359375</gml:X>
+              <gml:Y>7172811.529046661220490932464599609375</gml:Y>
+              <gml:Z>556.1752682907680309654097072780132293701171875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.732953121536411345005035400390625</gml:X>
+              <gml:Y>7172911.70357730798423290252685546875</gml:Y>
+              <gml:Z>566.27037603202688842429779469966888427734375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.730377922649495303630828857421875</gml:X>
+              <gml:Y>7173053.81163241155445575714111328125</gml:Y>
+              <gml:Z>581.801311018579099254566244781017303466796875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.72944916249252855777740478515625</gml:X>
+              <gml:Y>7173105.06371785886585712432861328125</gml:Y>
+              <gml:Z>587.237138263872338939108885824680328369140625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.716151004540733993053436279296875</gml:X>
+              <gml:Y>7173838.900395852513611316680908203125</gml:Y>
+              <gml:Z>583.3544045172342293881229124963283538818359375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.71518002799712121486663818359375</gml:X>
+              <gml:Y>7173892.48212154768407344818115234375</gml:Y>
+              <gml:Z>568.6000162800097541548893786966800689697265625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.713702454813756048679351806640625</gml:X>
+              <gml:Y>7173974.019530213437974452972412109375</gml:Y>
+              <gml:Z>553.06908129345765701145865023136138916015625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.709818548406474292278289794921875</gml:X>
+              <gml:Y>7174188.346432992257177829742431640625</gml:Y>
+              <gml:Z>551.515987794802413191064260900020599365234375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7064834549091756343841552734375</gml:X>
+              <gml:Y>7174372.38801255263388156890869140625</gml:Y>
+              <gml:Z>558.5049085387508966960012912750244140625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.70416155434213578701019287109375</gml:X>
+              <gml:Y>7174500.51822617091238498687744140625</gml:Y>
+              <gml:Z>563.1641890347165144703467376530170440673828125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.7001509987749159336090087890625</gml:X>
+              <gml:Y>7174721.834049693308770656585693359375</gml:Y>
+              <gml:Z>566.27037603202688842429779469966888427734375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.698040180024690926074981689453125</gml:X>
+              <gml:Y>7174838.316062073223292827606201171875</gml:Y>
+              <gml:Z>566.27037603202688842429779469966888427734375</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.694873951957561075687408447265625</gml:X>
+              <gml:Y>7175013.039080643095076084136962890625</gml:Y>
+              <gml:Z>564.717282533371644603903405368328094482421875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.69141220930032432079315185546875</gml:X>
+              <gml:Y>7175204.0695809461176395416259765625</gml:Y>
+              <gml:Z>556.1752682907680309654097072780132293701171875</gml:Z>
+            </gml:coord>
+          </geo:Points>
+          <geo:Constraints>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+          </geo:Constraints>
+          <geo:InterfacePoints>
+            <geo:InterfacePoint npnt="20" pnt="0"/>
+          </geo:InterfacePoints>
+          <geo:Solutions>
+            <geo:Solution sol="-0.00001868589982860190067104864952707288239253102801740169525146484375"/>
+            <geo:Solution sol="0.000005303223370844002441059326924399641711715958081185817718505859375"/>
+            <geo:Solution sol="0.00001485943716595423895574130945806956560772960074245929718017578125"/>
+            <geo:Solution sol="0.00000318601921908446360080270631787158208680921234190464019775390625"/>
+            <geo:Solution sol="0.000014774800032828890866275391158257690449318033643066883087158203125"/>
+            <geo:Solution sol="-0.000005013246892418807794454364834546566953576984815299510955810546875"/>
+            <geo:Solution sol="0.0000046436120129950543382324479324552157777361571788787841796875"/>
+            <geo:Solution sol="-9.71915312811863528743238326013109684708979330025613307952880859375E-7"/>
+            <geo:Solution sol="-0.0000024901012213658506547100772443581462312067742459475994110107421875"/>
+            <geo:Solution sol="-0.000074757353865914397497184629148847534452215768396854400634765625"/>
+            <geo:Solution sol="-0.000014472121461440211204478763218350678698698175139725208282470703125"/>
+            <geo:Solution sol="-0.00000501545913250902537024351890426743239004281349480152130126953125"/>
+            <geo:Solution sol="-0.0000057245234928488702465243509465153692872263491153717041015625"/>
+            <geo:Solution sol="7.547424054775417532922956488639076866320465342141687870025634765625E-7"/>
+            <geo:Solution sol="3.026375734489901418806305326281158585288721951656043529510498046875E-7"/>
+            <geo:Solution sol="-0.000001324478072990665653970387104221284602090236148796975612640380859375"/>
+            <geo:Solution sol="7.518857961001055182772103736843494203867521719075739383697509765625E-7"/>
+            <geo:Solution sol="1.901442253114182349361320316372125915904689463786780834197998046875E-7"/>
+            <geo:Solution sol="1.031564790106747064868386587477289140224456787109375"/>
+            <geo:Solution sol="-0.292879462849004290614374212964321486651897430419921875"/>
+            <geo:Solution sol="-0.82010625215101373708392884509521536529064178466796875"/>
+            <geo:Solution sol="-0.17586221497671050695288386123138479888439178466796875"/>
+            <geo:Solution sol="-0.8153461600597580183347190541098825633525848388671875"/>
+            <geo:Solution sol="0.276624401425478172455996173084713518619537353515625"/>
+            <geo:Solution sol="-0.256290168074319535396199398746830411255359649658203125"/>
+            <geo:Solution sol="0.053549690204760726219834765515770413912832736968994140625"/>
+            <geo:Solution sol="0.13724719089779835456965884077362716197967529296875"/>
+            <geo:Solution sol="4.126207376845176355573130422271788120269775390625"/>
+            <geo:Solution sol="0.7989680613061842517907962246681563556194305419921875"/>
+            <geo:Solution sol="0.27623215096982833838268334147869609296321868896484375"/>
+            <geo:Solution sol="0.315685885527584975118742249833303503692150115966796875"/>
+            <geo:Solution sol="-0.041743135213016792361973017477794201113283634185791015625"/>
+            <geo:Solution sol="-0.016754495673178382286749865670572035014629364013671875"/>
+            <geo:Solution sol="0.07302225351030162958654301519345608539879322052001953125"/>
+            <geo:Solution sol="-0.041544352411044378758919748406697181053459644317626953125"/>
+            <geo:Solution sol="-0.01035984808333025031235052892952808178961277008056640625"/>
+            <geo:Solution sol="0.2614641060213447332216674112714827060699462890625"/>
+            <geo:Solution sol="0.33001121235560437749967377385473810136318206787109375"/>
+            <geo:Solution sol="0.1857720201958359407257148632197640836238861083984375"/>
+            <geo:Solution sol="0.15950825109090260855992937649716623127460479736328125"/>
+            <geo:Solution sol="0.095043794914412116359159199419082142412662506103515625"/>
+            <geo:Solution sol="0.13242869323201400533207561238668859004974365234375"/>
+            <geo:Solution sol="0.10368736407728477988410276111608254723250865936279296875"/>
+            <geo:Solution sol="0.204890285987541720391647004362312145531177520751953125"/>
+            <geo:Solution sol="0.377207889551572972397508465292048640549182891845703125"/>
+            <geo:Solution sol="0.27274915571343261166958882313338108360767364501953125"/>
+            <geo:Solution sol="1.081639301902538097266415206831879913806915283203125"/>
+            <geo:Solution sol="1.015543092218125220682622966705821454524993896484375"/>
+            <geo:Solution sol="0.33532602860020455093348346053971908986568450927734375"/>
+            <geo:Solution sol="0.142478202799847741832905967385158874094486236572265625"/>
+            <geo:Solution sol="0.0685742179479481295256704243001877330243587493896484375"/>
+            <geo:Solution sol="0.0372627560365075549686508793456596322357654571533203125"/>
+            <geo:Solution sol="0.040517829194066934395124235379626043140888214111328125"/>
+            <geo:Solution sol="0.03788304943544229530516531667672097682952880859375"/>
+            <geo:Solution sol="332.35006904259125803946517407894134521484375"/>
+            <geo:Solution sol="26.289316067981285840460259350948035717010498046875"/>
+            <geo:Solution sol="-263.77236031166074781140196137130260467529296875"/>
+            <geo:Solution sol="213.4215104343958273602765984833240509033203125"/>
+            <geo:Solution sol="-157.3255150975428477977402508258819580078125"/>
+            <geo:Solution sol="94.171389769512501288772909902036190032958984375"/>
+            <geo:Solution sol="-14.3662810140954544380065271980129182338714599609375"/>
+            <geo:Solution sol="-16.47884536003987676622273284010589122772216796875"/>
+            <geo:Solution sol="12.735840685178875020255873096175491809844970703125"/>
+            <geo:Solution sol="-532.231021367477296735160052776336669921875"/>
+            <geo:Solution sol="231.824899216476069341297261416912078857421875"/>
+            <geo:Solution sol="469.7140361611100161098875105381011962890625"/>
+            <geo:Solution sol="-179.24159697941018976052873767912387847900390625"/>
+            <geo:Solution sol="5.1377644279674949956415730412118136882781982421875"/>
+            <geo:Solution sol="-34.32050867140493011220314656384289264678955078125"/>
+            <geo:Solution sol="5.46582006333465830749673841637559235095977783203125"/>
+            <geo:Solution sol="40.10319735741358471159401233308017253875732421875"/>
+            <geo:Solution sol="-71.8266397751212792854857980273663997650146484375"/>
+            <geo:Solution sol="37.28081172879118554419619613327085971832275390625"/>
+            <geo:Solution sol="-0.00000134641873841821567217027187657318876290446496568620204925537109375"/>
+            <geo:Solution sol="0.07430384875349203832595179619602276943624019622802734375"/>
+            <geo:Solution sol="0.99446461115734496871709779952652752399444580078125"/>
+          </geo:Solutions>
+        </geo:PotentialField>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Cza_Series" relation="2">
+        <geo:Data Name="Cza"/>
+      </geo:Series>
+      <geo:Series isUptodate="false" name="Czl_Series_2" relation="2">
+        <geo:Data Name="Czl"/>
+      </geo:Series>
+      <geo:Series isUptodate="true" name="Qa_Series" relation="2">
+        <geo:Data Name="Qa"/>
+        <geo:PotentialField maxValue="853.2618202529848" Xmax="740329.7057451069" Xmin="740329.6902827966" Ymax="7175266.394336029" Ymin="7174413.132515776" Zmax="588.5945475992202" Zmin="573.7293590906413">
+          <geo:covariance anisotropyA1="0.0" anisotropyA2="0.0" anisotropyA3="0.0" anisotropyV1="4.545454545454545E-5" anisotropyV2="4.545454545454545E-5" anisotropyV3="4.545454545454545E-5" covarianceModel="1" degreDrift="1" gradient="1.0" isotropic="true" nuggetGradient="0.01" nuggetPotentiel="1.0E-6" range="22000.0" tangentVariance="1.0"/>
+          <geo:Gradients>
+            <geo:Gradient Gx="-0.0000022474811921772717550707144928967551322784856893122196197509765625" Gy="0.12403473456884721304316343548634904436767101287841796875" Gz="0.99227787671366762811686612621997483074665069580078125" XGr="740329.704990847851149737834930419921875" YGr="7174454.755043593235313892364501953125" ZGr="583.391731621217559222714044153690338134765625"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.703051324584521353244781494140625" YGr="7174561.78440083749592304229736328125" ZGr="578.1889156432149547981680370867252349853515625"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.70086936093866825103759765625" YGr="7174682.19242773763835430145263671875" ZGr="578.1889156432149547981680370867252349853515625"/>
+            <geo:Gradient Gx="4.5289382996353814084600285065629332592607170226983726024627685546875E-7" Gy="-0.024992191156099248516841981881952960975468158721923828125" Gz="0.999687646408122798646900264429859817028045654296875" XGr="740329.6987951486371457576751708984375" YGr="7174796.654379234649240970611572265625" ZGr="579.675434494072760571725666522979736328125"/>
+            <geo:Gradient Gx="-3.6971429490042064528715196926322850146107157343067228794097900390625E-7" Gy="0.020403914659169408718497606969322077929973602294921875" Gz="0.9997918184634462246407338170683942735195159912109375" XGr="740329.69639768241904675960540771484375" YGr="7174928.954556939192116260528564453125" ZGr="579.675434494072760571725666522979736328125"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.6940540918149054050445556640625" YGr="7175058.281696942634880542755126953125" ZGr="578.1889156432149547981680370867252349853515625"/>
+            <geo:Gradient Gx="-7.986249040982116590019798500754699688286564196459949016571044921875E-7" Gy="0.044074775063539239905452404855168424546718597412109375" Gz="0.9990282349375620984943680014112032949924468994140625" XGr="740329.69211456854827702045440673828125" YGr="7175165.31105418689548969268798828125" ZGr="575.95913736692818929441273212432861328125"/>
+            <geo:Gradient Gx="6.12323399070981154710614280885304053215806809246958553050177442855783738195896148681640625E-17" Gy="1.1096165502293749515019799802107214814228125484544340976817040911317491236331989057362079620361328125E-21" Gz="1" XGr="740329.690740739577449858188629150390625" YGr="7175241.123515568673610687255859375" ZGr="573.729359090641310103819705545902252197265625"/>
+          </geo:Gradients>
+          <geo:Points>
+            <gml:coord>
+              <gml:X>740329.705745106912218034267425537109375</gml:X>
+              <gml:Y>7174413.132515775971114635467529296875</gml:Y>
+              <gml:Z>588.5945475992201636472600512206554412841796875</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.704236588790081441402435302734375</gml:X>
+              <gml:Y>7174496.377571410499513149261474609375</gml:Y>
+              <gml:Z>578.1889156432149547981680370867252349853515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.701866060378961265087127685546875</gml:X>
+              <gml:Y>7174627.191230264492332935333251953125</gml:Y>
+              <gml:Z>578.1889156432149547981680370867252349853515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.699872661498375236988067626953125</gml:X>
+              <gml:Y>7174737.19362520985305309295654296875</gml:Y>
+              <gml:Z>578.1889156432149547981680370867252349853515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.69771763565950095653533935546875</gml:X>
+              <gml:Y>7174856.1151332594454288482666015625</gml:Y>
+              <gml:Z>581.16195334493068003212101757526397705078125</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.695077729062177240848541259765625</gml:X>
+              <gml:Y>7175001.793980619870126247406005859375</gml:Y>
+              <gml:Z>578.1889156432149547981680370867252349853515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.693030454567633569240570068359375</gml:X>
+              <gml:Y>7175114.7694132663309574127197265625</gml:Y>
+              <gml:Z>578.1889156432149547981680370867252349853515625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.69119868264533579349517822265625</gml:X>
+              <gml:Y>7175215.85269510746002197265625</gml:Y>
+              <gml:Z>573.729359090641310103819705545902252197265625</gml:Z>
+            </gml:coord>
+            <gml:coord>
+              <gml:X>740329.690282796625979244709014892578125</gml:X>
+              <gml:Y>7175266.394336028955876827239990234375</gml:Y>
+              <gml:Z>573.729359090641310103819705545902252197265625</gml:Z>
+            </gml:coord>
+          </geo:Points>
+          <geo:Constraints>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+            <geo:Constraint value="0"/>
+          </geo:Constraints>
+          <geo:InterfacePoints>
+            <geo:InterfacePoint npnt="9" pnt="0"/>
+          </geo:InterfacePoints>
+          <geo:Solutions>
+            <geo:Solution sol="7.33483180611902763935960880559150609769858419895172119140625E-7"/>
+            <geo:Solution sol="-0.0000150246307585162361766285832320733106826082803308963775634765625"/>
+            <geo:Solution sol="0.00000364604194507585298279904451046462554586469195783138275146484375"/>
+            <geo:Solution sol="-0.00000697883553059465940103349435030821723557892255485057830810546875"/>
+            <geo:Solution sol="0.000009929896931059698441551265857274444215363473631441593170166015625"/>
+            <geo:Solution sol="-0.000006346643935413788471518008182936654293371248058974742889404296875"/>
+            <geo:Solution sol="0.0000054856781088456781675008998300224760669152601622045040130615234375"/>
+            <geo:Solution sol="0.000008390774826238889697667573674966234875682857818901538848876953125"/>
+            <geo:Solution sol="-0.03996209404032800838191263892440474592149257659912109375"/>
+            <geo:Solution sol="0.828812547738287275223001415724866092205047607421875"/>
+            <geo:Solution sol="-0.201349165735380031261314570656395517289638519287109375"/>
+            <geo:Solution sol="0.385011396776339165359814842304331250488758087158203125"/>
+            <geo:Solution sol="-0.54791079458794300638402319236774928867816925048828125"/>
+            <geo:Solution sol="0.3501119084355439614597571562626399099826812744140625"/>
+            <geo:Solution sol="-0.30249604052251888308688876350061036646366119384765625"/>
+            <geo:Solution sol="-0.4631549574227398213821516037569381296634674072265625"/>
+            <geo:Solution sol="0.83390295114378198970683797597303055226802825927734375"/>
+            <geo:Solution sol="0.68700494309759729816278195357881486415863037109375"/>
+            <geo:Solution sol="0.3833113401589895996579571146867237985134124755859375"/>
+            <geo:Solution sol="0.30455539677029397349627970470464788377285003662109375"/>
+            <geo:Solution sol="0.2653650713952746542645400040782988071441650390625"/>
+            <geo:Solution sol="0.254141523460988449922837162375799380242824554443359375"/>
+            <geo:Solution sol="0.272991880655244434361605954109109006822109222412109375"/>
+            <geo:Solution sol="0.25822930021316781168394527412601746618747711181640625"/>
+            <geo:Solution sol="300.30427247007310143089853227138519287109375"/>
+            <geo:Solution sol="-218.42540100128115909683401696383953094482421875"/>
+            <geo:Solution sol="167.8470608054925605756579898297786712646484375"/>
+            <geo:Solution sol="-161.98652192238643010568921454250812530517578125"/>
+            <geo:Solution sol="175.219731887678477733061299659311771392822265625"/>
+            <geo:Solution sol="-241.34964568204821944163995794951915740966796875"/>
+            <geo:Solution sol="272.6962764793343012570403516292572021484375"/>
+            <geo:Solution sol="-133.124790328863952026949846185743808746337890625"/>
+            <geo:Solution sol="-0.0000012850832056219709423707832363081848825459019280970096588134765625"/>
+            <geo:Solution sol="0.0709188375349371347144966648556874133646488189697265625"/>
+            <geo:Solution sol="0.989514721164431509947689846740104258060455322265625"/>
+          </geo:Solutions>
+        </geo:PotentialField>
+      </geo:Series>
+    </geo:ProjectStratigraphicColumn>
+    <geo:ModelStratigraphicColumn>
+      <geo:Data Name="PAka_Series"/>
+      <geo:Data Name="PAks_Series"/>
+      <geo:Data Name="PAn_Series"/>
+      <geo:Data Name="Czl_Series"/>
+      <geo:Data Name="Qa_Series"/>
+    </geo:ModelStratigraphicColumn>
+  </geo:GeologicalModel>
+  <geo:GridsMeshs persistenceFormat="Intrepid">
+    <geo:GridMesh Name="DTM" ComeFrom="Project" CoordSystem="no description" DataSource="/MeshGrids/DTM.igmesh/" Description="no description" Purpose="Model">
+      <geo:Grid>
+        <geo:RegularGrid/>
+      </geo:Grid>
+      <geo:Fields>
+        <geo:Field Datatype="Real" Description="" Geometry="Quadrangle" Name="Bryah_SRTM_Stitch_SUTM50" NoValue="" Unit="none">
+          <geo:Graphic LINE_TYPE="0" LINE_WIDTH="1.0" MARKER_SYMBOL="3" MARKER_SYMBOL_SIZE="1" MARKER_SYMBOL_SIZE_DEC="1" ORIENTATION_SCALE="5.0" SURFACE_CONTOUR_DENSITY_U="0" SURFACE_CONTOUR_DENSITY_V="0" SURFACE_RENDERING_MODE="1" SURFACE_TEXTURE_EFFECT="6" SURFACE_TRANSPARENCY="0.0">
+            <geo:ColorShading Blue="211" Green="0" Red="147"/>
+            <geo:ColorWireFrame Blue="0" Green="255" Red="255"/>
+          </geo:Graphic>
+          <geo:FieldFile FileName="/MeshGrids/DTM.igmesh/" Type="BINARY"/>
+        </geo:Field>
+      </geo:Fields>
+    </geo:GridMesh>
+  </geo:GridsMeshs>
+  <geo:ProvenanceGroup>
+    <geo:Provenance id="Unspecified" rank="0"/>
+    <geo:Provenance id="Observed" rank="1"/>
+    <geo:Provenance id="Inferred" rank="2"/>
+    <geo:Provenance id="Interpreted" rank="3"/>
+    <geo:Provenance id="ModelConstructor" rank="4"/>
+  </geo:ProvenanceGroup>
+  <geo:GeophysicalReferenceType AmbientMagneticDeclination="0.0" AmbientMagneticInclination="90.0" AmbientMagneticMagnitude="50000.0" DensityRef="2.67"/>
+</geo:Project3DEdit>

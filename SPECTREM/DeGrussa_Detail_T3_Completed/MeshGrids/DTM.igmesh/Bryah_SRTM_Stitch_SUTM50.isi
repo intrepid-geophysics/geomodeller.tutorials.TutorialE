@@ -1,0 +1,15 @@
+MetaData Begin
+	Name	= Bryah_SRTM_Stitch_SUTM50.ers
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2a58f05e9f20 "
+	Bryah_SRTM_Stitch_SUTM50 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= Bryah_SRTM_Stitch_SUTM50
+		Bands	= 1
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		Units	= "none"
+	Bryah_SRTM_Stitch_SUTM50 End
+MetaData End

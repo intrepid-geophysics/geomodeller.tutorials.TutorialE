@@ -1,0 +1,1181 @@
+====================================================================================
+
+                2.5D   Electromagnetic Modelling / Inversion      
+====================================================================================
+
+
+                 ArjunAir started at 10:18 on 10 MAY 2015
+                      MPI process used     2 processors 
+
+       The solution will proceeed in slower mode with nky = 21 and nfreq = 28 
+
+      This inversion uses Marquard style damping on parameters on GSVD Decomposition of Model Norm and Sensitivity  Matrices 
+                                                     by Jovan Silic   
+  Normal Flight Direction 
+  S Norm Follows 
+           1   191581.0       216217.0    
+           2   132529.7       129332.0    
+           3   75554.39       63473.00    
+           4   38204.23       26997.67    
+           5   28811.74       9914.000    
+           6   21670.40       3006.000    
+           7   15552.24       865.6666    
+           8   9737.543       355.3333    
+           9   4002.875       28.66667    
+          10  1.0000000E-06  0.0000000E+00
+          11   178171.8       181734.7    
+          12   95167.53       81878.66    
+          13   41494.83       26617.00    
+          14   25556.22       3514.000    
+          15   21476.55      -126.6667    
+          16   18035.89       40.33333    
+          17   13924.89       170.0000    
+          18   9350.717       164.6667    
+          19   4826.218       197.6667    
+          20  1.0000000E-06  0.0000000E+00
+
+
+  RMS error reduction based on using the Survey norm
+  --------------------------------------------------
+     PCTCNV =    1.000000    
+         MU =            2
+       RSVT =   0.2500000    
+  TGSVD_BND =   0.0000000E+00
+     ALPHAS =   9.9999998E-03
+     ALPHAX =    1.000000    
+     ALPHAZ =    1.000000    
+  Model Norm not referenced to the Starting Model 
+
+
+  Inversion Solver will be in Single Precision 
+  Average length of cells in  z direction is     46.41374    
+  Median Value of cell lengths in z direction is     24.53503    
+  Length Scale in X direction is    100.0000    
+  Length Scale in Z direction is    49.07007    
+  Alphas updated to   9.9999998E-03  based on horizontal cell width of    50.00000    
+  === FRONT    ELAPSED =   251.5828    
+  ======== HYEY    ELAPSED =  3.1204224E-02
+  ===== SENS_FD ELAPSED =    7.316452    
+   SENS_FD2TD required    4.243225      seconds 
+  TD_SENS processed in    4.305634      seconds 
+   Alphax determined   0.2125110    
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_01\
+  Sumsq Sums_Model Sumsq_Total    294.4802      0.0000000E+00   294.4802      at Iteration            1
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    1 Icnt_Loop    0 RSVT      0.250
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      1 0.2125E+00       294.480         0.000                    294.4802    82.9447     51.3914
+
+ Testing for optimum RSVT ... Old RSVT =   0.250
+  === FRONT    ELAPSED =   272.9550    
+  ======== HYEY    ELAPSED =  3.1188965E-02
+  ===== SENS_FD ELAPSED =    7.503662    
+   SENS_FD2TD required    4.586426      seconds 
+  TD_SENS processed in    4.648865      seconds 
+  After Call Jacobian in Test For RSVT sumsq =    173.3022      at rsvt =   0.2500000    
+  === FRONT    ELAPSED =   97.59424    
+  ======== HYEY    ELAPSED =  3.1188965E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    173.3022      at rsvt =   0.2500000    
+  === FRONT    ELAPSED =   104.7547    
+  ======== HYEY    ELAPSED =  3.1188965E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    180.8620      at rsvt =   0.2973018    
+  === FRONT    ELAPSED =   99.74707    
+  ======== HYEY    ELAPSED =  3.1188965E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    187.3951      at rsvt =   0.3535534    
+  === FRONT    ELAPSED =   95.02020    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    193.2578      at rsvt =   0.4204482    
+  === FRONT    ELAPSED =   99.99670    
+  ======== HYEY    ELAPSED =  3.1127930E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    199.3882      at rsvt =   0.4999999    
+ RSVT test returns value for rsvt    0.500
+ The RSVT test exited at maximum number of     5  tries 
+  === FRONT    ELAPSED =   275.6694    
+  ======== HYEY    ELAPSED =  3.1127930E-02
+  ===== SENS_FD ELAPSED =    7.456909    
+   SENS_FD2TD required    4.477173      seconds 
+  TD_SENS processed in    4.539551      seconds 
+ Testing for optimum RSVT ... New RSVT =   0.500
+
+
+      5 0.4250E+00       219.769         0.000                    219.7692    44.3962     84.9333
+                                           3.9
+      5                                                              294.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.2005        0.0973        1.0000
+    error  -0.7102        2.0021        0.2468
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .67249E+00 with Sumsq and Model_Norm =    219.769     0.000
+
+
+  End of Iteration     1
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_02\
+  Sumsq Sums_Model Sumsq_Total    219.7692      0.0000000E+00   219.7692      at Iteration            2
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    2 Icnt_Loop    0 RSVT      0.435
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      2 0.5854E+00       219.769         0.000                    219.7692    84.9333     44.3962
+  === FRONT    ELAPSED =   271.1765    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    7.612793    
+   SENS_FD2TD required    4.601929      seconds 
+  TD_SENS processed in    4.664429      seconds 
+      5 0.5854E+00       191.253         0.000                    191.2530    41.4159     90.8321
+                                           9.1
+      5                                                              219.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4952        0.1114        0.0530        1.0000
+    error  -0.7121        2.0019        0.2027
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .75221E+00 with Sumsq and Model_Norm =    191.253     0.000
+
+
+  End of Iteration     2
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_03\
+  Sumsq Sums_Model Sumsq_Total    191.2530      0.0000000E+00   191.2530      at Iteration            3
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    3 Icnt_Loop    0 RSVT      0.379
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      3 0.6548E+00       191.253         0.000                    191.2530    90.8321     41.4159
+  === FRONT    ELAPSED =   271.0049    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.784424    
+   SENS_FD2TD required    4.742432      seconds 
+  TD_SENS processed in    4.804810      seconds 
+      5 0.6548E+00       184.427         0.000                    184.4273    40.6701     94.2630
+                                          11.8
+      5                                                              191.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.1954        0.0598        0.0245        1.0000
+    error  -0.7143        2.0016        0.1823
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .70157E+00 with Sumsq and Model_Norm =    184.427     0.000
+
+
+  End of Iteration     3
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_04\
+  Sumsq Sums_Model Sumsq_Total    184.4273      0.0000000E+00   184.4273      at Iteration            4
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    4 Icnt_Loop    0 RSVT      0.330
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      4 0.6108E+00       184.427         0.000                    184.4273    94.2630     40.6701
+  === FRONT    ELAPSED =   278.5553    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.706543    
+   SENS_FD2TD required    4.290039      seconds 
+  TD_SENS processed in    4.367920      seconds 
+      5 0.6108E+00       179.824         0.000                    179.8245    40.1594     95.8977
+                                          13.9
+      5                                                              184.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.1589        0.0684        0.0196        1.0000
+    error  -0.7162        2.0013        0.1780
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .62542E+00 with Sumsq and Model_Norm =    179.824     0.000
+
+
+  End of Iteration     4
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_05\
+  Sumsq Sums_Model Sumsq_Total    179.8245      0.0000000E+00   179.8245      at Iteration            5
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    5 Icnt_Loop    0 RSVT      0.287
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      5 0.5445E+00       179.824         0.000                    179.8245    95.8977     40.1594
+  === FRONT    ELAPSED =   269.5852    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    7.550537    
+   SENS_FD2TD required    4.586426      seconds 
+  TD_SENS processed in    4.648926      seconds 
+      5 0.5445E+00       174.156         0.000                    174.1563    39.5214     96.7736
+                                          16.5
+      5                                                              179.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.1972        0.1274        0.0228        1.0000
+    error  -0.7188        2.0011        0.1757
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .54918E+00 with Sumsq and Model_Norm =    174.156     0.000
+
+
+  End of Iteration     5
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_06\
+  Sumsq Sums_Model Sumsq_Total    174.1563      0.0000000E+00   174.1563      at Iteration            6
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    6 Icnt_Loop    0 RSVT      0.250
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      6 0.4781E+00       174.156         0.000                    174.1563    96.7736     39.5214
+  === FRONT    ELAPSED =   269.5073    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    7.893555    
+   SENS_FD2TD required    4.570801      seconds 
+  TD_SENS processed in    4.633301      seconds 
+      5 0.4781E+00       165.883         0.000                    165.8825    38.5712     97.5364
+                                          20.7
+      5                                                              174.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.3069        0.1776        0.0294        1.0000
+    error  -0.7235        2.0008        0.1726
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .47948E+00 with Sumsq and Model_Norm =    165.883     0.000
+
+
+  End of Iteration     6
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_07\
+  Sumsq Sums_Model Sumsq_Total    165.8825      0.0000000E+00   165.8825      at Iteration            7
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    7 Icnt_Loop    0 RSVT      0.218
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      7 0.4174E+00       165.883         0.000                    165.8825    97.5364     38.5712
+  === FRONT    ELAPSED =   270.8179    
+  ======== HYEY    ELAPSED =  3.1005859E-02
+  ===== SENS_FD ELAPSED =    8.034180    
+   SENS_FD2TD required    4.274414      seconds 
+  TD_SENS processed in    4.352295      seconds 
+      5 0.4174E+00       153.691         0.000                    153.6910    37.1267     98.9543
+                                          28.5
+      5                                                              165.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4736        0.3031        0.0371        1.0000
+    error  -0.7332        2.0003        0.1682
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .41741E+00 with Sumsq and Model_Norm =    153.691     0.000
+
+
+  End of Iteration     7
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_08\
+  Sumsq Sums_Model Sumsq_Total    153.6910      0.0000000E+00   153.6910      at Iteration            8
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    8 Icnt_Loop    0 RSVT      0.189
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      8 0.3634E+00       153.691         0.000                    153.6910    98.9543     37.1267
+  === FRONT    ELAPSED =   270.6775    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    8.205566    
+   SENS_FD2TD required    4.679932      seconds 
+  TD_SENS processed in    4.742432      seconds 
+      5 0.3634E+00       136.513         0.000                    136.5126    34.9904    102.6601
+                                          42.3
+      5                                                              153.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6520        0.4196        0.0449        1.0000
+    error  -0.7556        1.9988        0.1622
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .36262E+00 with Sumsq and Model_Norm =    136.513     0.000
+
+
+  End of Iteration     8
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_09\
+  Sumsq Sums_Model Sumsq_Total    136.5126      0.0000000E+00   136.5126      at Iteration            9
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    9 Icnt_Loop    0 RSVT      0.165
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      9 0.3157E+00       136.513         0.000                    136.5126   102.6601     34.9904
+  === FRONT    ELAPSED =   270.8333    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    7.675293    
+   SENS_FD2TD required    4.664307      seconds 
+  TD_SENS processed in    4.726807      seconds 
+      5 0.3157E+00       114.383         0.000                    114.3834    32.0290    108.9234
+                                          63.8
+      5                                                              136.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8402        0.5290        0.0525        1.0000
+    error  -0.8042        1.9933        0.1547
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .31466E+00 with Sumsq and Model_Norm =    114.383     0.000
+
+
+  End of Iteration     9
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_10\
+  Sumsq Sums_Model Sumsq_Total    114.3834      0.0000000E+00   114.3834      at Iteration           10
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   10 Icnt_Loop    0 RSVT      0.144
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     10 0.2739E+00       114.383         0.000                    114.3834   108.9234     32.0290
+  === FRONT    ELAPSED =   269.8347    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.410156    
+   SENS_FD2TD required    4.570801      seconds 
+  TD_SENS processed in    4.633057      seconds 
+      5 0.2739E+00        90.257         0.000                     90.2569    28.4513    113.0454
+                                          91.5
+      5                                                              114.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6153        0.0571        1.0000
+    error  -0.8797        1.9713        0.1450
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .27312E+00 with Sumsq and Model_Norm =     90.257     0.000
+
+
+  End of Iteration    10
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_11\
+  Sumsq Sums_Model Sumsq_Total    90.25690      0.0000000E+00   90.25690      at Iteration           11
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   11 Icnt_Loop    0 RSVT      0.125
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     11 0.2378E+00        90.257         0.000                     90.2569   113.0454     28.4513
+  === FRONT    ELAPSED =   270.3030    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.753418    
+   SENS_FD2TD required    4.570801      seconds 
+  TD_SENS processed in    4.632812      seconds 
+      5 0.2378E+00        72.938         0.000                     72.9382    25.5764    112.0235
+                                         114.7
+      5                                                               90.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3893        0.0439        1.0000
+    error  -0.9368        1.8990        0.1344
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .23764E+00 with Sumsq and Model_Norm =     72.938     0.000
+
+
+  End of Iteration    11
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_12\
+  Sumsq Sums_Model Sumsq_Total    72.93823      0.0000000E+00   72.93823      at Iteration           12
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   12 Icnt_Loop    0 RSVT      0.109
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     12 0.2069E+00        72.938         0.000                     72.9382   112.0235     25.5764
+  === FRONT    ELAPSED =   269.3516    
+  ======== HYEY    ELAPSED =  3.0761719E-02
+  ===== SENS_FD ELAPSED =    7.597656    
+   SENS_FD2TD required    4.320801      seconds 
+  TD_SENS processed in    4.383301      seconds 
+      5 0.2069E+00        61.484         0.000                     61.4837    23.4824    109.1963
+                                         138.2
+      5                                                               72.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.2472        0.0367        1.0000
+    error  -0.9301        1.7687        0.1257
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .20744E+00 with Sumsq and Model_Norm =     61.484     0.000
+
+
+  End of Iteration    12
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_13\
+  Sumsq Sums_Model Sumsq_Total    61.48372      0.0000000E+00   61.48372      at Iteration           13
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   13 Icnt_Loop    0 RSVT      0.095
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     13 0.1806E+00        61.484         0.000                     61.4837   109.1963     23.4824
+  === FRONT    ELAPSED =   269.4136    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.049805    
+   SENS_FD2TD required    4.664551      seconds 
+  TD_SENS processed in    4.727051      seconds 
+      5 0.1806E+00        50.527         0.000                     50.5267    21.2874    107.5864
+                                         174.3
+      5                                                               61.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3098        0.0483        1.0000
+    error  -0.9043        1.6321        0.1193
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .18213E+00 with Sumsq and Model_Norm =     50.527     0.000
+
+
+  End of Iteration    13
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_14\
+  Sumsq Sums_Model Sumsq_Total    50.52665      0.0000000E+00   50.52665      at Iteration           14
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   14 Icnt_Loop    0 RSVT      0.082
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     14 0.1586E+00        50.527         0.000                     50.5267   107.5864     21.2874
+  === FRONT    ELAPSED =   269.5854    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    8.392578    
+   SENS_FD2TD required    4.570801      seconds 
+  TD_SENS processed in    4.648926      seconds 
+      5 0.1586E+00        40.622         0.000                     40.6220    19.0872    104.5945
+                                         203.8
+      5                                                               50.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8521        0.5964        0.0556        1.0000
+    error  -0.9053        1.4633        0.1116
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .16105E+00 with Sumsq and Model_Norm =     40.622     0.000
+
+
+  End of Iteration    14
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_15\
+  Sumsq Sums_Model Sumsq_Total    40.62195      0.0000000E+00   40.62195      at Iteration           15
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   15 Icnt_Loop    0 RSVT      0.072
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     15 0.1402E+00        40.622         0.000                     40.6220   104.5945     19.0872
+  === FRONT    ELAPSED =   270.2095    
+  ======== HYEY    ELAPSED =  4.6386719E-02
+  ===== SENS_FD ELAPSED =    7.987305    
+   SENS_FD2TD required    4.383789      seconds 
+  TD_SENS processed in    4.430664      seconds 
+      5 0.1402E+00        35.951         0.000                     35.9506    17.9563    103.3291
+                                         237.0
+      5                                                               40.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.5869        0.4338        0.0562        1.0000
+    error  -0.8876        1.1919        0.1033
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .14229E+00 with Sumsq and Model_Norm =     35.951     0.000
+
+
+  End of Iteration    15
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_16\
+  Sumsq Sums_Model Sumsq_Total    35.95063      0.0000000E+00   35.95063      at Iteration           16
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   16 Icnt_Loop    0 RSVT      0.063
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     16 0.1239E+00        35.951         0.000                     35.9506   103.3291     17.9563
+  === FRONT    ELAPSED =   270.2563    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.174316    
+   SENS_FD2TD required    4.290039      seconds 
+  TD_SENS processed in    4.368164      seconds 
+      5 0.1239E+00        32.585         0.000                     32.5851    17.0951    103.1737
+                                         281.1
+      5                                                               36.0 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8411        0.3621        0.0689        1.0000
+    error  -0.8986        1.0011        0.0984
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .12521E+00 with Sumsq and Model_Norm =     32.585     0.000
+
+
+  End of Iteration    16
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_17\
+  Sumsq Sums_Model Sumsq_Total    32.58513      0.0000000E+00   32.58513      at Iteration           17
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   17 Icnt_Loop    0 RSVT      0.054
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     17 0.1090E+00        32.585         0.000                     32.5851   103.1737     17.0951
+  === FRONT    ELAPSED =   270.1470    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.862793    
+   SENS_FD2TD required    4.695801      seconds 
+  TD_SENS processed in    4.758301      seconds 
+      5 0.1090E+00        29.542         0.000                     29.5417    16.2772    103.0441
+                                         339.7
+      5                                                               32.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.9052        0.4959        0.0770        1.0000
+    error  -0.9288        0.8660        0.0938
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .10914E+00 with Sumsq and Model_Norm =     29.542     0.000
+
+
+  End of Iteration    17
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_18\
+  Sumsq Sums_Model Sumsq_Total    29.54169      0.0000000E+00   29.54169      at Iteration           18
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   18 Icnt_Loop    0 RSVT      0.047
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     18 0.9501E-01        29.542         0.000                     29.5417   103.0441     16.2772
+  === FRONT    ELAPSED =   269.5225    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.221680    
+   SENS_FD2TD required    4.617188      seconds 
+  TD_SENS processed in    4.679688      seconds 
+      5 0.9501E-01        26.609         0.000                     26.6093    15.4483    102.8757
+                                         390.8
+      5                                                               29.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6467        0.0667        1.0000
+    error  -0.9595        0.7899        0.0886
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .94594E-01 with Sumsq and Model_Norm =     26.609     0.000
+
+
+  End of Iteration    18
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_19\
+  Sumsq Sums_Model Sumsq_Total    26.60932      0.0000000E+00   26.60932      at Iteration           19
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   19 Icnt_Loop    0 RSVT      0.041
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     19 0.8235E-01        26.609         0.000                     26.6093   102.8757     15.4483
+  === FRONT    ELAPSED =   269.6167    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.909180    
+   SENS_FD2TD required    4.274414      seconds 
+  TD_SENS processed in    4.352539      seconds 
+      5 0.8235E-01        23.750         0.000                     23.7499    14.5946    102.8029
+                                         465.9
+      5                                                               26.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.7570        0.0806        1.0000
+    error  -0.9656        0.7669        0.0829
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .82001E-01 with Sumsq and Model_Norm =     23.750     0.000
+
+
+  End of Iteration    19
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_20\
+  Sumsq Sums_Model Sumsq_Total    23.74991      0.0000000E+00   23.74991      at Iteration           20
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   20 Icnt_Loop    0 RSVT      0.036
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     20 0.7139E-01        23.750         0.000                     23.7499   102.8029     14.5946
+  === FRONT    ELAPSED =   269.5542    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    7.690918    
+   SENS_FD2TD required    4.633301      seconds 
+  TD_SENS processed in    4.695312      seconds 
+      5 0.7139E-01        21.399         0.000                     21.3993    13.8536    101.7192
+                                         549.9
+      5                                                               23.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8687        0.9318        0.0947        1.0000
+    error  -0.9626        0.7214        0.0767
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .71338E-01 with Sumsq and Model_Norm =     21.399     0.000
+
+
+  End of Iteration    20
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_21\
+  Sumsq Sums_Model Sumsq_Total    21.39932      0.0000000E+00   21.39932      at Iteration           21
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   21 Icnt_Loop    0 RSVT      0.031
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     21 0.6210E-01        21.399         0.000                     21.3993   101.7192     13.8536
+  === FRONT    ELAPSED =   269.3042    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.548828    
+   SENS_FD2TD required    4.648926      seconds 
+  TD_SENS processed in    4.711426      seconds 
+      5 0.6210E-01        19.124         0.000                     19.1238    13.0963     99.5822
+                                         632.8
+      5                                                               21.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5889        0.0816        1.0000
+    error  -0.9719        0.6748        0.0718
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .61888E-01 with Sumsq and Model_Norm =     19.124     0.000
+
+
+  End of Iteration    21
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_22\
+  Sumsq Sums_Model Sumsq_Total    19.12384      0.0000000E+00   19.12384      at Iteration           22
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   22 Icnt_Loop    0 RSVT      0.027
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     22 0.5388E-01        19.124         0.000                     19.1238    99.5822     13.0963
+  === FRONT    ELAPSED =   269.5386    
+  ======== HYEY    ELAPSED =  3.0761719E-02
+  ===== SENS_FD ELAPSED =    8.283691    
+   SENS_FD2TD required    4.274414      seconds 
+  TD_SENS processed in    4.336914      seconds 
+      5 0.5388E-01        17.378         0.000                     17.3783    12.4844     96.2066
+                                         707.4
+      5                                                               19.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8111        0.0838        1.0000
+    error  -0.9865        0.6252        0.0672
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .53701E-01 with Sumsq and Model_Norm =     17.378     0.000
+
+
+  End of Iteration    22
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_23\
+  Sumsq Sums_Model Sumsq_Total    17.37830      0.0000000E+00   17.37830      at Iteration           23
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   23 Icnt_Loop    0 RSVT      0.024
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     23 0.4675E-01        17.378         0.000                     17.3783    96.2066     12.4844
+  === FRONT    ELAPSED =   269.3198    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.580078    
+   SENS_FD2TD required    5.382324      seconds 
+  TD_SENS processed in    5.459961      seconds 
+      5 0.4675E-01        16.236         0.000                     16.2361    12.0671     92.9246
+                                         770.9
+      5                                                               17.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6038        0.0639        1.0000
+    error  -0.9918        0.5713        0.0632
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .46610E-01 with Sumsq and Model_Norm =     16.236     0.000
+
+
+  End of Iteration    23
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_24\
+  Sumsq Sums_Model Sumsq_Total    16.23607      0.0000000E+00   16.23607      at Iteration           24
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   24 Icnt_Loop    0 RSVT      0.021
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     24 0.4058E-01        16.236         0.000                     16.2361    92.9246     12.0671
+  === FRONT    ELAPSED =   270.9893    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    8.611328    
+   SENS_FD2TD required    5.475586      seconds 
+  TD_SENS processed in    5.553711      seconds 
+      5 0.4058E-01        15.329         0.000                     15.3292    11.7253     89.4151
+                                         840.1
+      5                                                               16.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.4268        0.0639        1.0000
+    error  -1.0066        0.5336        0.0604
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .40489E-01 with Sumsq and Model_Norm =     15.329     0.000
+
+
+  End of Iteration    24
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_25\
+  Sumsq Sums_Model Sumsq_Total    15.32922      0.0000000E+00   15.32922      at Iteration           25
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   25 Icnt_Loop    0 RSVT      0.018
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     25 0.3525E-01        15.329         0.000                     15.3292    89.4151     11.7253
+  === FRONT    ELAPSED =   279.6318    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.595703    
+   SENS_FD2TD required    5.069336      seconds 
+  TD_SENS processed in    5.147461      seconds 
+      5 0.3525E-01        14.555         0.000                     14.5554    11.4255     86.7170
+                                         919.5
+      5                                                               15.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.4317        0.0619        1.0000
+    error  -1.0099        0.5132        0.0581
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .35204E-01 with Sumsq and Model_Norm =     14.555     0.000
+
+
+  End of Iteration    25
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_26\
+  Sumsq Sums_Model Sumsq_Total    14.55541      0.0000000E+00   14.55541      at Iteration           26
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   26 Icnt_Loop    0 RSVT      0.016
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     26 0.3065E-01        14.555         0.000                     14.5554    86.7170     11.4255
+  === FRONT    ELAPSED =   272.0508    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.580078    
+   SENS_FD2TD required    5.069336      seconds 
+  TD_SENS processed in    5.147461      seconds 
+      5 0.3065E-01        13.885         0.000                     13.8852    11.1594     84.7865
+                                         987.7
+      5                                                               14.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.4388        0.0618        1.0000
+    error  -1.0082        0.4985        0.0562
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .30629E-01 with Sumsq and Model_Norm =     13.885     0.000
+
+
+  End of Iteration    26
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_27\
+  Sumsq Sums_Model Sumsq_Total    13.88523      0.0000000E+00   13.88523      at Iteration           27
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   27 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     27 0.2666E-01        13.885         0.000                     13.8852    84.7865     11.1594
+  === FRONT    ELAPSED =   271.7070    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    8.580078    
+   SENS_FD2TD required    5.070312      seconds 
+  TD_SENS processed in    5.132812      seconds 
+      5 0.2666E-01        13.162         0.000                     13.1622    10.8649     83.3150
+                                        1086.8
+      5                                                               13.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3540        0.0639        1.0000
+    error  -1.0103        0.4837        0.0542
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .29395E-01 with Sumsq and Model_Norm =     13.162     0.000
+
+
+  End of Iteration    27
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_28\
+  Sumsq Sums_Model Sumsq_Total    13.16224      0.0000000E+00   13.16224      at Iteration           28
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   28 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     28 0.2559E-01        13.162         0.000                     13.1622    83.3150     10.8649
+  === FRONT    ELAPSED =   273.9531    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    8.954102    
+   SENS_FD2TD required    5.164062      seconds 
+  TD_SENS processed in    5.257812      seconds 
+      5 0.2559E-01        12.256         0.000                     12.2558    10.4842     82.8331
+                                        1185.8
+      5                                                               13.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6147        0.0810        1.0000
+    error  -0.9993        0.4769        0.0522
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .29397E-01 with Sumsq and Model_Norm =     12.256     0.000
+
+
+  End of Iteration    28
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_29\
+  Sumsq Sums_Model Sumsq_Total    12.25580      0.0000000E+00   12.25580      at Iteration           29
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   29 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     29 0.2559E-01        12.256         0.000                     12.2558    82.8331     10.4842
+  === FRONT    ELAPSED =   272.4873    
+  ======== HYEY    ELAPSED =  3.1250000E-02
+  ===== SENS_FD ELAPSED =    8.673828    
+   SENS_FD2TD required    5.023438      seconds 
+  TD_SENS processed in    5.101562      seconds 
+      5 0.2559E-01        11.618         0.000                     11.6178    10.2076     82.9978
+                                        1300.2
+      5                                                               12.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5387        0.0711        1.0000
+    error  -0.9946        0.4654        0.0498
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .29378E-01 with Sumsq and Model_Norm =     11.618     0.000
+
+
+  End of Iteration    29
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\2014_EM_Training\SPECTREM\DeGrussa_Detail_T6_Completed\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_30\
+  Sumsq Sums_Model Sumsq_Total    11.61777      0.0000000E+00   11.61777      at Iteration           30
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   30 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     30 0.2558E-01        11.618         0.000                     11.6178    82.9978     10.2076
+  === FRONT    ELAPSED =   272.0352    
+  ======== HYEY    ELAPSED =  4.6875000E-02
+  ===== SENS_FD ELAPSED =    8.657227    
+   SENS_FD2TD required    5.148438      seconds 
+  TD_SENS processed in    5.226562      seconds 
+      5 0.2558E-01        11.045         0.000                     11.0446     9.9526     84.6650
+                                        1426.9
+      5                                                               11.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8956        1.0000        0.0876        1.0000
+    error  -0.9903        0.4606        0.0475
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .29369E-01 with Sumsq and Model_Norm =     11.045     0.000
+
+
+  End of Iteration    30
+
+ -----------------------------------------------------------------------------------
+
+
+  ArjunAir inversion completed at 13:00 on 10 MAY 2015
+
+  Computation time =    9687.70 seconds.
+
+

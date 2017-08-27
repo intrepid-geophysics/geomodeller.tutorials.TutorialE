@@ -1,0 +1,30 @@
+<com.geomodeller.ui.dialogs.LutConfigurator id="1">
+  <data id="2">
+    <data id="3">
+      <lut>pseudo_pits256.lut</lut>
+      <file>C:\GeoModeller\GeoModeller2014_x64_f71a960e0d33\lut\pseudo_pits256.lut</file>
+      <builder class="com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LinearLutBuilder" id="4"/>
+      <available class="linked-hash-set" id="5">
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LinearLutBuilder id="6"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.HistoLutBuilder id="7"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder id="8">
+          <points id="9"/>
+          <selected>0</selected>
+          <steps>9</steps>
+          <usedata>true</usedata>
+        </com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LogLutBuilder id="10"/>
+      </available>
+      <dataclip id="11">
+        <min>-0.057871093750000005</min>
+        <max>3.2827734375000217</max>
+        <undefined>false</undefined>
+      </dataclip>
+      <visualclip id="12">
+        <min>-0.28</min>
+        <max>4.18</max>
+        <undefined>false</undefined>
+      </visualclip>
+    </data>
+  </data>
+</com.geomodeller.ui.dialogs.LutConfigurator>

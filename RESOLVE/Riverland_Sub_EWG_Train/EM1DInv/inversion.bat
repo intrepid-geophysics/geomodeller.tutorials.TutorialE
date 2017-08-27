@@ -1,0 +1,1 @@
+mpiexec -n 4  C:\GeoModeller\GeoModeller2014_x64_77ab0cb88af4\bin\MPI_Air_EM_Line_Inversion.exe inversion_control.xyz

@@ -1,0 +1,15 @@
+MetaData Begin
+	Name	= LasDEM_RegDEM_Stitch.ers
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2fd0a434b918+ "
+	LasDEM_RegDEM_Stitch Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= LasDEM_RegDEM_Stitch
+		Bands	= 1
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		Units	= "none"
+	LasDEM_RegDEM_Stitch End
+MetaData End

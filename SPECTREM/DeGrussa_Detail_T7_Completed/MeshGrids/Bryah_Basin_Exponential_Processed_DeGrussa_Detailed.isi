@@ -1,0 +1,68 @@
+MetaData Begin
+	Name	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	node_em_z_7 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Units	= "RAW"
+	node_em_z_7 End
+	node_em_z_8 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= ?
+		Units	= "RAW"
+	node_em_z_8 End
+	node_em_z_9 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= none
+		Units	= "RAW"
+	node_em_z_9 End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		XYZ Begin
+			Resource	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 799
+		XYZ End
+		FieldData Begin
+			em_z_7 Begin
+				Resource	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh/node..DIR
+				Name	= em_z_7
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= RAW
+				NumElem	= 799
+			em_z_7 End
+			em_z_8 Begin
+				Resource	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh/node..DIR
+				Name	= em_z_8
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= RAW
+				Alias	= ?
+				NumElem	= 799
+			em_z_8 End
+			em_z_9 Begin
+				Resource	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh/node..DIR
+				Name	= em_z_9
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= RAW
+				Alias	= none
+				NumElem	= 799
+			em_z_9 End
+		FieldData End
+	MeshGrid End
+MetaData End

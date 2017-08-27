@@ -1,0 +1,469 @@
+MetaData Begin
+	Name	= Riverland_FDEM_mini_Sub_XYZLine.gdb
+	Version	= "Intrepid Project Manager Tool v5.6.0 INTBTA-3098 for Windows (x64) by PELAGIAN optimised build 288c6d276dd3+ "
+	X Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= X
+		Bands	= 1
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	X End
+	Y Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= Y
+		Bands	= 1
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Y End
+	ALTRM Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	ALTRM End
+	CPI100K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPI100K End
+	CPI1500 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPI1500 End
+	CPI25K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPI25K End
+	CPI400 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPI400 End
+	CPI6200 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPI6200 End
+	CPIF100K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPIF100K End
+	CPIF1500 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPIF1500 End
+	CPIF25K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPIF25K End
+	CPIF400 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPIF400 End
+	CPIF6200 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPIF6200 End
+	CPPLR Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPPLR End
+	CPQ100K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQ100K End
+	CPQ1500 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQ1500 End
+	CPQ25K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQ25K End
+	CPQ400 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQ400 End
+	CPQ6200 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQ6200 End
+	CPQF100K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQF100K End
+	CPQF1500 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQF1500 End
+	CPQF25K Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQF25K End
+	CPQF400 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQF400 End
+	CPQF6200 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPQF6200 End
+	CPSPR Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CPSPR End
+	CXI3300 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXI3300 End
+	CXIF3300 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXIF3300 End
+	CXPLR Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXPLR End
+	CXQ3300 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXQ3300 End
+	CXQF3300 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXQF3300 End
+	CXSPR Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	CXSPR End
+	LASALTF Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	LASALTF End
+	LOCTIME Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	LOCTIME End
+	TDC2 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	TDC2 End
+	TDC3 Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	TDC3 End
+	X94HELI Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	X94HELI End
+	Y94HELI Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Y94HELI End
+	LevDTM_Grd Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	LevDTM_Grd End
+	SRTM_GS Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	SRTM_GS End
+	Long Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Projection	= "GEODETIC"
+		Datum	= "GDA94"
+		Width	= 16
+		Decimals	= 10
+		DisplayNullAs	= 99999
+	Long End
+	Lat Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Projection	= "GEODETIC"
+		Datum	= "GDA94"
+		Width	= 16
+		Decimals	= 10
+		DisplayNullAs	= 99999
+	Lat End
+	LasDEM_SRTM_Stitch Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 16
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	LasDEM_SRTM_Stitch End
+	GS_Fiducial Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= Fiducial
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_Fiducial End
+	GS_Line Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= LineNumber
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_Line End
+	GS_StrLine Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_StrLine End
+	GS_LType Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= LineType
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_LType End
+	GS_Flight Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= FlightNumber
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_Flight End
+	GS_Date Begin
+		GroupBy	= yes
+		DataType	= Date
+		ByteOrder	= LSBFirst
+		Alias	= DateCode
+		Width	= 16
+		DisplayNullAs	= 99999
+	GS_Date End
+	ReportFormat Begin
+		Default = {
+			16 4 99999 GS_Flight:1
+			16 4 99999 GS_Line:1
+			16 4 99999 GS_Fiducial:1
+			10 2 99999 X:1
+			10 2 99999 Y:1
+			10 2 99999 LevDTM_Grd:1
+			10 2 99999 LASALTF:1
+			16 4 99999 GS_LType:1
+			10 2 99999 SRTM_GS:1
+			10 2 99999 CPIF100K:1
+			10 2 99999 CPQF100K:1
+			10 2 99999 CPIF25K:1
+			10 2 99999 CPQF25K:1
+			10 2 99999 CPIF6200:1
+			10 2 99999 CPQF6200:1
+			10 2 99999 CPIF1500:1
+			10 2 99999 CPQF1500:1
+			10 2 99999 CPIF400:1
+			10 2 99999 CPQF400:1
+			10 2 99999 CXIF3300:1
+			10 2 99999 CXQF3300:1
+}
+	ReportFormat End
+MetaData End

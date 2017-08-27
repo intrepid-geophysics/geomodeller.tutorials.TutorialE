@@ -1,0 +1,34 @@
+DatasetHeader Begin
+	LastUpdated	= Mon Oct 06 01:20:08 GMT 2014
+	Version	= "5.0"
+	DataSetType	= ERStorage
+	DataType	= Raster
+	HeaderOffset	= 0
+	CoordinateSpace Begin
+		Projection	= "SUTM50"
+		CoordinateType	= EN
+		Datum	= "WGS84"
+		Rotation	= 0:0:0 
+	CoordinateSpace End
+	ByteOrder	= LSBFirst
+	RasterInfo Begin
+		CellType	= IEEE4ByteReal
+		NrOfLines	= 3358
+		NrOfCellsPerLine	= 3053
+		NrOfBands	= 1
+		NullCellValue	= -99999.00000000
+		CellInfo Begin
+			Xdimension	=             100
+			Ydimension	=             100
+		CellInfo End
+		RegistrationCellX	= 0
+		RegistrationCellY	= 0
+		RegistrationCoord Begin
+			Eastings	=   499949.966096
+			Northings	=   7345823.46524
+		RegistrationCoord End
+		BandId Begin
+			Value	= "Pseudo Layer"
+		BandId End
+	RasterInfo End
+DatasetHeader End

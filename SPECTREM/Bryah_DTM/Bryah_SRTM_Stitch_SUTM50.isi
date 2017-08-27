@@ -1,0 +1,21 @@
+MetaData Begin
+	Name	= Bryah_SRTM_Stitch_SUTM50.ers
+	Version	= "Intrepid DatasetResampler v5.0.0 intrepid_v5 for Windows (x64) by PELAGIAN optimised build fd878e94056c "
+	Bryah_SRTM_Stitch_SUTM50 Begin
+		GroupBy	= no
+		DataType	= IEEE4ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Samples	= 10032212
+		Nulls	= 219762
+		Minimum	=   323.632446289
+		Maximum	=   972.516601563
+		Mean	=   515.016030328
+		Variance	=   5200.41855441
+		Skew	=  0.136549942424
+		Kurtosis	=  -0.35809645535
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		BandId	= "Pseudo Layer"
+	Bryah_SRTM_Stitch_SUTM50 End
+MetaData End

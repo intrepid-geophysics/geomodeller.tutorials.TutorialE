@@ -1,0 +1,14 @@
+====================================================================================
+
+                2.5D   Electromagnetic Modelling / Inversion      
+====================================================================================
+
+
+                 ArjunAir started at 01:04 on 10 MAY 2015
+                      MPI process used     4 processors 
+
+       The solution will proceeed in slower mode with nky = 21 and nfreq = 28 
+
+  === FRONT    ELAPSED =   72.68087    
+  ======== HYEY    ELAPSED =  3.1196594E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00

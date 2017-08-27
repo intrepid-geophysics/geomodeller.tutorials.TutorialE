@@ -1,0 +1,63 @@
+MetaData Begin
+	Name	= LasDEM_RegDEM_Stitch.igmesh
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2fd0a434b918+ "
+	quad_LasDEM_RegDEM_Stitch Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= LasDEM_RegDEM_Stitch
+		Units	= "none"
+	quad_LasDEM_RegDEM_Stitch End
+	MeshGrid Begin
+		Type	= regular-grid
+		Dimensions	= 2
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= .ers
+		Format	= iogrid
+		Name	= LasDEM_RegDEM_Stitch
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		GridExtents = {
+			            374
+			            264
+			              1
+}
+		Origin = {
+			  473675.000000
+			 6195775.000000
+			              0
+}
+		Spacing = {
+			      50.000000
+			      50.000000
+			              0
+}
+		BasisX = {
+			       1.000000
+			              0
+			              0
+}
+		BasisY = {
+			              0
+			       1.000000
+			              0
+}
+		BasisZ = {
+			              0
+			              0
+			       1.000000
+}
+		FieldData Begin
+			LasDEM_RegDEM_Stitch Begin
+				Resource	= LasDEM_RegDEM_Stitch.igmesh/LasDEM_RegDEM_Stitch.ers
+				Name	= LasDEM_RegDEM_Stitch
+				Primitive	= quad
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LasDEM_RegDEM_Stitch
+				NumElem	= 98736
+			LasDEM_RegDEM_Stitch End
+		FieldData End
+	MeshGrid End
+MetaData End

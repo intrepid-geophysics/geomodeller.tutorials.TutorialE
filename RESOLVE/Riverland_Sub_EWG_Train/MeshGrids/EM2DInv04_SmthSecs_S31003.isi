@@ -1,0 +1,86 @@
+MetaData Begin
+	Name	= EM2DInv04_SmthSecs_S31003.igmesh
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2fd0a434b918+ "
+	node_Res Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Res
+		Units	= "none"
+	node_Res End
+	node_LogRes Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogRes
+		Units	= "none"
+	node_LogRes End
+	node_Cond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Cond
+		Units	= "none"
+	node_Cond End
+	node_LogCond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogCond
+		Units	= "none"
+	node_LogCond End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= EM2DInv04_SmthSecs_S31003
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		XYZ Begin
+			Resource	= EM2DInv04_SmthSecs_S31003.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 7296
+		XYZ End
+		FieldData Begin
+			Res Begin
+				Resource	= EM2DInv04_SmthSecs_S31003.igmesh/node..DIR
+				Name	= Res
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Res
+				NumElem	= 7296
+			Res End
+			LogRes Begin
+				Resource	= EM2DInv04_SmthSecs_S31003.igmesh/node..DIR
+				Name	= LogRes
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogRes
+				NumElem	= 7296
+			LogRes End
+			Cond Begin
+				Resource	= EM2DInv04_SmthSecs_S31003.igmesh/node..DIR
+				Name	= Cond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Cond
+				NumElem	= 7296
+			Cond End
+			LogCond Begin
+				Resource	= EM2DInv04_SmthSecs_S31003.igmesh/node..DIR
+				Name	= LogCond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogCond
+				NumElem	= 7296
+			LogCond End
+		FieldData End
+	MeshGrid End
+MetaData End

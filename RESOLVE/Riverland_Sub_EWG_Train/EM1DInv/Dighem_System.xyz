@@ -1,0 +1,13 @@
+Resolve RiverLand Survey 
+ 1 1 1        ! NTX MAX_NCHNL MAX_NSX
+ 0 0 1 0 3 0  ! ISW DO3D_I IPRFL DC_NORM IUNITS ISTOP 
+ 6            ! NFREQ 
+ 106140 7.86 0.0 0.0 0.0  ! FREQ , RX_OFFSET ,RY_OFFSET , RZ_OFFSET , TXINCLN 
+ 25380  7.86 0.0 0.0 0.0 
+ 6135   7.86 0.0 0.0 0.0 
+ 1518   7.86 0.0 0.0 0.0 
+ 385    7.86 0.0 0.0 0.0 
+ 3323   8.99 0.0 0.0 90.0 
+ 90.0 30.0  .0 .0 1 1               ! FANGLE ALT1 EAST1 NORTH1 NSTAT LEVEL 
+  1      ! NLAYER 
+    1000.0 

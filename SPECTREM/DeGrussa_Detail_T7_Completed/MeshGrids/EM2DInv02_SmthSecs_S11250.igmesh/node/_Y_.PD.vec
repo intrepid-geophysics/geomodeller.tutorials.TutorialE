@@ -1,0 +1,17 @@
+DatasetHeader Begin
+	Version	= "5.0"
+	DataType	= Point
+	ByteOrder	= LSBFirst
+	VectorInfo Begin
+		CellType	= IEEE8ByteReal
+		NullCellValue	= -5.0E+75
+		NrOfLines	= 1
+		NrOfCellsPerLine	= 1496
+		NrOfBands	= 1
+	VectorInfo End
+	FormatInfo Begin
+		Order	= 1
+		Width	= 16
+		Decimals	= 2
+	FormatInfo End
+DatasetHeader End

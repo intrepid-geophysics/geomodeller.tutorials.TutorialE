@@ -1,0 +1,63 @@
+MetaData Begin
+	Name	= DTM.igmesh
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build f71a960e0d33 "
+	quad_Bryah_SRTM_Stitch_SUTM50 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= quad
+		Alias	= Bryah_SRTM_Stitch_SUTM50
+		Units	= "none"
+	quad_Bryah_SRTM_Stitch_SUTM50 End
+	MeshGrid Begin
+		Type	= regular-grid
+		Dimensions	= 2
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= .ers
+		Format	= iogrid
+		Name	= DTM
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		GridExtents = {
+			            201
+			            101
+			              1
+}
+		Origin = {
+			  727999.000000
+			 7167973.000000
+			              0
+}
+		Spacing = {
+			     100.000000
+			     100.000000
+			              0
+}
+		BasisX = {
+			       1.000000
+			              0
+			              0
+}
+		BasisY = {
+			              0
+			       1.000000
+			              0
+}
+		BasisZ = {
+			              0
+			              0
+			       1.000000
+}
+		FieldData Begin
+			Bryah_SRTM_Stitch_SUTM50 Begin
+				Resource	= DTM.igmesh/Bryah_SRTM_Stitch_SUTM50.ers
+				Name	= Bryah_SRTM_Stitch_SUTM50
+				Primitive	= quad
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Bryah_SRTM_Stitch_SUTM50
+				NumElem	= 20301
+			Bryah_SRTM_Stitch_SUTM50 End
+		FieldData End
+	MeshGrid End
+MetaData End

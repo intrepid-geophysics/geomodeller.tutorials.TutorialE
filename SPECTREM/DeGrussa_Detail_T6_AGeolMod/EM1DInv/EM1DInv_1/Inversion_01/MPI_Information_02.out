@@ -1,0 +1,10 @@
+  myid line_start line_end            2           3           3
+  Number   Line Number
+       3        11260
+
+Processing Line    11260 myid =   2
+Formed Data File EM1DInv_1_L0011260.xyz    Line    1 of    1 at node    2
+Opened Line File EM1DInv_1_L0011260.xyz
+Air_Lay_Inv completed inverting Line    11260 with RMS error      18.77 %
+
+  The time taken is equal to   0 hours   5 minutes  51 seconds 

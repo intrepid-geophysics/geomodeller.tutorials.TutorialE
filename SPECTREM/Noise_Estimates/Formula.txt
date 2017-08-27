@@ -1,0 +1,2 @@
+if((X_Coord>734300) AND (X_Coord<735700);Res;NaN)
+IF((Fld1>2.66) AND (Fld1<2.68);nan;Fld1)

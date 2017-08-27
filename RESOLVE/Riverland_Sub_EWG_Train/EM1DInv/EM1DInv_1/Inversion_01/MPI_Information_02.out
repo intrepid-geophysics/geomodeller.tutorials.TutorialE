@@ -1,0 +1,16 @@
+  myid line_start line_end            2           7           8
+  Number   Line Number
+       7        31063
+       8        31073
+
+Processing Line    31063 myid =   2
+Formed Data File River_mini_L0031063.xyz    Line    1 of    2 at node    2
+Opened Line File River_mini_L0031063.xyz
+Air_Lay_Inv completed inverting Line    31063 with RMS error       5.29 %
+
+Processing Line    31073 myid =   2
+Formed Data File River_mini_L0031073.xyz    Line    2 of    2 at node    2
+Opened Line File River_mini_L0031073.xyz
+Air_Lay_Inv completed inverting Line    31073 with RMS error       5.50 %
+
+  The time taken is equal to   0 hours   1 minutes  38 seconds 

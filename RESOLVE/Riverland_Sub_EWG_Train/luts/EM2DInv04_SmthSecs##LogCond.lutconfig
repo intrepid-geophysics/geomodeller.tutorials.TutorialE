@@ -1,0 +1,60 @@
+<com.geomodeller.ui.dialogs.LutConfigurator id="1">
+  <data id="2">
+    <data id="3">
+      <lut>pseudo_pits256.lut</lut>
+      <file>C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\lut\pseudo_pits256.lut</file>
+      <builder class="com.dfa.apps.gravitas.plugin.visual3d.lut.builder.AlterableLutBuilder" id="4">
+        <points id="5">
+          <com.dfa.apps.gravitas.plugin.visual3d.lut.VC id="6">
+            <v>1.0212499999999973</v>
+            <cix>0</cix>
+            <user>true</user>
+            <current>false</current>
+          </com.dfa.apps.gravitas.plugin.visual3d.lut.VC>
+          <com.dfa.apps.gravitas.plugin.visual3d.lut.VC id="7">
+            <v>1.373084735576919</v>
+            <cix>0</cix>
+            <user>true</user>
+            <current>false</current>
+          </com.dfa.apps.gravitas.plugin.visual3d.lut.VC>
+          <com.dfa.apps.gravitas.plugin.visual3d.lut.VC id="8">
+            <v>3.7932812499999864</v>
+            <cix>255</cix>
+            <user>true</user>
+            <current>true</current>
+          </com.dfa.apps.gravitas.plugin.visual3d.lut.VC>
+          <com.dfa.apps.gravitas.plugin.visual3d.lut.VC id="9">
+            <v>3.7932812499999864</v>
+            <cix>255</cix>
+            <user>true</user>
+            <current>false</current>
+          </com.dfa.apps.gravitas.plugin.visual3d.lut.VC>
+        </points>
+        <selected>2</selected>
+        <ix>1</ix>
+      </builder>
+      <available class="linked-hash-set" id="10">
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LinearLutBuilder id="11"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.HistoLutBuilder id="12"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder id="13">
+          <points id="14"/>
+          <selected>0</selected>
+          <steps>9</steps>
+          <usedata>true</usedata>
+        </com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LogLutBuilder id="15"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.AlterableLutBuilder reference="4"/>
+      </available>
+      <dataclip id="16">
+        <min>1.0212499999999973</min>
+        <max>3.7932812499999864</max>
+        <undefined>false</undefined>
+      </dataclip>
+      <visualclip id="17">
+        <min>-0.25</min>
+        <max>4.27</max>
+        <undefined>false</undefined>
+      </visualclip>
+    </data>
+  </data>
+</com.geomodeller.ui.dialogs.LutConfigurator>

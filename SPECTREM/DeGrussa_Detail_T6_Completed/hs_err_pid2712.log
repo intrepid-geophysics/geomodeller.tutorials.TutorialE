@@ -1,0 +1,522 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000007feee4a6d5d, pid=2712, tid=5796
+#
+# JRE version: 7.0_21-b11
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.21-b01 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [TKernel.dll+0x86d5d]  TCollection_BasicMapIterator::TCollection_BasicMapIterator+0xd
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000213e800):  JavaThread "main" [_thread_in_native, id=5796, stack(0x0000000002460000,0x0000000002560000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0xffffffffffffffff
+
+Registers:
+RAX=0xfefdfefdfefd0000, RBX=0x000000000255acb0, RCX=0x000000000255acb0, RDX=0xfefdfefdfefd00e0
+RSP=0x000000000255ac20, RBP=0xfefdfefdfefd0000, RSI=0x0000000000000003, RDI=0x000000000255ad68
+R8 =0x0000000000000003, R9 =0x0000000000000000, R10=0x000000000000064c, R11=0x0000000012323a68
+R12=0x0000000000000000, R13=0x000000077f5ceac8, R14=0x000000000255aec8, R15=0x000000000213e800
+RIP=0x000007feee4a6d5d, EFLAGS=0x0000000000010202
+
+Top of Stack: (sp=0x000000000255ac20)
+0x000000000255ac20:   000000000206d131 000000005d5e358c
+0x000000000255ac30:   000000000f4ee440 000000005d6677e0
+0x000000000255ac40:   000000000255acb0 000007feea04122e
+0x000000000255ac50:   000007fefa2b7830 000000000206d130
+0x000000000255ac60:   00000000020691a0 000000000255ac18
+0x000000000255ac70:   fefdfefdfefd0000 000007feea01a77c
+0x000000000255ac80:   fefdfefdfefd0000 000007fefa2b7830
+0x000000000255ac90:   00008c133ddc0557 000000000206d130
+0x000000000255aca0:   0000000000000001 fffffffffffffffe
+0x000000000255acb0:   0000000000000000 0000000000000000
+0x000000000255acc0:   000000000213e9d8 000000000e737370
+0x000000000255acd0:   fefdfefdfefd0000 000007feea01c656
+0x000000000255ace0:   000000000206d131 000000000255ad68
+0x000000000255acf0:   000000000255ad68 000000000255ae08
+0x000000000255ad00:   0000000000000000 fffffffffffffffe
+0x000000000255ad10:   000000000000000e 0000000000000000 
+
+Instructions: (pc=0x000007feee4a6d5d)
+0x000007feee4a6d3d:   00 48 8b 5c 24 58 48 83 c4 40 5f c3 cc cc cc cc
+0x000007feee4a6d4d:   cc cc cc 40 53 48 83 ec 20 48 c7 01 00 00 00 00
+0x000007feee4a6d5d:   44 8b 42 18 48 8b d9 44 89 41 08 48 8b 02 48 89
+0x000007feee4a6d6d:   41 10 83 c8 ff 48 83 79 10 00 44 0f 44 c0 89 41 
+
+
+Register to memory mapping:
+
+RAX=0xfefdfefdfefd0000 is an unknown value
+RBX=0x000000000255acb0 is pointing into the stack for thread: 0x000000000213e800
+RCX=0x000000000255acb0 is pointing into the stack for thread: 0x000000000213e800
+RDX=0xfefdfefdfefd00e0 is an unknown value
+RSP=0x000000000255ac20 is pointing into the stack for thread: 0x000000000213e800
+RBP=0xfefdfefdfefd0000 is an unknown value
+RSI=0x0000000000000003 is an unknown value
+RDI=0x000000000255ad68 is pointing into the stack for thread: 0x000000000213e800
+R8 =0x0000000000000003 is an unknown value
+R9 =0x0000000000000000 is an unknown value
+R10=0x000000000000064c is an unknown value
+R11=0x0000000012323a68 is an unknown value
+R12=0x0000000000000000 is an unknown value
+R13=0x000000077f5ceac8 is an oop
+{method} 
+ - klass: {other class}
+R14=0x000000000255aec8 is pointing into the stack for thread: 0x000000000213e800
+R15=0x000000000213e800 is a thread
+
+
+Stack: [0x0000000002460000,0x0000000002560000],  sp=0x000000000255ac20,  free space=1003k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [TKernel.dll+0x86d5d]  TCollection_BasicMapIterator::TCollection_BasicMapIterator+0xd
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  Gui.ProjetSession.ProjetSession_Coupe_1(LGui/StringTool_String;)LGui/Projet_Coupe;+0
+j  Gui.ProjetSession.Coupe(LGui/StringTool_String;)LGui/Projet_Coupe;+1
+j  GuiJava.DFA_ObjectUtils.getSectionType(Ljava/lang/String;)LGuiJava/DFA_ObjectUtils$SectionEnum;+16
+j  e4.com.geomodeller.ui.util.E4AccessImpl$5.run()V+184
+j  org.eclipse.swt.widgets.RunnableLock.run()V+11
+j  org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Z)Z+29
+j  org.eclipse.swt.widgets.Display.runAsyncMessages(Z)Z+5
+j  org.eclipse.swt.widgets.Display.msgFilterProc(JJJ)J+204
+v  ~StubRoutines::call_stub
+j  org.eclipse.swt.internal.win32.OS.GetOpenFileNameW(Lorg/eclipse/swt/internal/win32/OPENFILENAME;)Z+0
+j  org.eclipse.swt.internal.win32.OS.GetOpenFileName(Lorg/eclipse/swt/internal/win32/OPENFILENAME;)Z+7
+j  org.eclipse.swt.widgets.FileDialog.open()Ljava/lang/String;+897
+j  e4.com.geomodeller.app.context.swt.SWTUIcontext$4.run()V+165
+j  org.eclipse.swt.widgets.Synchronizer.syncExec(Ljava/lang/Runnable;)V+121
+j  org.eclipse.ui.internal.UISynchronizer.syncExec(Ljava/lang/Runnable;)V+91
+j  org.eclipse.swt.widgets.Display.syncExec(Ljava/lang/Runnable;)V+64
+j  e4.com.geomodeller.app.context.swt.SWTUIcontext.chooseFile(Lcom/dfa/ui/UIcontext$FileChooser;)Z+302
+j  com.dfa.ui.UserInterfaceModel.chooseFile(Lcom/dfa/ui/UIcontext$FileChooser;)Z+12
+j  com.dfa.ui.FileChooser.showOpenDialog(Lcom/dfa/ui/UIcontext;)Z+10
+j  e4.com.geomodeller.app.handlers.OpenHandler.execute(Lorg/eclipse/e4/ui/model/application/ui/MUIElement;Lorg/eclipse/e4/core/contexts/IEclipseContext;Ljava/io/File;Ljava/io/File;Ljava/lang/String;)V+180
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+J  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+57
+J  org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Object;Lorg/eclipse/e4/core/di/suppliers/PrimaryObjectSupplier;Lorg/eclipse/e4/core/di/suppliers/PrimaryObjectSupplier;Z)Ljava/lang/Object;
+J  org.eclipse.e4.core.internal.di.InjectorImpl.invoke(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/Object;Lorg/eclipse/e4/core/di/suppliers/PrimaryObjectSupplier;Lorg/eclipse/e4/core/di/suppliers/PrimaryObjectSupplier;)Ljava/lang/Object;
+j  org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(Ljava/lang/Object;Ljava/lang/Class;Lorg/eclipse/e4/core/contexts/IEclipseContext;Lorg/eclipse/e4/core/contexts/IEclipseContext;Ljava/lang/Object;)Ljava/lang/Object;+29
+j  org.eclipse.e4.ui.workbench.renderers.swt.DirectContributionItem.executeItem(Lorg/eclipse/swt/widgets/Event;)V+50
+j  org.eclipse.e4.ui.workbench.renderers.swt.DirectContributionItem.handleWidgetSelection(Lorg/eclipse/swt/widgets/Event;)V+123
+j  org.eclipse.e4.ui.workbench.renderers.swt.DirectContributionItem.access$1(Lorg/eclipse/e4/ui/workbench/renderers/swt/DirectContributionItem;Lorg/eclipse/swt/widgets/Event;)V+2
+j  org.eclipse.e4.ui.workbench.renderers.swt.DirectContributionItem$2.handleEvent(Lorg/eclipse/swt/widgets/Event;)V+55
+J  org.eclipse.swt.widgets.EventTable.sendEvent(Lorg/eclipse/swt/widgets/Event;)V
+j  org.eclipse.swt.widgets.Widget.sendEvent(Lorg/eclipse/swt/widgets/Event;)V+25
+j  org.eclipse.swt.widgets.Display.runDeferredEvents()Z+92
+j  org.eclipse.swt.widgets.Display.readAndDispatch()Z+69
+j  org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run()V+638
+j  org.eclipse.core.databinding.observable.Realm.runWithDefault(Lorg/eclipse/core/databinding/observable/Realm;Ljava/lang/Runnable;)V+12
+j  org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(Lorg/eclipse/e4/ui/model/application/MApplicationElement;Lorg/eclipse/e4/core/contexts/IEclipseContext;)Ljava/lang/Object;+57
+j  org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(Lorg/eclipse/e4/ui/model/application/MApplicationElement;)V+20
+j  org.eclipse.ui.internal.Workbench$5.run()V+236
+j  org.eclipse.core.databinding.observable.Realm.runWithDefault(Lorg/eclipse/core/databinding/observable/Realm;Ljava/lang/Runnable;)V+12
+j  org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+18
+j  org.eclipse.ui.PlatformUI.createAndRunWorkbench(Lorg/eclipse/swt/widgets/Display;Lorg/eclipse/ui/application/WorkbenchAdvisor;)I+2
+j  e4.com.geomodeller.app.Application.start(Lorg/eclipse/equinox/app/IApplicationContext;)Ljava/lang/Object;+26
+j  org.eclipse.equinox.internal.app.EclipseAppHandle.run(Ljava/lang/Object;)Ljava/lang/Object;+135
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Ljava/lang/Object;)Ljava/lang/Object;+103
+j  org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Ljava/lang/Object;)Ljava/lang/Object;+29
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run(Ljava/lang/Object;)Ljava/lang/Object;+119
+j  org.eclipse.core.runtime.adaptor.EclipseStarter.run([Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Object;+183
+v  ~StubRoutines::call_stub
+j  sun.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+0
+j  sun.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+87
+j  sun.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+6
+j  java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;+57
+j  org.eclipse.equinox.launcher.Main.invokeFramework([Ljava/lang/String;[Ljava/net/URL;)V+211
+j  org.eclipse.equinox.launcher.Main.basicRun([Ljava/lang/String;)V+126
+j  org.eclipse.equinox.launcher.Main.run([Ljava/lang/String;)I+4
+j  org.eclipse.equinox.launcher.Main.main([Ljava/lang/String;)V+10
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000000f51f800 JavaThread "Swing-Shell" daemon [_thread_blocked, id=4412, stack(0x0000000015070000,0x0000000015170000)]
+  0x000000000f518800 JavaThread "Image Fetcher 0" daemon [_thread_blocked, id=924, stack(0x0000000014ef0000,0x0000000014ff0000)]
+  0x000000000f517000 JavaThread "Worker-4" [_thread_blocked, id=6340, stack(0x0000000014d30000,0x0000000014e30000)]
+  0x000000000f522800 JavaThread "dfa-FSWatcher[0]-1" daemon [_thread_blocked, id=5072, stack(0x000000001fa70000,0x000000001fb70000)]
+  0x000000000f521800 JavaThread "Thread-11" daemon [_thread_in_native, id=6548, stack(0x0000000021740000,0x0000000021840000)]
+  0x000000000f520000 JavaThread "pool-2-thread-1" [_thread_blocked, id=1804, stack(0x000000001fdd0000,0x000000001fed0000)]
+  0x000000000f51c800 JavaThread "[ThreadPool Manager] - Idle Thread" daemon [_thread_blocked, id=4892, stack(0x000000001fba0000,0x000000001fca0000)]
+  0x000000000f521000 JavaThread "pool-5-thread-1" [_thread_blocked, id=3212, stack(0x0000000019f70000,0x000000001a070000)]
+  0x000000000f51e800 JavaThread "JobManager.Timer" [_thread_blocked, id=7116, stack(0x0000000016a80000,0x0000000016b80000)]
+  0x000000000f51e000 JavaThread "StatusPanel.ProgressUpdater" [_thread_blocked, id=2488, stack(0x0000000019830000,0x0000000019930000)]
+  0x000000000f51d000 JavaThread "TimerQueue" daemon [_thread_blocked, id=5064, stack(0x00000000196d0000,0x00000000197d0000)]
+  0x000000000f51b800 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=2512, stack(0x0000000019390000,0x0000000019490000)]
+  0x000000000f515800 JavaThread "AWT-Shutdown" [_thread_blocked, id=540, stack(0x00000000191c0000,0x00000000192c0000)]
+  0x000000000f516800 JavaThread "Worker-2" [_thread_blocked, id=5184, stack(0x00000000156a0000,0x00000000157a0000)]
+  0x000000000f51a000 JavaThread "EventAdmin Async Event Dispatcher Thread" daemon [_thread_blocked, id=6696, stack(0x0000000016810000,0x0000000016910000)]
+  0x000000000f519800 JavaThread "dfa.memorychecker[0]" daemon [_thread_blocked, id=4172, stack(0x0000000011ed0000,0x0000000011fd0000)]
+  0x000000000f514000 JavaThread "Worker-1" [_thread_blocked, id=4192, stack(0x0000000011d30000,0x0000000011e30000)]
+  0x000000000f515000 JavaThread "Bundle File Closer" daemon [_thread_blocked, id=5252, stack(0x0000000014a60000,0x0000000014b60000)]
+  0x000000000e525800 JavaThread "AWT-Windows" daemon [_thread_in_native, id=5980, stack(0x0000000011c30000,0x0000000011d30000)]
+  0x000000000e607800 JavaThread "Java2D Disposer" daemon [_thread_blocked, id=6224, stack(0x00000000119f0000,0x0000000011af0000)]
+  0x000000000d484800 JavaThread "EMF Reference Cleaner" daemon [_thread_blocked, id=6088, stack(0x0000000010370000,0x0000000010470000)]
+  0x000000000e28a800 JavaThread "Worker-JM" [_thread_blocked, id=4864, stack(0x000000000f0f0000,0x000000000f1f0000)]
+  0x000000000e015800 JavaThread "[Timer] - Main Queue Handler" daemon [_thread_blocked, id=3548, stack(0x000000000ef80000,0x000000000f080000)]
+  0x000000000d388000 JavaThread "Framework Event Dispatcher" daemon [_thread_blocked, id=6384, stack(0x000000000ee40000,0x000000000ef40000)]
+  0x000000000e137800 JavaThread "Start Level Event Dispatcher" daemon [_thread_blocked, id=4948, stack(0x000000000ec50000,0x000000000ed50000)]
+  0x000000000d69f000 JavaThread "State Data Manager" daemon [_thread_blocked, id=3820, stack(0x000000000e800000,0x000000000e900000)]
+  0x000000000d605800 JavaThread "Framework Active Thread" [_thread_blocked, id=4608, stack(0x000000000e960000,0x000000000ea60000)]
+  0x000000000b5e2800 JavaThread "Service Thread" daemon [_thread_blocked, id=3616, stack(0x000000000d030000,0x000000000d130000)]
+  0x000000000b5e0000 JavaThread "C2 CompilerThread1" daemon [_thread_blocked, id=2204, stack(0x000000000cde0000,0x000000000cee0000)]
+  0x000000000b5db000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=6424, stack(0x000000000c750000,0x000000000c850000)]
+  0x000000000b5da000 JavaThread "Attach Listener" daemon [_thread_blocked, id=6484, stack(0x000000000ccd0000,0x000000000cdd0000)]
+  0x000000000b5d3000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=3676, stack(0x000000000cb40000,0x000000000cc40000)]
+  0x00000000020d3800 JavaThread "Finalizer" daemon [_thread_blocked, id=2016, stack(0x000000000c9c0000,0x000000000cac0000)]
+  0x00000000020d2000 JavaThread "Reference Handler" daemon [_thread_blocked, id=4912, stack(0x000000000c8a0000,0x000000000c9a0000)]
+=>0x000000000213e800 JavaThread "main" [_thread_in_native, id=5796, stack(0x0000000002460000,0x0000000002560000)]
+
+Other Threads:
+  0x000000000b553000 VMThread [stack: 0x000000000c600000,0x000000000c700000] [id=5040]
+  0x000000000b5fb800 WatcherThread [stack: 0x000000000d1a0000,0x000000000d2a0000] [id=6328]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ PSYoungGen      total 124608K, used 11861K [0x00000007d5e00000, 0x00000007de260000, 0x0000000800000000)
+  eden space 124416K, 9% used [0x00000007d5e00000,0x00000007d6995648,0x00000007dd780000)
+  from space 192K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007dd7b0000)
+  to   space 5568K, 0% used [0x00000007ddcf0000,0x00000007ddcf0000,0x00000007de260000)
+ ParOldGen       total 86272K, used 35023K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c33fc0,0x0000000786e40000)
+ PSPermGen       total 72000K, used 71879K [0x000000077c800000, 0x0000000780e50000, 0x0000000781a00000)
+  object space 72000K, 99% used [0x000000077c800000,0x0000000780e31e88,0x0000000780e50000)
+
+Card table byte_map: [0x0000000005560000,0x0000000005980000] byte_map_base: 0x000000000197c000
+
+Polling page: 0x0000000000330000
+
+Code Cache  [0x0000000002560000, 0x0000000002b50000, 0x0000000005560000)
+ total_blobs=2923 nmethods=1593 adapters=1278 free_code_cache=43201Kb largest_free_block=44151360
+
+Compilation events (10 events):
+Event: 433.431 Thread 0x000000000b5db000   42 %           com.dfa.gui.choosers.FileMagicNoContains::matches @ 73 (108 bytes)
+Event: 433.432 Thread 0x000000000b5e0000   43 %           sun.nio.cs.SingleByte$Decoder::decode @ 14 (63 bytes)
+Event: 433.434 Thread 0x000000000b5db000 nmethod 42% 0x0000000002b34910 code [0x0000000002b34a60, 0x0000000002b34c18]
+Event: 433.435 Thread 0x000000000b5db000 1702             com.dfa.gui.choosers.FileMagicNoContains::matches (108 bytes)
+Event: 433.436 Thread 0x000000000b5e0000 nmethod 43% 0x0000000002b3e210 code [0x0000000002b3e360, 0x0000000002b3e6b8]
+Event: 433.437 Thread 0x000000000b5db000 nmethod 1702 0x0000000002b3ddd0 code [0x0000000002b3df20, 0x0000000002b3e0d8]
+Event: 433.439 Thread 0x000000000b5e0000 1703             sun.nio.cs.SingleByte$Decoder::decode (63 bytes)
+Event: 433.442 Thread 0x000000000b5e0000 nmethod 1703 0x0000000002b3d910 code [0x0000000002b3da40, 0x0000000002b3dcd8]
+Event: 433.747 Thread 0x000000000b5db000 1704             org.eclipse.emf.ecore.util.EcoreUtil$Copier::copyReferences (433 bytes)
+Event: 433.763 Thread 0x000000000b5db000 nmethod 1704 0x0000000002b428d0 code [0x0000000002b42b60, 0x0000000002b43940]
+
+GC Heap History (10 events):
+Event: 410.502 GC heap before
+{Heap before GC invocations=84 (full 39):
+ PSYoungGen      total 124480K, used 64K [0x00000007d5e00000, 0x00000007de3e0000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 64K, 100% used [0x00000007dd780000,0x00000007dd790000,0x00000007dd790000)
+  to   space 6336K, 0% used [0x00000007dddb0000,0x00000007dddb0000,0x00000007de3e0000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70592K, used 70062K [0x000000077c800000, 0x0000000780cf0000, 0x0000000781a00000)
+  object space 70592K, 99% used [0x000000077c800000,0x0000000780c6b978,0x0000000780cf0000)
+Event: 410.627 GC heap after
+Heap after GC invocations=84 (full 39):
+ PSYoungGen      total 124480K, used 0K [0x00000007d5e00000, 0x00000007de3e0000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 64K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007dd790000)
+  to   space 6336K, 0% used [0x00000007dddb0000,0x00000007dddb0000,0x00000007de3e0000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70062K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6b978,0x0000000780ce0000)
+}
+Event: 420.500 GC heap before
+{Heap before GC invocations=85 (full 39):
+ PSYoungGen      total 124480K, used 2496K [0x00000007d5e00000, 0x00000007de3e0000, 0x0000000800000000)
+  eden space 124416K, 2% used [0x00000007d5e00000,0x00000007d60701b8,0x00000007dd780000)
+  from space 64K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007dd790000)
+  to   space 6336K, 0% used [0x00000007dddb0000,0x00000007dddb0000,0x00000007de3e0000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70062K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6b998,0x0000000780ce0000)
+Event: 420.502 GC heap after
+Heap after GC invocations=85 (full 39):
+ PSYoungGen      total 129984K, used 64K [0x00000007d5e00000, 0x00000007de320000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 5568K, 1% used [0x00000007dddb0000,0x00000007dddc0000,0x00000007de320000)
+  to   space 5952K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007ddd50000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70062K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6b998,0x0000000780ce0000)
+}
+Event: 420.502 GC heap before
+{Heap before GC invocations=86 (full 40):
+ PSYoungGen      total 129984K, used 64K [0x00000007d5e00000, 0x00000007de320000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 5568K, 1% used [0x00000007dddb0000,0x00000007dddc0000,0x00000007de320000)
+  to   space 5952K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007ddd50000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70062K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6b998,0x0000000780ce0000)
+Event: 420.628 GC heap after
+Heap after GC invocations=86 (full 40):
+ PSYoungGen      total 129984K, used 0K [0x00000007d5e00000, 0x00000007de320000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 5568K, 0% used [0x00000007dddb0000,0x00000007dddb0000,0x00000007de320000)
+  to   space 5952K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007ddd50000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70062K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6b998,0x0000000780ce0000)
+}
+Event: 430.500 GC heap before
+{Heap before GC invocations=87 (full 40):
+ PSYoungGen      total 129984K, used 6986K [0x00000007d5e00000, 0x00000007de320000, 0x0000000800000000)
+  eden space 124416K, 5% used [0x00000007d5e00000,0x00000007d64d2890,0x00000007dd780000)
+  from space 5568K, 0% used [0x00000007dddb0000,0x00000007dddb0000,0x00000007de320000)
+  to   space 5952K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007ddd50000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70065K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6c6e8,0x0000000780ce0000)
+Event: 430.503 GC heap after
+Heap after GC invocations=87 (full 40):
+ PSYoungGen      total 124608K, used 160K [0x00000007d5e00000, 0x00000007de260000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 192K, 83% used [0x00000007dd780000,0x00000007dd7a8000,0x00000007dd7b0000)
+  to   space 5568K, 0% used [0x00000007ddcf0000,0x00000007ddcf0000,0x00000007de260000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70065K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6c6e8,0x0000000780ce0000)
+}
+Event: 430.503 GC heap before
+{Heap before GC invocations=88 (full 41):
+ PSYoungGen      total 124608K, used 160K [0x00000007d5e00000, 0x00000007de260000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 192K, 83% used [0x00000007dd780000,0x00000007dd7a8000,0x00000007dd7b0000)
+  to   space 5568K, 0% used [0x00000007ddcf0000,0x00000007ddcf0000,0x00000007de260000)
+ ParOldGen       total 86272K, used 34966K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c25878,0x0000000786e40000)
+ PSPermGen       total 70528K, used 70065K [0x000000077c800000, 0x0000000780ce0000, 0x0000000781a00000)
+  object space 70528K, 99% used [0x000000077c800000,0x0000000780c6c6e8,0x0000000780ce0000)
+Event: 430.632 GC heap after
+Heap after GC invocations=88 (full 41):
+ PSYoungGen      total 124608K, used 0K [0x00000007d5e00000, 0x00000007de260000, 0x0000000800000000)
+  eden space 124416K, 0% used [0x00000007d5e00000,0x00000007d5e00000,0x00000007dd780000)
+  from space 192K, 0% used [0x00000007dd780000,0x00000007dd780000,0x00000007dd7b0000)
+  to   space 5568K, 0% used [0x00000007ddcf0000,0x00000007ddcf0000,0x00000007de260000)
+ ParOldGen       total 86272K, used 35023K [0x0000000781a00000, 0x0000000786e40000, 0x00000007d5e00000)
+  object space 86272K, 40% used [0x0000000781a00000,0x0000000783c33fc0,0x0000000786e40000)
+ PSPermGen       total 70464K, used 70065K [0x000000077c800000, 0x0000000780cd0000, 0x0000000781a00000)
+  object space 70464K, 99% used [0x000000077c800000,0x0000000780c6c688,0x0000000780cd0000)
+}
+
+Deoptimization events (10 events):
+Event: 433.333 Thread 0x000000000213e800 Uncommon trap -83 fr.pc 0x0000000002a3c1d0
+Event: 433.349 Thread 0x000000000213e800 Uncommon trap -42 fr.pc 0x00000000029b4660
+Event: 433.352 Thread 0x000000000213e800 Uncommon trap -34 fr.pc 0x00000000029d4bec
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -42 fr.pc 0x00000000029b4660
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -42 fr.pc 0x00000000029b4714
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -34 fr.pc 0x00000000029d4bec
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -34 fr.pc 0x00000000029d4bec
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -42 fr.pc 0x00000000029b45b4
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -42 fr.pc 0x00000000029b45b4
+Event: 433.515 Thread 0x000000000f51b800 Uncommon trap -34 fr.pc 0x00000000029d4bec
+
+Internal exceptions (10 events):
+Event: 433.647 Thread 0x000000000f523000 Threw 0x00000007d6913978 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.647 Thread 0x000000000f523000 Threw 0x00000007d69140b0 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.647 Thread 0x000000000f523000 Threw 0x00000007d6914808 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.648 Thread 0x000000000f523000 Threw 0x00000007d6914f60 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.648 Thread 0x000000000f523000 Threw 0x00000007d6915698 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.648 Thread 0x000000000f523000 Threw 0x00000007d6915e28 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.649 Thread 0x000000000f523000 Threw 0x00000007d6916e00 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.649 Thread 0x000000000f523000 Threw 0x00000007d6917508 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.650 Thread 0x000000000f523000 Threw 0x00000007d6918630 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+Event: 433.650 Thread 0x000000000f523000 Threw 0x00000007d6919308 at C:\jdk7u2_64p\jdk7u21\hotspot\src\share\vm\interpreter\linkResolver.cpp:805
+
+Events (10 events):
+Event: 433.652 loading class 0x00000000020cd3d0
+Event: 433.652 loading class 0x00000000020cd3d0 done
+Event: 433.652 loading class 0x000000000b552a10 done
+Event: 433.652 loading class 0x000000001600c250
+Event: 433.652 loading class 0x000000001600c250 done
+Event: 433.652 loading class 0x000000000d454160
+Event: 433.652 loading class 0x000000000d454160 done
+Event: 433.653 Executing VM operation: RevokeBias
+Event: 433.653 Executing VM operation: RevokeBias done
+Event: 433.653 Thread 0x000000000f523000 Thread exited: 0x000000000f523000
+
+
+Dynamic libraries:
+0x000000013f040000 - 0x000000013f073000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\javaw.exe
+0x0000000077a50000 - 0x0000000077bf9000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000077830000 - 0x000000007794f000 	C:\Windows\system32\kernel32.dll
+0x000007fefd8c0000 - 0x000007fefd92b000 	C:\Windows\system32\KERNELBASE.dll
+0x000007feff440000 - 0x000007feff51b000 	C:\Windows\system32\ADVAPI32.dll
+0x000007feff640000 - 0x000007feff6df000 	C:\Windows\system32\msvcrt.dll
+0x000007feff230000 - 0x000007feff24f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefdce0000 - 0x000007fefde0d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077950000 - 0x0000000077a4a000 	C:\Windows\system32\USER32.dll
+0x000007feffae0000 - 0x000007feffb47000 	C:\Windows\system32\GDI32.dll
+0x000007feff250000 - 0x000007feff25e000 	C:\Windows\system32\LPK.dll
+0x000007feff960000 - 0x000007feffa29000 	C:\Windows\system32\USP10.dll
+0x000007fefc1c0000 - 0x000007fefc3b4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007feffa30000 - 0x000007feffaa1000 	C:\Windows\system32\SHLWAPI.dll
+0x000007feffab0000 - 0x000007feffade000 	C:\Windows\system32\IMM32.DLL
+0x000007feff520000 - 0x000007feff629000 	C:\Windows\system32\MSCTF.dll
+0x0000000067630000 - 0x0000000067701000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\msvcr100.dll
+0x000000005d5a0000 - 0x000000005dcc1000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\server\jvm.dll
+0x000007fef7e90000 - 0x000007fef7e99000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff910000 - 0x000007feff95d000 	C:\Windows\system32\WS2_32.dll
+0x000007feff630000 - 0x000007feff638000 	C:\Windows\system32\NSI.dll
+0x000007fefb580000 - 0x000007fefb5bb000 	C:\Windows\system32\WINMM.dll
+0x0000000077c20000 - 0x0000000077c27000 	C:\Windows\system32\PSAPI.DLL
+0x0000000071af0000 - 0x0000000071aff000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\verify.dll
+0x0000000071ac0000 - 0x0000000071ae8000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\java.dll
+0x00000000719c0000 - 0x00000000719d5000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\zip.dll
+0x000007fefd0a0000 - 0x000007fefd0b7000 	C:\Windows\system32\CRYPTSP.dll
+0x000007fefcda0000 - 0x000007fefcde7000 	C:\Windows\system32\rsaenh.dll
+0x000007fefcb50000 - 0x000007fefcb6e000 	C:\Windows\system32\USERENV.dll
+0x000007fefd810000 - 0x000007fefd81f000 	C:\Windows\system32\profapi.dll
+0x000007fefd700000 - 0x000007fefd70f000 	C:\Windows\system32\CRYPTBASE.dll
+0x00000000719e0000 - 0x00000000719f9000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\net.dll
+0x000007fefd040000 - 0x000007fefd095000 	C:\Windows\system32\mswsock.dll
+0x000007fefd030000 - 0x000007fefd037000 	C:\Windows\System32\wship6.dll
+0x000007fefb5c0000 - 0x000007fefb5d5000 	C:\Windows\system32\NLAapi.dll
+0x000007fef8010000 - 0x000007fef8025000 	C:\Windows\system32\napinsp.dll
+0x000007fef7ff0000 - 0x000007fef8009000 	C:\Windows\system32\pnrpnsp.dll
+0x000007fefcec0000 - 0x000007fefcf1b000 	C:\Windows\system32\DNSAPI.dll
+0x000007fef7fe0000 - 0x000007fef7feb000 	C:\Windows\System32\winrnr.dll
+0x000007fef7fd0000 - 0x000007fef7fe0000 	C:\Windows\system32\wshbth.dll
+0x000007fefca20000 - 0x000007fefca27000 	C:\Windows\System32\wshtcpip.dll
+0x000007fefb0e0000 - 0x000007fefb107000 	C:\Windows\system32\IPHLPAPI.DLL
+0x000007fefb0c0000 - 0x000007fefb0cb000 	C:\Windows\system32\WINNSI.DLL
+0x000007fef7fc0000 - 0x000007fef7fc8000 	C:\Windows\system32\rasadhlp.dll
+0x000007fefafa0000 - 0x000007fefaff3000 	C:\Windows\System32\fwpuclnt.dll
+0x0000000071790000 - 0x00000000717a1000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\nio.dll
+0x0000000072000000 - 0x0000000072012000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20130807-1835\eclipse_1503.dll
+0x000007fefc950000 - 0x000007fefc95c000 	C:\Windows\system32\VERSION.dll
+0x000007fefbfe0000 - 0x000007fefc036000 	C:\Windows\system32\uxtheme.dll
+0x000007feffb50000 - 0x000007feffd53000 	C:\Windows\system32\ole32.dll
+0x000000000b390000 - 0x000000000b438000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\configuration\org.eclipse.osgi\bundles\180\1\.cp\swt-win32-4333.dll
+0x000007fefdff0000 - 0x000007fefe0c7000 	C:\Windows\system32\OLEAUT32.dll
+0x000007fefee80000 - 0x000007fefef17000 	C:\Windows\system32\comdlg32.dll
+0x000007fefe0f0000 - 0x000007fefee78000 	C:\Windows\system32\SHELL32.dll
+0x000007fef9620000 - 0x000007fef9691000 	C:\Windows\system32\WINSPOOL.DRV
+0x000007feff6e0000 - 0x000007feff90f000 	C:\Windows\system32\WININET.dll
+0x000007fefd9e0000 - 0x000007fefd9e4000 	C:\Windows\system32\api-ms-win-downlevel-user32-l1-1-0.dll
+0x000007fefda10000 - 0x000007fefda14000 	C:\Windows\system32\api-ms-win-downlevel-shlwapi-l1-1-0.dll
+0x000007fefdc30000 - 0x000007fefdc34000 	C:\Windows\system32\api-ms-win-downlevel-version-l1-1-0.dll
+0x000007fefdbd0000 - 0x000007fefdbd3000 	C:\Windows\system32\api-ms-win-downlevel-normaliz-l1-1-0.dll
+0x0000000077c10000 - 0x0000000077c13000 	C:\Windows\system32\normaliz.DLL
+0x000007fefef80000 - 0x000007feff229000 	C:\Windows\system32\iertutil.dll
+0x000007fefdbe0000 - 0x000007fefdbe5000 	C:\Windows\system32\api-ms-win-downlevel-advapi32-l1-1-0.dll
+0x000007fefda60000 - 0x000007fefdbcc000 	C:\Windows\system32\CRYPT32.dll
+0x000007fefd8b0000 - 0x000007fefd8bf000 	C:\Windows\system32\MSASN1.dll
+0x000007fefb7d0000 - 0x000007fefb7e8000 	C:\Windows\system32\dwmapi.dll
+0x000007fefc040000 - 0x000007fefc16c000 	C:\Windows\system32\propsys.dll
+0x000007fefdc40000 - 0x000007fefdcd9000 	C:\Windows\system32\CLBCatQ.DLL
+0x00000000022c0000 - 0x00000000022de000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\configuration\org.eclipse.osgi\bundles\180\1\.cp\swt-gdip-win32-4333.dll
+0x000007fefbdc0000 - 0x000007fefbfd6000 	C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.18120_none_2b25b14c71ebf230\gdiplus.dll
+0x000007fefb160000 - 0x000007fefb2c1000 	C:\Windows\system32\WindowsCodecs.dll
+0x000007fef50f0000 - 0x000007fef52bb000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\swigjni.dll
+0x000007feee420000 - 0x000007feee647000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKernel.dll
+0x000007fef6db0000 - 0x000007fef6e57000 	C:\Windows\system32\MSVCP110.dll
+0x000007fef5fe0000 - 0x000007fef60b4000 	C:\Windows\system32\MSVCR110.dll
+0x000007fef5880000 - 0x000007fef59cf000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKdfaCommon.dll
+0x000007fef80c0000 - 0x000007fef80fc000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\tbb.dll
+0x0000000180000000 - 0x000000018001a000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\pthreadVC2.dll
+0x000007fef8030000 - 0x000007fef80bf000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\unixtool.dll
+0x000007fef8440000 - 0x000007fef8462000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\modules.dll
+0x000007fefaef0000 - 0x000007fefaf00000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\token.dll
+0x000007fef8950000 - 0x000007fef8970000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfajni.dll
+0x000007fef5ba0000 - 0x000007fef5c17000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfaparser.dll
+0x0000000012000000 - 0x0000000012263000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\xerces-c_3_1.dll
+0x000007fef5820000 - 0x000007fef5879000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\application.dll
+0x000007feeee30000 - 0x000007feef075000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkCommon.dll
+0x000007fef5c60000 - 0x000007fef5c9f000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtksys.dll
+0x000007feee120000 - 0x000007feee412000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkFiltering.dll
+0x000007fef57f0000 - 0x000007fef5814000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\urlpath.dll
+0x000007fef5410000 - 0x000007fef545e000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\Misc.dll
+0x000007fefa330000 - 0x000007fefa344000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\datalib.dll
+0x000007fef5300000 - 0x000007fef5410000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\proj.dll
+0x000007feeecd0000 - 0x000007feeee2e000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfamitab.dll
+0x000007fef5090000 - 0x000007fef50e2000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfacpl.dll
+0x000007feeaca0000 - 0x000007feeb3c5000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\ioclass.dll
+0x000007fef8900000 - 0x000007fef891e000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfazlib-1_2_3.dll
+0x000007fef5050000 - 0x000007fef5088000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfapng-1_5_13.dll
+0x000007fef2450000 - 0x000007fef2531000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\netcdf4.dll
+0x000007fefb0b0000 - 0x000007fefb0c0000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dbase3.dll
+0x000007fef3090000 - 0x000007fef30db000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfajpeg-8d.dll
+0x000007fef35a0000 - 0x000007fef35f9000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfatiff.dll
+0x000007fef31a0000 - 0x000007fef31c6000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfageotiff.dll
+0x000007feedc10000 - 0x000007feee113000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\protobuf_dfataskmanager.dll
+0x000007feecc30000 - 0x000007feed040000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkIO.dll
+0x000007fef27d0000 - 0x000007fef27f1000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkDICOMParser.dll
+0x000007fef25c0000 - 0x000007fef2686000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkNetCDF.dll
+0x000007feeca20000 - 0x000007feecc26000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkhdf5.dll
+0x000007fef8420000 - 0x000007fef8435000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkzlib.dll
+0x000007fef27a0000 - 0x000007fef27cd000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkhdf5_hl.dll
+0x000007fef5c40000 - 0x000007fef5c60000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkNetCDF_cxx.dll
+0x000007fef52e0000 - 0x000007fef52f8000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\LSDyna.dll
+0x000007fef13c0000 - 0x000007fef144f000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkmetaio.dll
+0x000007fef2420000 - 0x000007fef2444000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkpng.dll
+0x000007fef2770000 - 0x000007fef2797000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkjpeg.dll
+0x000007fef1f40000 - 0x000007fef1f91000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtktiff.dll
+0x000007fef23f0000 - 0x000007fef2413000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\vtkexpat.dll
+0x000007fef4bc0000 - 0x000007fef4bdf000 	C:\Windows\system32\AVIFIL32.dll
+0x000007fef1fd0000 - 0x000007fef1fe8000 	C:\Windows\system32\MSACM32.dll
+0x000007fef1f10000 - 0x000007fef1f39000 	C:\Windows\system32\MSVFW32.dll
+0x000007fef0d60000 - 0x000007fef0d99000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\dfageom.dll
+0x000007fef1ec0000 - 0x000007fef1f0e000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\audit.dll
+0x000007feedba0000 - 0x000007feedc03000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\iosubset.dll
+0x000007feed6c0000 - 0x000007feed892000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\importseismiclib.dll
+0x000007feec8b0000 - 0x000007feeca12000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKMath.dll
+0x000007feedaa0000 - 0x000007feedb95000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKG3d.dll
+0x000007feed650000 - 0x000007feed6ba000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKG2d.dll
+0x000007fee9cc0000 - 0x000007feeac91000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TKEG.dll
+0x000007fee9b30000 - 0x000007fee9cbd000 	C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\TK3deditbase.dll
+
+VM Arguments:
+jvm_args: -Declipse.rcp=true -Ddfa.persist.filechooser.location=true -Djava.net.useSystemProxies=true -Dsun.awt.noerasebackground=true -Dmaximize.on.startup=true -XX:OnError=BugReport.exe hs_err_pid%p.log 
+java_command: C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\plugins\org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar -os win32 -ws win32 -arch x86_64 -showsplash -launcher C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\geomodeller.exe -name Geomodeller --launcher.library C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20130807-1835\eclipse_1503.dll -startup C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\plugins\org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar --launcher.overrideVmargs -exitdata 978_5c -vm C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\\./javaw.exe -vmargs -Declipse.rcp=true -Ddfa.persist.filechooser.location=true -Djava.net.useSystemProxies=true -Dsun.awt.noerasebackground=true -Dmaximize.on.startup=true -XX:OnError=BugReport.exe hs_err_pid%p.log -jar C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\plugins\org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft Windows Performance Toolkit\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseHg\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\MiKTeX 2.9\miktex\bin\;C:\Program Files (x86)\MySQL\MySQL Server 4.1\bin;D:\Tools\PuTTY;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\omsys\common\bin;C:\pkg-vc10-x64\GeographicLib-1.32\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64;C:\Intrepid\Intrepid5.5.0.cbab84fdd4c1+_x64\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit\;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\
+USERNAME=develop
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8280236k(4774692k free), swap 8826424k(4765332k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (23.21-b01) for windows-amd64 JRE (1.7.0_21-b11), built on Apr  4 2013 08:11:28 by "java_re" with unknown MS VC++:1600
+
+time: Tue May 12 10:57:47 2015
+elapsed time: 433 seconds
+

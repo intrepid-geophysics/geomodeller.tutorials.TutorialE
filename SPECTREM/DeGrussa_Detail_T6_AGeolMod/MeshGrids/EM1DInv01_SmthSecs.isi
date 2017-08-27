@@ -1,0 +1,166 @@
+MetaData Begin
+	Name	= EM1DInv01_SmthSecs.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	node_Res Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Res
+		Units	= "none"
+	node_Res End
+	node_LogRes Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogRes
+		Units	= "none"
+	node_LogRes End
+	node_Cond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Cond
+		Units	= "none"
+	node_Cond End
+	node_LogCond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogCond
+		Units	= "none"
+	node_LogCond End
+	node_X_Coord Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= X_Coord
+		Units	= "none"
+	node_X_Coord End
+	node_Y_Coord Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Y_Coord
+		Units	= "none"
+	node_Y_Coord End
+	node_Z_Coord Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Z_Coord
+		Units	= "none"
+	node_Z_Coord End
+	node_Res_11250 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Res_11250
+		Units	= "none"
+	node_Res_11250 End
+	node_Current_Model_Grid Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Lithology
+		Units	= "Lithology"
+	node_Current_Model_Grid End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= EM1DInv01_SmthSecs
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		XYZ Begin
+			Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 11192
+		XYZ End
+		FieldData Begin
+			Res Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Res
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Res
+				NumElem	= 11192
+			Res End
+			LogRes Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= LogRes
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogRes
+				NumElem	= 11192
+			LogRes End
+			Cond Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Cond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Cond
+				NumElem	= 11192
+			Cond End
+			LogCond Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= LogCond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogCond
+				NumElem	= 11192
+			LogCond End
+			X_Coord Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= X_Coord
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= X_Coord
+				NumElem	= 11192
+			X_Coord End
+			Y_Coord Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Y_Coord
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Y_Coord
+				NumElem	= 11192
+			Y_Coord End
+			Z_Coord Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Z_Coord
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Z_Coord
+				NumElem	= 11192
+			Z_Coord End
+			Res_11250 Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Res_11250
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Res_11250
+				NumElem	= 11192
+			Res_11250 End
+			Current_Model_Grid Begin
+				Resource	= EM1DInv01_SmthSecs.igmesh/node..DIR
+				Name	= Current_Model_Grid
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= Lithology
+				Alias	= Lithology
+				NumElem	= 11192
+			Current_Model_Grid End
+		FieldData End
+	MeshGrid End
+MetaData End

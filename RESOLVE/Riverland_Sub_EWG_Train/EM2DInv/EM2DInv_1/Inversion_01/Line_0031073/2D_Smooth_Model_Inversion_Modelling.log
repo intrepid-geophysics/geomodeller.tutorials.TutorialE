@@ -1,0 +1,1100 @@
+====================================================================================
+
+                2.5D   Electromagnetic Modelling / Inversion      
+====================================================================================
+
+
+                 ArjunAir started at 00:45 on 13 MAY 2015
+                      MPI process used     2 processors 
+
+       The solution will proceeed in faster mode with nky = 17 and nfreq = 24 
+
+      This inversion uses Marquard style damping on parameters on GSVD Decomposition of Model Norm and Sensitivity  Matrices 
+                                                     by Jovan Silic   
+  Normal Flight Direction 
+  S Norm Follows 
+           1   1772.900       1448.664    
+           2   1418.136       1156.018    
+           3   1233.404       969.6818    
+           4   955.9955       584.1545    
+           5   655.2679       331.1636    
+           6   407.9363       278.3818    
+           7   435.6363       180.4727    
+           8   435.0364       252.4727    
+           9   465.2181       398.2909    
+          10   433.6636       390.3545    
+          11   378.5818       235.1273    
+          12   165.7954       150.9818    
+
+
+  RMS error reduction based on using the Survey norm
+  --------------------------------------------------
+     PCTCNV =    1.000000    
+         MU =            2
+       RSVT =   0.2500000    
+  TGSVD_BND =   9.9999998E-03
+     ALPHAS =   4.9999999E-03
+     ALPHAX =    1.000000    
+     ALPHAZ =    1.000000    
+  Model Norm not referenced to the Starting Model 
+
+
+  Inversion Solver will be in Single Precision 
+  Average length of cells in  z direction is     7.028642    
+  Median Value of cell lengths in z direction is     3.000000    
+  Length Scale in X direction is    200.0000    
+  Length Scale in Z direction is    6.000000    
+  Alphas updated to   4.9999999E-03  based on horizontal cell width of    100.0000    
+  === FRONT    ELAPSED =   137.7801    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040436    
+   Alphax determined    1.029710    
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_01\
+  Sumsq Sums_Model Sumsq_Total    1008.942      0.0000000E+00   1008.942      at Iteration            1
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    1 Icnt_Loop    0 RSVT      0.250
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      1 0.1030E+01      1008.942         0.000                   1008.9424    60.8204     49.2241
+
+ Testing for optimum RSVT ... Old RSVT =   0.250
+  === FRONT    ELAPSED =   138.2949    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040436    
+  After Call Jacobian in Test For RSVT sumsq =    579.9970      at rsvt =   0.2500000    
+  === FRONT    ELAPSED =   61.15240    
+  ======== HYEY    ELAPSED =  1.5594482E-02
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    579.9970      at rsvt =   0.2500000    
+  === FRONT    ELAPSED =   61.07440    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    654.2822      at rsvt =   0.2973018    
+  === FRONT    ELAPSED =   61.10559    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =   0.0000000E+00
+  After Call Jacobian in Test For RSVT sumsq =    730.3535      at rsvt =   0.3535534    
+ RSVT test returns value for rsvt    0.354
+  === FRONT    ELAPSED =   138.3417    
+  ======== HYEY    ELAPSED =  1.5563965E-02
+  ===== SENS_FD ELAPSED =    4.040466    
+ Testing for optimum RSVT ... New RSVT =   0.354
+
+
+      5 0.1456E+01       739.182         0.000                    739.1822    42.1328     51.6749
+                                           2.3
+      5                                                             1008.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3875        0.1414        1.0000
+    error  -1.0082        1.5480        0.4084
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .14373E+01 with Sumsq and Model_Norm =    739.182     0.000
+
+
+  End of Iteration     1
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_02\
+  Sumsq Sums_Model Sumsq_Total    739.1822      0.0000000E+00   739.1822      at Iteration            2
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    2 Icnt_Loop    0 RSVT      0.308
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      2 0.1251E+01       739.182         0.000                    739.1822    51.6749     42.1328
+  === FRONT    ELAPSED =   138.4977    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040405    
+      5 0.1251E+01       513.361         0.000                    513.3615    35.1121     42.9570
+                                           9.0
+      5                                                              739.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.4834        0.1345        1.0000
+    error  -0.7453        1.5230        0.3386
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .11780E+01 with Sumsq and Model_Norm =    513.361     0.000
+
+
+  End of Iteration     2
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_03\
+  Sumsq Sums_Model Sumsq_Total    513.3615      0.0000000E+00   513.3615      at Iteration            3
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    3 Icnt_Loop    0 RSVT      0.268
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      3 0.1026E+01       513.361         0.000                    513.3615    42.9570     35.1121
+  === FRONT    ELAPSED =   138.5913    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040405    
+      5 0.1026E+01       341.400         0.000                    341.4002    28.6336     35.4015
+                                          18.8
+      5                                                              513.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3829        0.1263        1.0000
+    error  -0.5342        1.4573        0.2734
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .10122E+01 with Sumsq and Model_Norm =    341.400     0.000
+
+
+  End of Iteration     3
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_04\
+  Sumsq Sums_Model Sumsq_Total    341.4002      0.0000000E+00   341.4002      at Iteration            4
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    4 Icnt_Loop    0 RSVT      0.233
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      4 0.8812E+00       341.400         0.000                    341.4002    35.4015     28.6336
+  === FRONT    ELAPSED =   138.5602    
+  ======== HYEY    ELAPSED =  1.5502930E-02
+  ===== SENS_FD ELAPSED =    4.056030    
+      5 0.8812E+00       215.177         0.000                    215.1767    22.7322     28.8841
+                                          30.5
+      5                                                              341.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3014        0.1230        1.0000
+    error  -0.3993        1.2767        0.2157
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .90805E+00 with Sumsq and Model_Norm =    215.177     0.000
+
+
+  End of Iteration     4
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_05\
+  Sumsq Sums_Model Sumsq_Total    215.1767      0.0000000E+00   215.1767      at Iteration            5
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    5 Icnt_Loop    0 RSVT      0.203
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      5 0.7905E+00       215.177         0.000                    215.1767    28.8841     22.7322
+  === FRONT    ELAPSED =   138.7317    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040405    
+      5 0.7905E+00       146.707         0.000                    146.7069    18.7702     24.6046
+                                          40.4
+      5                                                              215.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8713        0.1863        0.0968        1.0000
+    error  -0.3998        1.0136        0.1657
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .83537E+00 with Sumsq and Model_Norm =    146.707     0.000
+
+
+  End of Iteration     5
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_06\
+  Sumsq Sums_Model Sumsq_Total    146.7069      0.0000000E+00   146.7069      at Iteration            6
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    6 Icnt_Loop    0 RSVT      0.177
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      6 0.7272E+00       146.707         0.000                    146.7069    24.6046     18.7702
+  === FRONT    ELAPSED =   138.5288    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040405    
+      5 0.7272E+00       115.925         0.000                    115.9247    16.6852     22.3799
+                                          47.1
+      5                                                              146.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7350        0.1245        0.0698        1.0000
+    error  -0.4168        0.9681        0.1365
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .76545E+00 with Sumsq and Model_Norm =    115.925     0.000
+
+
+  End of Iteration     6
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_07\
+  Sumsq Sums_Model Sumsq_Total    115.9247      0.0000000E+00   115.9247      at Iteration            7
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    7 Icnt_Loop    0 RSVT      0.154
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      7 0.6664E+00       115.925         0.000                    115.9247    22.3799     16.6852
+  === FRONT    ELAPSED =   138.6537    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.056152    
+      5 0.6664E+00       100.626         0.000                    100.6257    15.5453     21.1695
+                                          52.2
+      5                                                              115.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6203        0.1146        0.0557        1.0000
+    error  -0.4297        0.8848        0.1227
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .69337E+00 with Sumsq and Model_Norm =    100.626     0.000
+
+
+  End of Iteration     7
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_08\
+  Sumsq Sums_Model Sumsq_Total    100.6257      0.0000000E+00   100.6257      at Iteration            8
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    8 Icnt_Loop    0 RSVT      0.134
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      8 0.6036E+00       100.626         0.000                    100.6257    21.1695     15.5453
+  === FRONT    ELAPSED =   138.5601    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.024902    
+      5 0.6036E+00        91.136         0.000                     91.1359    14.7941     20.3581
+                                          56.9
+      5                                                              100.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4875        0.1447        0.0507        1.0000
+    error  -0.4217        0.7611        0.1149
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .62187E+00 with Sumsq and Model_Norm =     91.136     0.000
+
+
+  End of Iteration     8
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_09\
+  Sumsq Sums_Model Sumsq_Total    91.13586      0.0000000E+00   91.13586      at Iteration            9
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    9 Icnt_Loop    0 RSVT      0.117
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      9 0.5414E+00        91.136         0.000                     91.1359    20.3581     14.7941
+  === FRONT    ELAPSED =   138.6382    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040283    
+      5 0.5414E+00        83.460         0.000                     83.4605    14.1575     19.6322
+                                          61.9
+      5                                                               91.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4059        0.1959        0.0534        1.0000
+    error  -0.3935        0.6234        0.1095
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .55416E+00 with Sumsq and Model_Norm =     83.460     0.000
+
+
+  End of Iteration     9
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_10\
+  Sumsq Sums_Model Sumsq_Total    83.46048      0.0000000E+00   83.46048      at Iteration           10
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   10 Icnt_Loop    0 RSVT      0.102
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     10 0.4824E+00        83.460         0.000                     83.4605    19.6322     14.1575
+  === FRONT    ELAPSED =   138.7786    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.055908    
+      5 0.4824E+00        76.094         0.000                     76.0938    13.5182     18.8544
+                                          67.5
+      5                                                               83.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.5026        0.2413        0.0610        1.0000
+    error  -0.3625        0.4955        0.1053
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .49228E+00 with Sumsq and Model_Norm =     76.094     0.000
+
+
+  End of Iteration    10
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_11\
+  Sumsq Sums_Model Sumsq_Total    76.09383      0.0000000E+00   76.09383      at Iteration           11
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   11 Icnt_Loop    0 RSVT      0.088
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     11 0.4286E+00        76.094         0.000                     76.0938    18.8544     13.5182
+  === FRONT    ELAPSED =   138.6226    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.4286E+00        68.509         0.000                     68.5092    12.8268     17.9573
+                                          74.2
+      5                                                               76.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6112        0.2992        0.0711        1.0000
+    error  -0.3642        0.5023        0.1014
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .43692E+00 with Sumsq and Model_Norm =     68.509     0.000
+
+
+  End of Iteration    11
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_12\
+  Sumsq Sums_Model Sumsq_Total    68.50923      0.0000000E+00   68.50923      at Iteration           12
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   12 Icnt_Loop    0 RSVT      0.077
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     12 0.3804E+00        68.509         0.000                     68.5092    17.9573     12.8268
+  === FRONT    ELAPSED =   138.5601    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.071777    
+      5 0.3804E+00        60.516         0.000                     60.5156    12.0553     16.8834
+                                          82.2
+      5                                                               68.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6553        0.3004        0.0811        1.0000
+    error  -0.3629        0.5176        0.0969
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .38783E+00 with Sumsq and Model_Norm =     60.516     0.000
+
+
+  End of Iteration    12
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_13\
+  Sumsq Sums_Model Sumsq_Total    60.51564      0.0000000E+00   60.51564      at Iteration           13
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   13 Icnt_Loop    0 RSVT      0.067
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     13 0.3376E+00        60.516         0.000                     60.5156    16.8834     12.0553
+  === FRONT    ELAPSED =   138.6536    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.024902    
+      5 0.3376E+00        52.204         0.000                     52.2036    11.1968     15.6183
+                                          92.0
+      5                                                               60.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6820        0.3453        0.0904        1.0000
+    error  -0.3494        0.5193        0.0919
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .34445E+00 with Sumsq and Model_Norm =     52.204     0.000
+
+
+  End of Iteration    13
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_14\
+  Sumsq Sums_Model Sumsq_Total    52.20361      0.0000000E+00   52.20361      at Iteration           14
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   14 Icnt_Loop    0 RSVT      0.058
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     14 0.2999E+00        52.204         0.000                     52.2036    15.6183     11.1968
+  === FRONT    ELAPSED =   138.6538    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040283    
+      5 0.2999E+00        44.145         0.000                     44.1446    10.2964     14.2340
+                                         103.5
+      5                                                               52.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8159        0.4389        0.0955        1.0000
+    error  -0.3276        0.5095        0.0862
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .30612E+00 with Sumsq and Model_Norm =     44.145     0.000
+
+
+  End of Iteration    14
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_15\
+  Sumsq Sums_Model Sumsq_Total    44.14461      0.0000000E+00   44.14461      at Iteration           15
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   15 Icnt_Loop    0 RSVT      0.051
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     15 0.2665E+00        44.145         0.000                     44.1446    14.2340     10.2964
+  === FRONT    ELAPSED =   138.6226    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040283    
+      5 0.2665E+00        37.011         0.000                     37.0108     9.4278     12.8292
+                                         116.3
+      5                                                               44.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8444        0.4322        0.0945        1.0000
+    error  -0.2956        0.4952        0.0796
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .27166E+00 with Sumsq and Model_Norm =     37.011     0.000
+
+
+  End of Iteration    15
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_16\
+  Sumsq Sums_Model Sumsq_Total    37.01080      0.0000000E+00   37.01080      at Iteration           16
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   16 Icnt_Loop    0 RSVT      0.044
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     16 0.2365E+00        37.011         0.000                     37.0108    12.8292      9.4278
+  === FRONT    ELAPSED =   138.6536    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.2365E+00        31.395         0.000                     31.3950     8.6831     11.5620
+                                         129.5
+      5                                                               37.0 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.8041        0.4781        0.0895        1.0000
+    error  -0.2821        0.4825        0.0729
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .23973E+00 with Sumsq and Model_Norm =     31.395     0.000
+
+
+  End of Iteration    16
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_17\
+  Sumsq Sums_Model Sumsq_Total    31.39497      0.0000000E+00   31.39497      at Iteration           17
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   17 Icnt_Loop    0 RSVT      0.038
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     17 0.2087E+00        31.395         0.000                     31.3950    11.5620      8.6831
+  === FRONT    ELAPSED =   138.6226    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.2087E+00        27.359         0.000                     27.3593     8.1058     10.5662
+                                         142.3
+      5                                                               31.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6892        0.6012        0.0847        1.0000
+    error  -0.3074        0.4707        0.0671
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .21038E+00 with Sumsq and Model_Norm =     27.359     0.000
+
+
+  End of Iteration    17
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_18\
+  Sumsq Sums_Model Sumsq_Total    27.35927      0.0000000E+00   27.35927      at Iteration           18
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   18 Icnt_Loop    0 RSVT      0.033
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     18 0.1831E+00        27.359         0.000                     27.3593    10.5662      8.1058
+  === FRONT    ELAPSED =   138.7788    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040039    
+      5 0.1831E+00        24.255         0.000                     24.2547     7.6321      9.7542
+                                         154.6
+      5                                                               27.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7065        0.6366        0.0832        1.0000
+    error  -0.3260        0.4573        0.0625
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .18422E+00 with Sumsq and Model_Norm =     24.255     0.000
+
+
+  End of Iteration    18
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_19\
+  Sumsq Sums_Model Sumsq_Total    24.25466      0.0000000E+00   24.25466      at Iteration           19
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   19 Icnt_Loop    0 RSVT      0.029
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     19 0.1604E+00        24.255         0.000                     24.2547     9.7542      7.6321
+  === FRONT    ELAPSED =   138.7319    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040039    
+      5 0.1604E+00        21.587         0.000                     21.5866     7.2001      9.0168
+                                         167.0
+      5                                                               24.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7553        0.6161        0.0845        1.0000
+    error  -0.3358        0.4419        0.0588
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .16020E+00 with Sumsq and Model_Norm =     21.587     0.000
+
+
+  End of Iteration    19
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_20\
+  Sumsq Sums_Model Sumsq_Total    21.58663      0.0000000E+00   21.58663      at Iteration           20
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   20 Icnt_Loop    0 RSVT      0.025
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     20 0.1395E+00        21.587         0.000                     21.5866     9.0168      7.2001
+  === FRONT    ELAPSED =   138.6382    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.024902    
+      5 0.1395E+00        19.469         0.000                     19.4692     6.8378      8.4126
+                                         179.8
+      5                                                               21.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6592        0.5630        0.0846        1.0000
+    error  -0.3351        0.4273        0.0554
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .13864E+00 with Sumsq and Model_Norm =     19.469     0.000
+
+
+  End of Iteration    20
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_21\
+  Sumsq Sums_Model Sumsq_Total    19.46919      0.0000000E+00   19.46919      at Iteration           21
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   21 Icnt_Loop    0 RSVT      0.022
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     21 0.1207E+00        19.469         0.000                     19.4692     8.4126      6.8378
+  === FRONT    ELAPSED =   138.6377    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.1207E+00        17.831         0.000                     17.8312     6.5439      7.9198
+                                         192.8
+      5                                                               19.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7053        0.7593        0.0862        1.0000
+    error  -0.3283        0.4159        0.0526
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .12012E+00 with Sumsq and Model_Norm =     17.831     0.000
+
+
+  End of Iteration    21
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_22\
+  Sumsq Sums_Model Sumsq_Total    17.83119      0.0000000E+00   17.83119      at Iteration           22
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   22 Icnt_Loop    0 RSVT      0.019
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     22 0.1046E+00        17.831         0.000                     17.8312     7.9198      6.5439
+  === FRONT    ELAPSED =   138.7471    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.1046E+00        16.466         0.000                     16.4660     6.2884      7.4858
+                                         206.6
+      5                                                               17.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7837        0.9776        0.0881        1.0000
+    error  -0.3198        0.4081        0.0502
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .10427E+00 with Sumsq and Model_Norm =     16.466     0.000
+
+
+  End of Iteration    22
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_23\
+  Sumsq Sums_Model Sumsq_Total    16.46602      0.0000000E+00   16.46602      at Iteration           23
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   23 Icnt_Loop    0 RSVT      0.017
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     23 0.9078E-01        16.466         0.000                     16.4660     7.4858      6.2884
+  === FRONT    ELAPSED =   138.6382    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.024414    
+      5 0.9078E-01        15.346         0.000                     15.3456     6.0707      7.1200
+                                         221.1
+      5                                                               16.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.9429        0.8434        0.0901        1.0000
+    error  -0.3112        0.4031        0.0483
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .90298E-01 with Sumsq and Model_Norm =     15.346     0.000
+
+
+  End of Iteration    23
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_24\
+  Sumsq Sums_Model Sumsq_Total    15.34562      0.0000000E+00   15.34562      at Iteration           24
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   24 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     24 0.7861E-01        15.346         0.000                     15.3456     7.1200      6.0707
+  === FRONT    ELAPSED =   138.6538    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.086914    
+      5 0.7861E-01        14.590         0.000                     14.5899     5.9193      6.8859
+                                         234.4
+      5                                                               15.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8218        0.0841        1.0000
+    error  -0.3032        0.3990        0.0465
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .80647E-01 with Sumsq and Model_Norm =     14.590     0.000
+
+
+  End of Iteration    24
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_25\
+  Sumsq Sums_Model Sumsq_Total    14.58990      0.0000000E+00   14.58990      at Iteration           25
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   25 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     25 0.7021E-01        14.590         0.000                     14.5899     6.8859      5.9193
+  === FRONT    ELAPSED =   138.7632    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.7021E-01        14.353         0.000                     14.3530     5.8710      6.8084
+                                         241.0
+      5                                                               14.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.3420        1.0000        0.0399        1.0000
+    error  -0.2985        0.3946        0.0453
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .79939E-01 with Sumsq and Model_Norm =     14.353     0.000
+
+
+  End of Iteration    25
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_26\
+  Sumsq Sums_Model Sumsq_Total    14.35296      0.0000000E+00   14.35296      at Iteration           26
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   26 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     26 0.6959E-01        14.353         0.000                     14.3530     6.8084      5.8710
+  === FRONT    ELAPSED =   138.6538    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.056152    
+      5 0.6959E-01        14.157         0.000                     14.1567     5.8308      6.7439
+                                         248.5
+      5                                                               14.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.3126        1.0000        0.0396        1.0000
+    error  -0.2961        0.3928        0.0449
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .80266E-01 with Sumsq and Model_Norm =     14.157     0.000
+
+
+  End of Iteration    26
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_27\
+  Sumsq Sums_Model Sumsq_Total    14.15669      0.0000000E+00   14.15669      at Iteration           27
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   27 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     27 0.6988E-01        14.157         0.000                     14.1567     6.7439      5.8308
+  === FRONT    ELAPSED =   138.9189    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.056152    
+      5 0.6988E-01        13.994         0.000                     13.9939     5.7971      6.6893
+                                         259.2
+      5                                                               14.2 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4881        0.8387        0.0552        1.0000
+    error  -0.2942        0.3915        0.0446
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .78989E-01 with Sumsq and Model_Norm =     13.994     0.000
+
+
+  End of Iteration    27
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_28\
+  Sumsq Sums_Model Sumsq_Total    13.99393      0.0000000E+00   13.99393      at Iteration           28
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   28 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     28 0.6876E-01        13.994         0.000                     13.9939     6.6893      5.7971
+  === FRONT    ELAPSED =   138.6846    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.6876E-01        13.858         0.000                     13.8578     5.7689      6.6610
+                                         271.5
+      5                                                               14.0 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.6083        0.8874        0.0566        1.0000
+    error  -0.2911        0.3904        0.0444
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .79286E-01 with Sumsq and Model_Norm =     13.858     0.000
+
+
+  End of Iteration    28
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_29\
+  Sumsq Sums_Model Sumsq_Total    13.85782      0.0000000E+00   13.85782      at Iteration           29
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   29 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     29 0.6902E-01        13.858         0.000                     13.8578     6.6610      5.7689
+  === FRONT    ELAPSED =   138.7007    
+  ======== HYEY    ELAPSED =  0.0000000E+00
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.6902E-01        13.810         0.000                     13.8103     5.7590      6.6305
+                                         280.7
+      5                                                               13.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8625        0.0471        1.0000
+    error  -0.2889        0.3909        0.0443
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .76715E-01 with Sumsq and Model_Norm =     13.810     0.000
+
+
+  End of Iteration    29
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\RESOLVE\Riverland_Sub_EWG_Train\EM2DInv\EM2DInv_1\Inversion_01\Line_0031073\Iteration_30\
+  Sumsq Sums_Model Sumsq_Total    13.81026      0.0000000E+00   13.81026      at Iteration           30
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   30 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     30 0.6678E-01        13.810         0.000                     13.8103     6.6305      5.7590
+  === FRONT    ELAPSED =   138.8721    
+  ======== HYEY    ELAPSED =  1.5625000E-02
+  ===== SENS_FD ELAPSED =    4.040527    
+      5 0.6678E-01        13.701         0.000                     13.7006     5.7361      6.6213
+                                         293.2
+      5                                                               13.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4268        1.0000        0.0497        1.0000
+    error  -0.2880        0.3911        0.0442
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .78007E-01 with Sumsq and Model_Norm =     13.701     0.000
+
+
+  End of Iteration    30
+
+ -----------------------------------------------------------------------------------
+
+
+  ArjunAir inversion completed at 02:40 on 13 MAY 2015
+
+  Computation time =    6870.88 seconds.
+
+

@@ -1,0 +1,10 @@
+C:\GeoModeller\GeoModeller2014_x64_77ab0cb88af4\bin\Air_Lay_Inv.exe
+alt_var_control_em.ctl 
+Dighem_Noise_Levels.fmt                                    
+1.0    ! ppm_convert  
+0.0    ! Diff Alt                                                      
+Dighem_RiverLand_invlog.fmt                                 
+River_Targets.dat                                          
+All Lines                                                  
+River_mini.dat
+1

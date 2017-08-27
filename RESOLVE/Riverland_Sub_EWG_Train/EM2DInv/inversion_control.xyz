@@ -1,0 +1,10 @@
+C:\GeoModeller\GeoModeller2014_x64_2a58f05e9f20\bin\arjuna_air_GSVD.exe
+tuning.ctl
+channelsZ.ctl
+1.0    ! ppm_convert  
+0.0    ! Difference  Altimeter 
+EM2DInv_targets_invlog.fmt 
+EM2DInv_targets.dat  
+All Lines     
+EM2DInv_1.dat
+1      ! Target Number found in Targets.dat file  

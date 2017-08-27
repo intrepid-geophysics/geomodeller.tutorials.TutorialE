@@ -1,0 +1,30 @@
+<com.geomodeller.ui.dialogs.LutConfigurator id="1">
+  <data id="2">
+    <data id="3">
+      <lut>pseudocolorOLD.lut</lut>
+      <file>C:\GeoModeller\GeoModeller2014_x64_36b6984f091f\lut\pseudocolorOLD.lut</file>
+      <builder class="com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LinearLutBuilder" id="4"/>
+      <available class="linked-hash-set" id="5">
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LinearLutBuilder id="6"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.HistoLutBuilder id="7"/>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder id="8">
+          <points id="9"/>
+          <selected>0</selected>
+          <steps>9</steps>
+          <usedata>true</usedata>
+        </com.dfa.apps.gravitas.plugin.visual3d.lut.builder.StepLutBuilder>
+        <com.dfa.apps.gravitas.plugin.visual3d.lut.builder.LogLutBuilder id="10"/>
+      </available>
+      <dataclip id="11">
+        <min>3.0</min>
+        <max>1000.0</max>
+        <undefined>false</undefined>
+      </dataclip>
+      <visualclip id="12">
+        <min>3.0</min>
+        <max>1000.0</max>
+        <undefined>false</undefined>
+      </visualclip>
+    </data>
+  </data>
+</com.geomodeller.ui.dialogs.LutConfigurator>

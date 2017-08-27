@@ -1,0 +1,82 @@
+MetaData Begin
+	Name	= EM2DInv02_SmthSecs_S11250.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	node_Res Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Res
+	node_Res End
+	node_LogRes Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogRes
+	node_LogRes End
+	node_Cond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Cond
+	node_Cond End
+	node_LogCond Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= LogCond
+	node_LogCond End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= EM2DInv02_SmthSecs_S11250
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		XYZ Begin
+			Resource	= EM2DInv02_SmthSecs_S11250.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 1496
+		XYZ End
+		FieldData Begin
+			Res Begin
+				Resource	= EM2DInv02_SmthSecs_S11250.igmesh/node..DIR
+				Name	= Res
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Res
+				NumElem	= 1496
+			Res End
+			LogRes Begin
+				Resource	= EM2DInv02_SmthSecs_S11250.igmesh/node..DIR
+				Name	= LogRes
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogRes
+				NumElem	= 1496
+			LogRes End
+			Cond Begin
+				Resource	= EM2DInv02_SmthSecs_S11250.igmesh/node..DIR
+				Name	= Cond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= Cond
+				NumElem	= 1496
+			Cond End
+			LogCond Begin
+				Resource	= EM2DInv02_SmthSecs_S11250.igmesh/node..DIR
+				Name	= LogCond
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= LogCond
+				NumElem	= 1496
+			LogCond End
+		FieldData End
+	MeshGrid End
+MetaData End

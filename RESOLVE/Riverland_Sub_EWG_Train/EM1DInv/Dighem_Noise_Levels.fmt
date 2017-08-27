@@ -1,0 +1,26 @@
+RiverLand Dighem Data 
+12    ! 2*nfrq ( 6 frequencies as listed in Dighem System.xyz File ) 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+17.5 1.0  ! Inphase Noise Frequency 1 
+15.5 1.0  ! Out of Phase Noise Frequency 1  
+14.0 1.0 
+10.0 1.0 
+7.0 1.0 
+5.0 1.0 
+3.5 1.0 
+2.5 1.0 
+3.5 1.0    ! Inphase Noise Frequency 5 
+2.5 1.0    ! Out of Phase Noise Frequency 5  
+3.5 1.0 
+2.5 1.0 

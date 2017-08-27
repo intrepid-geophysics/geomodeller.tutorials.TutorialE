@@ -1,0 +1,149 @@
+<viewers.v2d.Viewer2dState id="1">
+  <__data class="string" defined-in="com.geomodeller.model.persistence.Storable$AStorable">S31043</__data>
+  <__background id="2">
+    <red>98</red>
+    <green>98</green>
+    <blue>98</blue>
+    <alpha>255</alpha>
+  </__background>
+  <__verticalExaggeration>15.0</__verticalExaggeration>
+  <__toDisplay id="3">
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Contacts</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Nodes</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>ApparentDips</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Interfaces</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>AxialTraces</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>AxialPlanes</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Hingelines</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Intersections</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Trajectories</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Regions</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Fond</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+    <viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>Presentations</viewers.v2d.Viewer2dActions_-Viewer2dDisplayItem>
+  </__toDisplay>
+  <__data id="4">
+    <__toProject id="5">
+      <null/>
+      <null/>
+      <null/>
+      <viewers.v2d.Viewer2dActions_-Viewer2dProjectionItem>DrillholePoints</viewers.v2d.Viewer2dActions_-Viewer2dProjectionItem>
+      <viewers.v2d.Viewer2dActions_-Viewer2dProjectionItem>Drillholes</viewers.v2d.Viewer2dActions_-Viewer2dProjectionItem>
+    </__toProject>
+    <__projectDistance>100.0</__projectDistance>
+    <__unitsToProject id="6">
+      <string>Qam</string>
+      <string>Clay</string>
+      <string>Sand</string>
+      <string>SndSlt</string>
+      <string>Clay2</string>
+      <string>SndSltLow</string>
+      <string>BasalSeries</string>
+      <string>BITU</string>
+      <string>BlanchCly</string>
+      <string>BookBeds</string>
+      <string>Bung_Lst</string>
+      <string>CAL</string>
+      <string>CLY</string>
+      <string>CLYSND</string>
+      <string>CLYU</string>
+      <string>CaAr</string>
+      <string>Cht</string>
+      <string>Dol</string>
+      <string>Dolo</string>
+      <string>FECR</string>
+      <string>FILL</string>
+      <string>FOS</string>
+      <string>GRAV</string>
+      <string>GRV</string>
+      <string>LM</string>
+      <string>Lig</string>
+      <string>LoxParSnd</string>
+      <string>Lst</string>
+      <string>MUD</string>
+      <string>Marl</string>
+      <string>Mst</string>
+      <string>MurrayLst</string>
+      <string>Psol</string>
+      <string>SLT</string>
+      <string>SND</string>
+      <string>SNDCLY</string>
+      <string>SOL</string>
+      <string>Sed</string>
+      <string>Slst</string>
+      <string>Sst</string>
+      <string>Unk</string>
+      <string>WD</string>
+      <string>Woorinen</string>
+    </__unitsToProject>
+  </__data>
+  <__presentation id="7">
+    <__displayTitle>false</__displayTitle>
+    <__titlePosition class="java.awt.geom.Point2D$Double" id="8">
+      <x>0.0</x>
+      <y>0.0</y>
+    </__titlePosition>
+    <__displayTicks>false</__displayTicks>
+    <__tickIntervalU>1000.0</__tickIntervalU>
+    <__tickIntervalV>1000.0</__tickIntervalV>
+    <__displayTickLabels>false</__displayTickLabels>
+    <__displayAxisLabels>false</__displayAxisLabels>
+    <__displayDecimals>0</__displayDecimals>
+    <__titleFontOptions id="9">
+      <__fontName>Arial</__fontName>
+      <__textSize>12.0</__textSize>
+      <__textColour id="10">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+        <alpha>255</alpha>
+      </__textColour>
+    </__titleFontOptions>
+    <__axisFontOptions id="11">
+      <__fontName>Arial</__fontName>
+      <__textSize>12.0</__textSize>
+      <__textColour reference="10"/>
+    </__axisFontOptions>
+  </__presentation>
+  <__plotModel id="12">
+    <__Ures>50</__Ures>
+    <__Vres>300</__Vres>
+    <__Urange id="13">
+      <min>0.0</min>
+      <max>12869.100349355</max>
+      <undefined>false</undefined>
+    </__Urange>
+    <__Vrange id="14">
+      <min>-200.0</min>
+      <max>120.0</max>
+      <undefined>false</undefined>
+    </__Vrange>
+    <__doLines>true</__doLines>
+    <__doFill>false</__doFill>
+    <__doTrend>false</__doTrend>
+    <__doLimitToTopo>true</__doLimitToTopo>
+    <__doTrendWithinSeries>true</__doTrendWithinSeries>
+    <__nTrajectories>10</__nTrajectories>
+    <__deselectedFills class="linked-hash-set" id="15">
+      <string>Qam</string>
+      <string>Clay</string>
+      <string>Sand</string>
+      <string>SndSlt</string>
+      <string>Clay2</string>
+      <string>BasalSeries</string>
+    </__deselectedFills>
+    <__deselectedFormationLines class="linked-hash-set" id="16">
+      <string>Sand</string>
+      <string>SndSlt</string>
+      <string>Clay2</string>
+      <string>SndSltLow</string>
+    </__deselectedFormationLines>
+    <__deselectedFaultLines class="empty-list"/>
+    <__deselectedTrendSeries class="linked-hash-set" id="17">
+      <string>Qam_Series</string>
+      <string>Clay_Series</string>
+      <string>Sand_Series</string>
+      <string>SndSlt_Series</string>
+      <string>Clay2_Series</string>
+    </__deselectedTrendSeries>
+  </__plotModel>
+</viewers.v2d.Viewer2dState>

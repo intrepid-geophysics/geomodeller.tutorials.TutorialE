@@ -1,0 +1,363 @@
+MetaData Begin
+	Name	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.gdb
+	Version	= "Intrepid Subsection v5.6.0 intrepid_v5 for Windows (x64) by PELAGIAN optimised build 3ec4958befa3+ "
+	X Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= X
+		Bands	= 1
+		Samples	= 799
+		Nulls	= 0
+		Minimum	=       729512.19
+		Maximum	=       740330.81
+		Mean	=   734792.559237
+		Variance	=   20231026.0806
+		Skew	=               0
+		Kurtosis	=               0
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		Width	= 13
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	X End
+	Y Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= Y
+		Bands	= 1
+		Samples	= 799
+		Nulls	= 0
+		Minimum	=       7168019.5
+		Maximum	=         7175282
+		Mean	=   7171655.42929
+		Variance	=    3569476.2437
+		Skew	= -0.00395044293408
+		Kurtosis	=  -4.12702627512
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		Width	= 12
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Y End
+	Day Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	Day End
+	Month Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	Month End
+	Year Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	Year End
+	Flight Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	Flight End
+	Seconds Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		Decimals	= 1
+		DisplayNullAs	= 99999
+	Seconds End
+	Fid Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	Fid End
+	x_prim Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	x_prim End
+	z_prim Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 13
+		DisplayNullAs	= 99999
+	z_prim End
+	rad_alt Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	rad_alt End
+	dtm_miclev Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 13
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	dtm_miclev End
+	em_x Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 10
+		band1 Begin
+			Width	= 10
+			Decimals	= 1
+			DisplayNullAs	= 99999
+		band1 End
+		band2 Begin
+			BandId	= "2"
+		band2 End
+		band3 Begin
+			BandId	= "3"
+		band3 End
+		band4 Begin
+			BandId	= "4"
+		band4 End
+		band5 Begin
+			BandId	= "5"
+		band5 End
+		band6 Begin
+			BandId	= "6"
+		band6 End
+		band7 Begin
+			BandId	= "7"
+		band7 End
+		band8 Begin
+			BandId	= "8"
+		band8 End
+		band9 Begin
+			BandId	= "9"
+		band9 End
+		band10 Begin
+			BandId	= "10"
+		band10 End
+	em_x End
+	em_z Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 10
+		band1 Begin
+			Width	= 10
+			Decimals	= 1
+			DisplayNullAs	= 99999
+		band1 End
+	em_z End
+	mag_lag Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 9
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	mag_lag End
+	k_corr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	k_corr End
+	u_corr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	u_corr End
+	th_corr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	th_corr End
+	tc_corr Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 8
+		DisplayNullAs	= 99999
+	tc_corr End
+	TauZ_Exp Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 18
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	TauZ_Exp End
+	Fit_A Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 10
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Fit_A End
+	TauX_Exp Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 23
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	TauX_Exp End
+	Late_TauZ_Exp Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 26
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Late_TauZ_Exp End
+	Late_TauX_Exp Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+		Width	= 21
+		Decimals	= 2
+		DisplayNullAs	= 99999
+	Late_TauX_Exp End
+	SRTM_90m Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	SRTM_90m End
+	GS_Fiducial Begin
+		GroupBy	= no
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= Fiducial
+		Width	= 16
+		Decimals	= 4
+		DisplayNullAs	= 99999
+	GS_Fiducial End
+	GS_Line Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Alias	= LineNumber
+		Bands	= 1
+	GS_Line End
+	GS_StrLine Begin
+		GroupBy	= yes
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Bands	= 1
+	GS_StrLine End
+	GS_LType Begin
+		GroupBy	= yes
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Alias	= LineType
+		Bands	= 1
+	GS_LType End
+	GS_Flight Begin
+		GroupBy	= yes
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Alias	= FlightNumber
+		Bands	= 1
+	GS_Flight End
+	GS_Date Begin
+		GroupBy	= yes
+		DataType	= Date
+		ByteOrder	= LSBFirst
+		Alias	= DateCode
+		Bands	= 1
+	GS_Date End
+	ReportFormat Begin
+		Default = {
+			8 0 99999 Day:1
+			8 0 99999 Month:1
+			8 0 99999 Year:1
+			8 0 99999 Flight:1
+			8 1 99999 Seconds:1
+			8 0 99999 Fid:1
+			13 2 99999 X:1
+			12 2 99999 Y:1
+			8 0 99999 x_prim:1
+			13 0 99999 z_prim:1
+			8 2 99999 rad_alt:1
+			13 2 99999 dtm_miclev:1
+			10 1 99999 em_x:1
+			10 1 99999 em_x:2
+			10 1 99999 em_x:3
+			10 1 99999 em_x:4
+			10 1 99999 em_x:5
+			10 1 99999 em_x:6
+			10 1 99999 em_x:7
+			10 1 99999 em_x:8
+			10 1 99999 em_x:9
+			10 1 99999 em_x:10
+			10 1 99999 em_z:1
+			10 1 99999 em_z:2
+			10 1 99999 em_z:3
+			10 1 99999 em_z:4
+			10 1 99999 em_z:5
+			10 1 99999 em_z:6
+			10 1 99999 em_z:7
+			10 1 99999 em_z:8
+			10 1 99999 em_z:9
+			10 1 99999 em_z:10
+			9 2 99999 mag_lag:1
+			8 0 99999 k_corr:1
+			8 0 99999 u_corr:1
+			8 0 99999 th_corr:1
+			8 0 99999 tc_corr:1
+			18 2 99999 TauZ_Exp:1
+			10 2 99999 Fit_A:1
+			23 2 99999 TauX_Exp:1
+			26 2 99999 Late_TauZ_Exp:1
+			21 2 99999 Late_TauX_Exp:1
+			16 4 99999 GS_Fiducial:1
+			16 4 99999 GS_Line:1
+			16 4 99999 GS_StrLine:1
+			16 4 99999 GS_LType:1
+			16 4 99999 GS_Flight:1
+			16 4 99999 GS_Date:1
+}
+	ReportFormat End
+MetaData End

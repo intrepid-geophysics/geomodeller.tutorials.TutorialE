@@ -1,0 +1,84 @@
+MetaData Begin
+	Name	= Riverland_CDI_Sect_31003_IDB9.igmesh
+	Version	= "Intrepid GeoModeller v6.0.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 2fd0a434b918+ "
+	node_CDI Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Units	= "none"
+	node_CDI End
+	node_TOBAS Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= ?
+		Units	= "none"
+	node_TOBAS End
+	node_TOTOP Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= none
+		Units	= "none"
+	node_TOTOP End
+	node_Current_Model_Grid Begin
+		DataType	= Signed32BitInteger
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= Lithology
+		Units	= "Lithology"
+	node_Current_Model_Grid End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 3
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= Riverland_CDI_Sect_31003_IDB9
+		Projection	= "MGA54"
+		Datum	= "GDA94"
+		XYZ Begin
+			Resource	= Riverland_CDI_Sect_31003_IDB9.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 88550
+		XYZ End
+		FieldData Begin
+			CDI Begin
+				Resource	= Riverland_CDI_Sect_31003_IDB9.igmesh/node..DIR
+				Name	= CDI
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				NumElem	= 88550
+			CDI End
+			TOBAS Begin
+				Resource	= Riverland_CDI_Sect_31003_IDB9.igmesh/node..DIR
+				Name	= TOBAS
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= ?
+				NumElem	= 88550
+			TOBAS End
+			TOTOP Begin
+				Resource	= Riverland_CDI_Sect_31003_IDB9.igmesh/node..DIR
+				Name	= TOTOP
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= none
+				NumElem	= 88550
+			TOTOP End
+			Current_Model_Grid Begin
+				Resource	= Riverland_CDI_Sect_31003_IDB9.igmesh/node..DIR
+				Name	= Current_Model_Grid
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= Lithology
+				Alias	= Lithology
+				NumElem	= 88550
+			Current_Model_Grid End
+		FieldData End
+	MeshGrid End
+MetaData End

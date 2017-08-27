@@ -1,0 +1,1060 @@
+ --- This inversion uses Marquard style damping on parameters on GSVD Decomposition of WM and JAC Matrices 
+                                            by Jovan Silic   
+  Normal Flight Direction 
+  S Norm Follows 
+           1   191581.0       216217.0    
+           2   132529.7       129332.0    
+           3   75554.39       63473.00    
+           4   38204.23       26997.67    
+           5   28811.74       9914.000    
+           6   21670.40       3006.000    
+           7   15552.24       865.6666    
+           8   9737.543       355.3333    
+           9   4002.875       28.66667    
+          10  1.0000000E-06  0.0000000E+00
+          11   178171.8       181734.7    
+          12   95167.53       81878.66    
+          13   41494.83       26617.00    
+          14   25556.22       3514.000    
+          15   21476.55      -126.6667    
+          16   18035.89       40.33333    
+          17   13924.89       170.0000    
+          18   9350.717       164.6667    
+          19   4826.218       197.6667    
+          20  1.0000000E-06  0.0000000E+00
+
+
+  RMS error reduction based on using the Survey norm
+  --------------------------------------------------
+     PCTCNV =    1.000000    
+         MU =            2
+       RSVT =   0.2500000    
+  TGSVD_BND =   0.0000000E+00
+     ALPHAS =   2.0000000E-02
+     ALPHAX =    1.000000    
+     ALPHAZ =    1.000000    
+  Model Norm not referenced to the Starting Model 
+
+
+  Average length of cells in  z direction is     51.07834    
+  Median Value of cell lengths in z direction is     27.56750    
+  Length Scale in X direction is    100.0000    
+  Length Scale in Z direction is    55.13501    
+  Alphas updated to   9.9999998E-03  based on horizontal cell width of    50.00000    
+   Alphax determined   0.1126980    
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_01\
+  Sumsq Sums_Model Sumsq_Total    386.7778      0.0000000E+00   386.7778      at Iteration            1
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    1 Icnt_Loop    0 RSVT      0.250
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      1 0.1127E+00       386.778         0.000                    386.7778    74.3609     60.9544
+
+ Testing for optimum RSVT ... Old RSVT =   0.250
+  After Call Jacobian in Test For RSVT sumsq =    231.8223      at rsvt =   0.2500000    
+  After Call Jacobian in Test For RSVT sumsq =    231.8223      at rsvt =   0.2500000    
+  After Call Jacobian in Test For RSVT sumsq =    236.6353      at rsvt =   0.2973018    
+  After Call Jacobian in Test For RSVT sumsq =    238.4931      at rsvt =   0.3535534    
+  After Call Jacobian in Test For RSVT sumsq =    236.9994      at rsvt =   0.4204482    
+  After Call Jacobian in Test For RSVT sumsq =    234.3355      at rsvt =   0.4999999    
+ RSVT test returns value for rsvt    0.354
+ The RSVT test exited at maximum number of     5  tries 
+ Testing for optimum RSVT ... New RSVT =   0.354
+
+
+      5 0.1594E+00       307.483         0.000                    307.4833    54.3482     71.5245
+                                           8.1
+      5                                                              386.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000       -0.0027        0.1719        1.0000
+    error  -0.7096        1.9996        0.3070
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .27422E+00 with Sumsq and Model_Norm =    307.483     0.000
+
+
+  End of Iteration     1
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_02\
+  Sumsq Sums_Model Sumsq_Total    307.4833      0.0000000E+00   307.4833      at Iteration            2
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    2 Icnt_Loop    0 RSVT      0.308
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      2 0.2387E+00       307.483         0.000                    307.4833    71.5245     54.3482
+      5 0.2387E+00       231.269         0.000                    231.2691    47.1339     79.6520
+                                          32.2
+      5                                                              307.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000       -0.0012        0.1745        1.0000
+    error  -0.7096        1.9996        0.2580
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .42030E+00 with Sumsq and Model_Norm =    231.269     0.000
+
+
+  End of Iteration     2
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_03\
+  Sumsq Sums_Model Sumsq_Total    231.2691      0.0000000E+00   231.2691      at Iteration            3
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    3 Icnt_Loop    0 RSVT      0.268
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      3 0.3659E+00       231.269         0.000                    231.2691    79.6520     47.1339
+      5 0.3659E+00       220.072         0.000                    220.0723    45.9788     85.7438
+                                          41.9
+      5                                                              231.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.2987        0.0346        0.0519        1.0000
+    error  -0.7098        1.9995        0.2030
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .40553E+00 with Sumsq and Model_Norm =    220.072     0.000
+
+
+  End of Iteration     3
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_04\
+  Sumsq Sums_Model Sumsq_Total    220.0723      0.0000000E+00   220.0723      at Iteration            4
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    4 Icnt_Loop    0 RSVT      0.233
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      4 0.3530E+00       220.072         0.000                    220.0723    85.7438     45.9788
+      5 0.3530E+00       216.474         0.000                    216.4740    45.6013     88.2419
+                                          46.8
+      5                                                              220.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.1728        0.0721        0.0289        1.0000
+    error  -0.7100        1.9995        0.1954
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .36293E+00 with Sumsq and Model_Norm =    216.474     0.000
+
+
+  End of Iteration     4
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_05\
+  Sumsq Sums_Model Sumsq_Total    216.4740      0.0000000E+00   216.4740      at Iteration            5
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    5 Icnt_Loop    0 RSVT      0.203
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      5 0.3159E+00       216.474         0.000                    216.4740    88.2419     45.6013
+      5 0.3159E+00       213.431         0.000                    213.4307    45.2797     89.1818
+                                          50.6
+      5                                                              216.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.1687        0.1242        0.0255        1.0000
+    error  -0.7102        1.9996        0.1937
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .31932E+00 with Sumsq and Model_Norm =    213.431     0.000
+
+
+  End of Iteration     5
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_06\
+  Sumsq Sums_Model Sumsq_Total    213.4307      0.0000000E+00   213.4307      at Iteration            6
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    6 Icnt_Loop    0 RSVT      0.177
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      6 0.2780E+00       213.431         0.000                    213.4307    89.1818     45.2797
+      5 0.2780E+00       208.716         0.000                    208.7159    44.7767     89.5531
+                                          56.0
+      5                                                              213.4 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.2672        0.2253        0.0346        1.0000
+    error  -0.7103        1.9996        0.1926
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28033E+00 with Sumsq and Model_Norm =    208.716     0.000
+
+
+  End of Iteration     6
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_07\
+  Sumsq Sums_Model Sumsq_Total    208.7159      0.0000000E+00   208.7159      at Iteration            7
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    7 Icnt_Loop    0 RSVT      0.154
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      7 0.2440E+00       208.716         0.000                    208.7159    89.5531     44.7767
+      5 0.2440E+00       199.576         0.000                    199.5761    43.7854     90.1236
+                                          67.8
+      5                                                              208.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.4730        0.4265        0.0547        1.0000
+    error  -0.7106        1.9997        0.1909
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .24752E+00 with Sumsq and Model_Norm =    199.576     0.000
+
+
+  End of Iteration     7
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_08\
+  Sumsq Sums_Model Sumsq_Total    199.5761      0.0000000E+00   199.5761      at Iteration            8
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    8 Icnt_Loop    0 RSVT      0.134
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      8 0.2155E+00       199.576         0.000                    199.5761    90.1236     43.7854
+      5 0.2155E+00       181.308         0.000                    181.3078    41.7333     92.0662
+                                          96.2
+      5                                                              199.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7939        0.6731        0.0869        1.0000
+    error  -0.7112        1.9997        0.1876
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .22225E+00 with Sumsq and Model_Norm =    181.308     0.000
+
+
+  End of Iteration     8
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_09\
+  Sumsq Sums_Model Sumsq_Total    181.3078      0.0000000E+00   181.3078      at Iteration            9
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration    9 Icnt_Loop    0 RSVT      0.117
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+      9 0.1935E+00       181.308         0.000                    181.3078    92.0662     41.7333
+      5 0.1935E+00       153.817         0.000                    153.8168    38.4394     94.8198
+                                         147.1
+      5                                                              181.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.9912        0.8342        0.1138        1.0000
+    error  -0.7133        1.9996        0.1798
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .20349E+00 with Sumsq and Model_Norm =    153.817     0.000
+
+
+  End of Iteration     9
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_10\
+  Sumsq Sums_Model Sumsq_Total    153.8168      0.0000000E+00   153.8168      at Iteration           10
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   10 Icnt_Loop    0 RSVT      0.102
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     10 0.1771E+00       153.817         0.000                    153.8168    94.8198     38.4394
+      5 0.1771E+00       126.086         0.000                    126.0856    34.8022     95.6488
+                                         204.4
+      5                                                              153.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.7273        0.1091        1.0000
+    error  -0.7224        1.9975        0.1669
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .18439E+00 with Sumsq and Model_Norm =    126.086     0.000
+
+
+  End of Iteration    10
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_11\
+  Sumsq Sums_Model Sumsq_Total    126.0856      0.0000000E+00   126.0856      at Iteration           11
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   11 Icnt_Loop    0 RSVT      0.088
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     11 0.1605E+00       126.086         0.000                    126.0856    95.6488     34.8022
+      5 0.1605E+00       100.692         0.000                    100.6922    31.1009     96.5644
+                                         256.8
+      5                                                              126.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6833        0.0912        1.0000
+    error  -0.7546        1.9777        0.1536
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .16463E+00 with Sumsq and Model_Norm =    100.692     0.000
+
+
+  End of Iteration    11
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_12\
+  Sumsq Sums_Model Sumsq_Total    100.6922      0.0000000E+00   100.6922      at Iteration           12
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   12 Icnt_Loop    0 RSVT      0.077
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     12 0.1433E+00       100.692         0.000                    100.6922    96.5644     31.1009
+      5 0.1433E+00        82.282         0.000                     82.2817    28.1142     98.6916
+                                         296.6
+      5                                                              100.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5547        0.0644        1.0000
+    error  -0.7818        1.8842        0.1420
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .14591E+00 with Sumsq and Model_Norm =     82.282     0.000
+
+
+  End of Iteration    12
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_13\
+  Sumsq Sums_Model Sumsq_Total    82.28174      0.0000000E+00   82.28174      at Iteration           13
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   13 Icnt_Loop    0 RSVT      0.067
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     13 0.1270E+00        82.282         0.000                     82.2817    98.6916     28.1142
+      5 0.1270E+00        68.933         0.000                     68.9325    25.7328    100.0986
+                                         335.7
+      5                                                               82.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.4456        0.0607        1.0000
+    error  -0.7786        1.7141        0.1332
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .12916E+00 with Sumsq and Model_Norm =     68.933     0.000
+
+
+  End of Iteration    13
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_14\
+  Sumsq Sums_Model Sumsq_Total    68.93253      0.0000000E+00   68.93253      at Iteration           14
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   14 Icnt_Loop    0 RSVT      0.058
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     14 0.1124E+00        68.933         0.000                     68.9325   100.0986     25.7328
+      5 0.1124E+00        57.768         0.000                     57.7678    23.5569    100.0254
+                                         378.9
+      5                                                               68.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.3463        0.0665        1.0000
+    error  -0.7609        1.5347        0.1254
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .11425E+00 with Sumsq and Model_Norm =     57.768     0.000
+
+
+  End of Iteration    14
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_15\
+  Sumsq Sums_Model Sumsq_Total    57.76781      0.0000000E+00   57.76781      at Iteration           15
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   15 Icnt_Loop    0 RSVT      0.051
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     15 0.9946E-01        57.768         0.000                     57.7678   100.0254     23.5569
+      5 0.9946E-01        45.324         0.000                     45.3241    20.8660     95.9243
+                                         440.6
+      5                                                               57.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5078        0.0941        1.0000
+    error  -0.7273        1.3649        0.1174
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .10155E+00 with Sumsq and Model_Norm =     45.324     0.000
+
+
+  End of Iteration    15
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_16\
+  Sumsq Sums_Model Sumsq_Total    45.32410      0.0000000E+00   45.32410      at Iteration           16
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   16 Icnt_Loop    0 RSVT      0.044
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     16 0.8840E-01        45.324         0.000                     45.3241    95.9243     20.8660
+      5 0.8840E-01        35.602         0.000                     35.6017    18.4931     92.1705
+                                         523.3
+      5                                                               45.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5259        0.1211        1.0000
+    error  -0.6623        1.1442        0.1067
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .89933E-01 with Sumsq and Model_Norm =     35.602     0.000
+
+
+  End of Iteration    16
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_17\
+  Sumsq Sums_Model Sumsq_Total    35.60166      0.0000000E+00   35.60166      at Iteration           17
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   17 Icnt_Loop    0 RSVT      0.038
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     17 0.7829E-01        35.602         0.000                     35.6017    92.1705     18.4931
+      5 0.7829E-01        30.461         0.000                     30.4608    17.1059     89.4065
+                                         591.0
+      5                                                               35.6 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6035        0.1113        1.0000
+    error  -0.6924        0.9677        0.0966
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .78389E-01 with Sumsq and Model_Norm =     30.461     0.000
+
+
+  End of Iteration    17
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_18\
+  Sumsq Sums_Model Sumsq_Total    30.46085      0.0000000E+00   30.46085      at Iteration           18
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   18 Icnt_Loop    0 RSVT      0.033
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     18 0.6824E-01        30.461         0.000                     30.4608    89.4065     17.1059
+      5 0.6824E-01        26.276         0.000                     26.2761    15.8875     87.4593
+                                         682.5
+      5                                                               30.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.7854        0.1282        1.0000
+    error  -0.7622        0.8741        0.0892
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .68443E-01 with Sumsq and Model_Norm =     26.276     0.000
+
+
+  End of Iteration    18
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_19\
+  Sumsq Sums_Model Sumsq_Total    26.27612      0.0000000E+00   26.27612      at Iteration           19
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   19 Icnt_Loop    0 RSVT      0.029
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     19 0.5958E-01        26.276         0.000                     26.2761    87.4593     15.8875
+      5 0.5958E-01        22.051         0.000                     22.0510    14.5542     85.9422
+                                         757.0
+      5                                                               26.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8237        0.1075        1.0000
+    error  -0.8276        0.7894        0.0817
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .59429E-01 with Sumsq and Model_Norm =     22.051     0.000
+
+
+  End of Iteration    19
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_20\
+  Sumsq Sums_Model Sumsq_Total    22.05099      0.0000000E+00   22.05099      at Iteration           20
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   20 Icnt_Loop    0 RSVT      0.025
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     20 0.5174E-01        22.051         0.000                     22.0510    85.9422     14.5542
+      5 0.5174E-01        18.857         0.000                     18.8575    13.4591     84.3554
+                                         842.3
+      5                                                               22.1 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8191        0.1230        1.0000
+    error  -0.8624        0.7563        0.0740
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .51091E-01 with Sumsq and Model_Norm =     18.857     0.000
+
+
+  End of Iteration    20
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_21\
+  Sumsq Sums_Model Sumsq_Total    18.85747      0.0000000E+00   18.85747      at Iteration           21
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   21 Icnt_Loop    0 RSVT      0.022
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     21 0.4448E-01        18.857         0.000                     18.8575    84.3554     13.4591
+      5 0.4448E-01        16.841         0.000                     16.8407    12.7190     81.9875
+                                         938.4
+      5                                                               18.9 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6948        0.1481        1.0000
+    error  -0.8977        0.7455        0.0677
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .43742E-01 with Sumsq and Model_Norm =     16.841     0.000
+
+
+  End of Iteration    21
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_22\
+  Sumsq Sums_Model Sumsq_Total    16.84070      0.0000000E+00   16.84070      at Iteration           22
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   22 Icnt_Loop    0 RSVT      0.019
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     22 0.3808E-01        16.841         0.000                     16.8407    81.9875     12.7191
+      5 0.3808E-01        15.306         0.000                     15.3063    12.1258     81.5766
+                                        1029.0
+      5                                                               16.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.6139        0.1459        1.0000
+    error  -0.9139        0.7290        0.0634
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .37596E-01 with Sumsq and Model_Norm =     15.306     0.000
+
+
+  End of Iteration    22
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_23\
+  Sumsq Sums_Model Sumsq_Total    15.30633      0.0000000E+00   15.30633      at Iteration           23
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   23 Icnt_Loop    0 RSVT      0.017
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     23 0.3273E-01        15.306         0.000                     15.3063    81.5766     12.1258
+      5 0.3273E-01        14.490         0.000                     14.4899    11.7980     81.8309
+                                        1105.5
+      5                                                               15.3 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.8199        0.1294        1.0000
+    error  -0.9198        0.6617        0.0601
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .32481E-01 with Sumsq and Model_Norm =     14.490     0.000
+
+
+  End of Iteration    23
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_24\
+  Sumsq Sums_Model Sumsq_Total    14.48989      0.0000000E+00   14.48989      at Iteration           24
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   24 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     24 0.2828E-01        14.490         0.000                     14.4899    81.8309     11.7980
+      5 0.2828E-01        13.694         0.000                     13.6940    11.4694     82.0874
+                                        1218.6
+      5                                                               14.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.7838        0.1613        1.0000
+    error  -0.9383        0.6363        0.0576
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28926E-01 with Sumsq and Model_Norm =     13.694     0.000
+
+
+  End of Iteration    24
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_25\
+  Sumsq Sums_Model Sumsq_Total    13.69402      0.0000000E+00   13.69402      at Iteration           25
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   25 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     25 0.2518E-01        13.694         0.000                     13.6940    82.0874     11.4694
+      5 0.2518E-01        12.804         0.000                     12.8035    11.0902     81.2717
+                                        1317.3
+      5                                                               13.7 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.5486        0.1027        1.0000
+    error  -0.9577        0.6023        0.0548
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28825E-01 with Sumsq and Model_Norm =     12.804     0.000
+
+
+  End of Iteration    25
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_26\
+  Sumsq Sums_Model Sumsq_Total    12.80353      0.0000000E+00   12.80353      at Iteration           26
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   26 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     26 0.2509E-01        12.804         0.000                     12.8035    81.2717     11.0902
+      5 0.2509E-01        12.463         0.000                     12.4628    10.9417     82.2225
+                                        1374.4
+      5                                                               12.8 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -1.0000        0.2068        0.0423        1.0000
+    error  -0.9676        0.5902        0.0519
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28702E-01 with Sumsq and Model_Norm =     12.463     0.000
+
+
+  End of Iteration    26
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_27\
+  Sumsq Sums_Model Sumsq_Total    12.46285      0.0000000E+00   12.46285      at Iteration           27
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   27 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     27 0.2499E-01        12.463         0.000                     12.4628    82.2225     10.9417
+      5 0.2499E-01        10.989         0.000                     10.9893    10.2745     79.5475
+                                        1478.5
+      5                                                               12.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.9394        1.0000        0.0985        1.0000
+    error  -0.9889        0.5777        0.0504
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28589E-01 with Sumsq and Model_Norm =     10.989     0.000
+
+
+  End of Iteration    27
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_28\
+  Sumsq Sums_Model Sumsq_Total    10.98926      0.0000000E+00   10.98926      at Iteration           28
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   28 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     28 0.2489E-01        10.989         0.000                     10.9893    79.5475     10.2745
+      5 0.2489E-01        10.526         0.000                     10.5263    10.0557     80.2552
+                                        1572.0
+      5                                                               11.0 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.5975        0.7055        0.0970        1.0000
+    error  -0.9608        0.5540        0.0475
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .28510E-01 with Sumsq and Model_Norm =     10.526     0.000
+
+
+  End of Iteration    28
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_29\
+  Sumsq Sums_Model Sumsq_Total    10.52629      0.0000000E+00   10.52629      at Iteration           29
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   29 Icnt_Loop    0 RSVT      0.015
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     29 0.2482E-01        10.526         0.000                     10.5263    80.2552     10.0557
+      5 0.2482E-01        11.372         0.000                     11.3722    10.4520     85.2757
+                                        1624.7
+      5                                                               10.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.7569        0.8827        0.0736        1.0000
+    error  -0.9717        0.5107        0.0458
+
+
+ ***** Did Not Find  Reduction in Test For Reduction *****
+
+
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   29 Icnt_Loop    0 RSVT      0.021
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     29 0.3510E-01        10.526         0.000                     10.5263    80.2552     10.0557
+      5 0.3510E-01        10.761         0.000                     10.7606    10.1670     83.5093
+                                        1589.8
+      5                                                               10.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.5149        0.5635        0.0327        1.0000
+    error  -0.9717        0.5107        0.0458
+
+
+ ***** Did Not Find  Reduction in Test For Reduction *****
+
+
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   29 Icnt_Loop    1 RSVT      0.030
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     29 0.5701E-01        10.526         0.000                     10.5263    80.2552     10.0557
+      5 0.5701E-01        10.488         0.000                     10.4878    10.0373     82.0835
+                                        1577.4
+      5                                                               10.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.3332        0.3943        0.0198        1.0000
+    error  -0.9717        0.5107        0.0458
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .56798E-01 with Sumsq and Model_Norm =     10.488     0.000
+
+
+  End of Iteration    29
+
+ -----------------------------------------------------------------------------------
+
+  Created Ínversion Directory D:\Rods_Rubbish\EM\Bryah_Basin\DeGrussa_Extend_Detail\EM2DInv\EM2DInv_1\Inversion_01\Line_0011250\Iteration_30\
+  Sumsq Sums_Model Sumsq_Total    10.48783      0.0000000E+00   10.48783      at Iteration           30
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   30 Icnt_Loop    0 RSVT      0.026
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     30 0.4945E-01        10.488         0.000                     10.4878    82.0835     10.0373
+      5 0.4945E-01        10.597         0.000                     10.5971    10.0895     83.7039
+                                        1590.0
+      5                                                               10.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.3118        0.2814        0.0195        1.0000
+    error  -0.9831        0.4708        0.0452
+
+
+ ***** Did Not Find  Reduction in Test For Reduction *****
+
+
+ -------------------------------------------------------------------------------------
+
+
+ Searching for Solution in Iteration   30 Icnt_Loop    0 RSVT      0.037
+
+
+ Number     Alphax   Data_Misfit    Model_Norm    Total_Objective_Function    % Error 
+
+     30 0.6992E-01        10.488         0.000                     10.4878    82.0835     10.0373
+      5 0.6992E-01        10.482         0.000                     10.4823    10.0347     82.9651
+                                        1581.6
+      5                                                               10.5 Previous Total Ojective Function 
+
+
+           Minimum       Maximum       Average 
+   delpar  -0.2063        0.1661        0.0115        1.0000
+    error  -0.9831        0.4708        0.0452
+
+
+  Reduction is true for nstep =    5
+
+
+  Reduction Accepted for Alpha = .69854E-01 with Sumsq and Model_Norm =     10.482     0.000
+
+
+  End of Iteration    30
+
+ -----------------------------------------------------------------------------------
+
+
+  ArjunAir inversion completed at 22:40 on 16 MAR 2015
+
+  Computation time =    8025.08 seconds.
+
+

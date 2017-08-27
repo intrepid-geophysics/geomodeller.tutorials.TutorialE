@@ -1,0 +1,198 @@
+MetaData Begin
+	Name	= AppCond01.igmesh
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	node_MAG Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= MAG
+		Units	= "none"
+	node_MAG End
+	node_AppCon1_Ch01 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch01
+		Units	= "none"
+	node_AppCon1_Ch01 End
+	node_AppCon1_Ch02 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch02
+		Units	= "none"
+	node_AppCon1_Ch02 End
+	node_AppCon1_Ch03 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch03
+		Units	= "none"
+	node_AppCon1_Ch03 End
+	node_AppCon1_Ch04 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch04
+		Units	= "none"
+	node_AppCon1_Ch04 End
+	node_AppCon1_Ch05 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch05
+		Units	= "none"
+	node_AppCon1_Ch05 End
+	node_AppCon1_Ch06 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch06
+		Units	= "none"
+	node_AppCon1_Ch06 End
+	node_AppCon1_Ch07 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch07
+		Units	= "none"
+	node_AppCon1_Ch07 End
+	node_AppCon1_Ch08 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch08
+		Units	= "none"
+	node_AppCon1_Ch08 End
+	node_AppCon1_Ch09 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch09
+		Units	= "none"
+	node_AppCon1_Ch09 End
+	node_AppCon1_Ch10 Begin
+		DataType	= IEEE8ByteReal
+		ByteOrder	= LSBFirst
+		Primitive	= node
+		Alias	= AppCon1_Ch10
+		Units	= "none"
+	node_AppCon1_Ch10 End
+	MeshGrid Begin
+		Type	= unstructured-mesh
+		Dimensions	= 2
+		Purpose	= MODEL
+		Description	= no description
+		Suffix	= ..DIR
+		Format	= iotable
+		Name	= AppCond01
+		Projection	= "SUTM50"
+		Datum	= "WGS84"
+		XYZ Begin
+			Resource	= AppCond01.igmesh/node..DIR
+			Primitive	= node
+			NumElem	= 199
+		XYZ End
+		FieldData Begin
+			MAG Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= MAG
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= MAG
+				NumElem	= 199
+			MAG End
+			AppCon1_Ch01 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch01
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch01
+				NumElem	= 199
+			AppCon1_Ch01 End
+			AppCon1_Ch02 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch02
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch02
+				NumElem	= 199
+			AppCon1_Ch02 End
+			AppCon1_Ch03 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch03
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch03
+				NumElem	= 199
+			AppCon1_Ch03 End
+			AppCon1_Ch04 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch04
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch04
+				NumElem	= 199
+			AppCon1_Ch04 End
+			AppCon1_Ch05 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch05
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch05
+				NumElem	= 199
+			AppCon1_Ch05 End
+			AppCon1_Ch06 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch06
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch06
+				NumElem	= 199
+			AppCon1_Ch06 End
+			AppCon1_Ch07 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch07
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch07
+				NumElem	= 199
+			AppCon1_Ch07 End
+			AppCon1_Ch08 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch08
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch08
+				NumElem	= 199
+			AppCon1_Ch08 End
+			AppCon1_Ch09 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch09
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch09
+				NumElem	= 199
+			AppCon1_Ch09 End
+			AppCon1_Ch10 Begin
+				Resource	= AppCond01.igmesh/node..DIR
+				Name	= AppCon1_Ch10
+				Primitive	= node
+				DataType	= IEEE8ByteReal
+				Units	= none
+				Alias	= AppCon1_Ch10
+				NumElem	= 199
+			AppCon1_Ch10 End
+		FieldData End
+	MeshGrid End
+MetaData End
