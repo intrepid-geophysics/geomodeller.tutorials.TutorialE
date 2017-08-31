@@ -80,7 +80,7 @@ MetaData Begin
 	node_AppCon1_Ch10 End
 	MeshGrid Begin
 		Type	= unstructured-mesh
-		Dimensions	= 3
+		Dimensions	= 2
 		Purpose	= MODEL
 		Description	= no description
 		Suffix	= ..DIR

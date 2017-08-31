@@ -1,6 +1,6 @@
 MetaData Begin
 	Name	= EM2DInv03_SmthSecs_S11260.igmesh
-	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build e13865e8b81e+ "
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
 	node_Res Begin
 		DataType	= IEEE8ByteReal
 		ByteOrder	= LSBFirst
