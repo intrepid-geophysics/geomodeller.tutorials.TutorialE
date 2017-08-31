@@ -1,6 +1,6 @@
 MetaData Begin
 	Name	= Bryah_Basin_Exponential_Processed_DeGrussa_Detailed.igmesh
-	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build e13865e8b81e+ "
 	node_em_z_7 Begin
 		DataType	= IEEE8ByteReal
 		ByteOrder	= LSBFirst

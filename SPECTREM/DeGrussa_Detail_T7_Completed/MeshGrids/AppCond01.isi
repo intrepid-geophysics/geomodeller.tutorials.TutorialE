@@ -1,6 +1,6 @@
 MetaData Begin
 	Name	= AppCond01.igmesh
-	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build 279b82003ac6+ "
+	Version	= "Intrepid GeoModeller v3.3.0 geomodeller_2014 for Windows (x64) by PELAGIAN optimised build e13865e8b81e+ "
 	node_MAG Begin
 		DataType	= IEEE8ByteReal
 		ByteOrder	= LSBFirst
@@ -80,7 +80,7 @@ MetaData Begin
 	node_AppCon1_Ch10 End
 	MeshGrid Begin
 		Type	= unstructured-mesh
-		Dimensions	= 2
+		Dimensions	= 3
 		Purpose	= MODEL
 		Description	= no description
 		Suffix	= ..DIR
