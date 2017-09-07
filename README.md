@@ -2,9 +2,10 @@
 ## GeoModeller v4.0
 Each of the Tutorials in the Intrepid-Geophysics workspace is intended for use with GeoModeller v4.0. If you do not own GeoModeller v4.0 and would like to know more, please do not hesitate to [Contact Us](http://www.intrepid-geophysics.com/ig/index.php?page=contact-us) 
 ## Introduction
-This tutorial is included as part of the GeoModeller v4.0 package, and is intended to be the fifth and final tutorial users should explore. This tutorial comes in eight parts, corresponding to T1-T8. In most sections, users are provided with a **completed** version of the project.
+This tutorial is included as part of the GeoModeller v4.0 package, and is intended to be the fifth and final tutorial users should explore. This tutorial comes in eight parts, corresponding to T1-T8. In most sections, users are provided with a **completed** version of the project to verify against, or to start from if you wish to skip ahead.
+
 ### Tutorial T1
-In this tutorial you import the Bryah Basin GeoModeller project to use in later sections.
+In this tutorial you will import the Bryah Basin GeoModeller project to use in later sections.
 
 ### Tutorial T2
 In this tutorial you will specify the nature of the AEM survey completed and then import the recorded data from this survey.
