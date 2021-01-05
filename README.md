@@ -4,6 +4,9 @@
 
 Each of the Tutorials in the Intrepid-Geophysics workspace is intended for use with GeoModeller v4.0. If you do not own GeoModeller v4.0 and would like to know more, please do not hesitate to [Contact Us](http://www.intrepid-geophysics.com/ig/index.php?page=contact-us)
 
+## Full Documentation
+
+If you wish to read more about this example project and data the full documentation can be found [here](https://docs.intrepid-geophysics.com/geomodeller/topics/3D_GeoModeller_Tutorial_Case_Study_E.html#Tutorial_case)
 ## Introduction
 
 This tutorial is included as part of the GeoModeller v4.0 package, and is intended to be the fifth and final tutorial users should explore. This tutorial comes in eight parts, corresponding to T1-T8. In most sections, users are provided with a **completed** version of the project to verify against, or to start from if you wish to skip ahead.
